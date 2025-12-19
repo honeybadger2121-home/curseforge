@@ -1,0 +1,47 @@
+{
+  "profiles" : {
+    "669ed65bde91b95d1907a267d5b05502" : {
+      "created" : "1970-01-02T00:00:00.000Z",
+      "icon" : "Grass",
+      "lastUsed" : "1970-01-02T00:00:00.000Z",
+      "lastVersionId" : "latest-release",
+      "name" : "",
+      "type" : "latest-release"
+    },
+    "950cea59e116ac3e4deb1ca9a13b8a8d" : {
+      "created" : "1970-01-01T00:00:00.000Z",
+      "icon" : "Dirt",
+      "lastUsed" : "1970-01-01T00:00:00.000Z",
+      "lastVersionId" : "latest-snapshot",
+      "name" : "",
+      "type" : "latest-snapshot"
+    },
+    "A" : {
+      "created" : "2025-12-17T03:01:07.503Z",
+      "gameDir" : "C:\\Users\\Ben\\curseforge\\minecraft\\Instances\\A\\",
+      "javaArgs" : "-Xmx4096m -Xms256m -Dminecraft.applet.TargetDirectory=\"C:\\Users\\Ben\\curseforge\\minecraft\\Instances\\A\" -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DCFInstanceId=2eb8695d-8332-41ee-9c6b-ba6636d4378f -DlibraryDirectory=\"C:\\Users\\Ben\\curseforge\\minecraft\\Install\\libraries\"",
+      "lastUsed" : "2025-12-17T03:01:41.870Z",
+      "lastVersionId" : "forge-61.0.2",
+      "name" : "A",
+      "resolution" : {
+        "height" : 768,
+        "width" : 1024
+      },
+      "type" : "custom"
+    }
+  },
+  "settings" : {
+    "crashAssistance" : false,
+    "enableAdvanced" : false,
+    "enableAnalytics" : false,
+    "enableHistorical" : false,
+    "enableReleases" : true,
+    "enableSnapshots" : false,
+    "keepLauncherOpen" : false,
+    "profileSorting" : "ByLastPlayed",
+    "showGameLog" : false,
+    "showMenu" : false,
+    "soundOn" : false
+  },
+  "version" : 6
+}

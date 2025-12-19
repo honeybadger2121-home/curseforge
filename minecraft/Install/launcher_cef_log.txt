@@ -1,0 +1,11 @@
+[19660:19840:1216/210108.840:WARNING:chrome_main_delegate.cc(748)] This is Chrome version 127.0.6533.120 (not a warning)
+[19660:19840:1216/210108.877:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[19660:19840:1216/210108.881:WARNING:browser_management_service.cc(128)] EnterpriseLogoUrl fetch failed with error code -1 and MIME type 
+[19660:19840:1216/210108.895:INFO:main_context.cpp(131)] CEF initialized successfully.
+[19660:19840:1216/210108.895:INFO:main_context.cpp(133)] CEF version: 127.3.5+g114ea2a+chromium-127.0.6533.120
+[19660:19840:1216/210109.668:INFO:CONSOLE(2)] "[GamepadNavigation] Initializing gamepad navigation", source: https://mojang/launcher/static/js/app.27f81555.bundle.js (2)
+[19660:19840:1216/210109.668:INFO:CONSOLE(2)] "[GamepadNavigation] Loading seamless-scroll-polyfill", source: https://mojang/launcher/static/js/app.27f81555.bundle.js (2)
+[19660:19840:1216/210109.669:INFO:CONSOLE(2)] "[PollingModeManager] Setting polling mode to all", source: https://mojang/launcher/static/js/app.27f81555.bundle.js (2)
+[19660:19840:1216/210109.669:INFO:CONSOLE(2)] "[PollingModeManager] Enabling controller navigation", source: https://mojang/launcher/static/js/app.27f81555.bundle.js (2)
+[9416:20444:1216/210109.887:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[19660:19840:1216/214451.579:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

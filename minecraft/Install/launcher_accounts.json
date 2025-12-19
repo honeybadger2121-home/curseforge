@@ -1,0 +1,30 @@
+{
+  "accounts" : {
+    "9d2a0c7bb4564ea1a8e3ce297bc1f434" : {
+      "accessToken" : "",
+      "accessTokenExpiresAt" : "2025-12-18T03:01:09Z",
+      "avatar" : "data:image/png;base64,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",
+      "eligibleForFreeTrials" : true,
+      "eligibleForMigration" : false,
+      "franchiseInventoryId" : "1/Mw==",
+      "hasMultipleProfiles" : false,
+      "inForcedMigration" : false,
+      "legacy" : false,
+      "licenseProductIds" : [],
+      "localId" : "9d2a0c7bb4564ea1a8e3ce297bc1f434",
+      "minecraftProfile" : {
+        "id" : "ea9eef6ac6cf4741ad2f9dfd69d5a241",
+        "name" : "HoneyBadger75315",
+        "requiresProfileNameChange" : false,
+        "requiresSkinChange" : false
+      },
+      "persistent" : true,
+      "remoteId" : "2535448093732349",
+      "type" : "Xbox",
+      "userProperites" : [],
+      "username" : "HyperNewt298062"
+    }
+  },
+  "activeAccountLocalId" : "9d2a0c7bb4564ea1a8e3ce297bc1f434",
+  "mojangClientToken" : ""
+}

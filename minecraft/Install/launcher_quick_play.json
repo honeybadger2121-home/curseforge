@@ -1,0 +1,118 @@
+{
+  "quickPlayData" : {
+    "2535448093732349" : 
+    [
+      {
+        "epochLastPlayedTimeMs" : 1765940525000,
+        "id" : "Main",
+        "javaInstance" : {
+          "configId" : "A",
+          "game" : {
+            "gamemode" : "survival",
+            "type" : "singleplayer"
+          }
+        },
+        "name" : "Main",
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1765940374165,
+        "id" : "A",
+        "javaInstance" : {
+          "configId" : "A"
+        },
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1765747501000,
+        "id" : "Main",
+        "javaInstance" : {
+          "configId" : "A",
+          "game" : {
+            "gamemode" : "creative",
+            "type" : "singleplayer"
+          }
+        },
+        "name" : "Main",
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1765743513382,
+        "id" : "DarkRPG - RPG with Vampires Dragons Magic Quests Adventure",
+        "javaInstance" : {
+          "configId" : "DarkRPG - RPG with Vampires Dragons Magic Quests Adventure"
+        },
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1765743257000,
+        "id" : "New World",
+        "javaInstance" : {
+          "configId" : "Dragon Survival Dragoncraft",
+          "game" : {
+            "gamemode" : "survival",
+            "type" : "singleplayer"
+          }
+        },
+        "name" : "New World",
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1765743032000,
+        "id" : "cf2.mmorealms.gg",
+        "javaInstance" : {
+          "configId" : "Cobblemon - Legendary Pokemon King Universe",
+          "game" : {
+            "gamemode" : "survival",
+            "type" : "multiplayer"
+          }
+        },
+        "name" : "MMO Realms - Cobblemon",
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1765742640306,
+        "id" : "Create - Ultimate Selection 2 [Create 6.0 for 1.21.1]",
+        "javaInstance" : {
+          "configId" : "Create - Ultimate Selection 2 [Create 6.0 for 1.21.1]"
+        },
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1765742122000,
+        "id" : "New World",
+        "javaInstance" : {
+          "configId" : "AstroCore",
+          "game" : {
+            "gamemode" : "survival",
+            "type" : "singleplayer"
+          }
+        },
+        "name" : "New World",
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1765664160000,
+        "id" : "Main",
+        "javaInstance" : {
+          "configId" : "gf",
+          "game" : {
+            "gamemode" : "survival",
+            "type" : "singleplayer"
+          }
+        },
+        "name" : "Main",
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1765660477265,
+        "id" : "gf",
+        "javaInstance" : {
+          "configId" : "gf"
+        },
+        "source" : "Java"
+      }
+    ]
+  },
+  "version" : 2
+}

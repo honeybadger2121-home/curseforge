@@ -1,0 +1,13 @@
+{
+  "channel" : "release",
+  "customChannels" : [],
+  "deviceId" : 8349826143791328408,
+  "formatVersion" : 0,
+  "locale" : "en-US",
+  "productLibraryDir" : "C:\\Users\\Ben\\AppData\\Local\\Mojang\\products",
+  "quickPlayEnabled" : true,
+  "shutDownTimestampUnified" : 1765943089039,
+  "useArm64JreIfSupported" : false,
+  "useMagnifiedMode" : false,
+  "version" : 15
+}

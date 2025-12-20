@@ -13,7 +13,9 @@
       "minecraft:river": "2025-12-13 23:27:27 -0600",
       "minecraft:lukewarm_ocean": "2025-12-16 19:32:23 -0600",
       "minecraft:stony_shore": "2025-12-13 15:26:35 -0600",
+      "minecraft:lush_caves": "2025-12-20 14:00:17 -0600",
       "minecraft:deep_dark": "2025-12-13 22:51:28 -0600",
+      "minecraft:jungle": "2025-12-20 14:06:11 -0600",
       "minecraft:cherry_grove": "2025-12-13 23:27:41 -0600",
       "minecraft:sunflower_plains": "2025-12-13 23:27:40 -0600",
       "minecraft:grove": "2025-12-13 15:26:53 -0600",
@@ -6120,6 +6122,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-12-20 13:39:13 -0600",
       "minecraft:skeleton": "2025-12-13 23:57:59 -0600",
       "minecraft:elder_guardian": "2025-12-16 19:50:23 -0600",
       "minecraft:parched": "2025-12-16 19:53:33 -0600",
@@ -7252,6 +7255,8 @@
     "criteria": {
       "erupting_inferno": "2025-12-14 15:26:34 -0600",
       "old_growth_woodland": "2025-12-16 19:43:36 -0600",
+      "rainforest": "2025-12-20 14:05:56 -0600",
+      "rocky_shrubland": "2025-12-20 14:01:01 -0600",
       "crystalline_chasm": "2025-12-14 15:36:03 -0600",
       "scrubland": "2025-12-16 19:42:53 -0600",
       "visceral_heap": "2025-12-16 19:29:53 -0600",
@@ -8791,6 +8796,468 @@
   "minecraft:recipes/building_blocks/chiseled_polished_blackstone": {
     "criteria": {
       "has_polished_blackstone_slab": "2025-12-16 20:46:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/umbran_planks": {
+    "criteria": {
+      "has_logs": "2025-12-20 12:45:12 -0600"
+    },
+    "done": true
+  },
+  "skniro_furniture:recipes/decorations/bamboo_light_gray_wood_bed": {
+    "criteria": {
+      "has_base_item": "2025-12-20 13:47:04 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/hellbark_planks": {
+    "criteria": {
+      "has_logs": "2025-12-20 12:39:27 -0600"
+    },
+    "done": true
+  },
+  "skniro_furniture:recipes/decorations/dark_oak_light_gray_plank_bed": {
+    "criteria": {
+      "has_base_item": "2025-12-20 13:47:04 -0600"
+    },
+    "done": true
+  },
+  "skniro_furniture:recipes/decorations/mangrove_light_gray_plank_bed": {
+    "criteria": {
+      "has_base_item": "2025-12-20 13:47:04 -0600"
+    },
+    "done": true
+  },
+  "skniro_furniture:recipes/decorations/pale_oak_light_gray_wood_bed": {
+    "criteria": {
+      "has_base_item": "2025-12-20 13:47:04 -0600"
+    },
+    "done": true
+  },
+  "skniro_furniture:recipes/decorations/warped_light_gray_plank_bed": {
+    "criteria": {
+      "has_base_item": "2025-12-20 13:47:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-12-20 13:48:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-12-20 13:48:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-12-20 13:39:34 -0600"
+    },
+    "done": true
+  },
+  "skniro_furniture:recipes/decorations/spruce_light_gray_wood_bed": {
+    "criteria": {
+      "has_base_item": "2025-12-20 13:47:04 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/redwood_planks": {
+    "criteria": {
+      "has_logs": "2025-12-20 12:41:38 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-12-20 13:48:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-12-20 13:48:40 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/maple_wood": {
+    "criteria": {
+      "has_log": "2025-12-20 13:27:17 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-12-20 13:48:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "skniro_furniture:recipes/decorations/oak_light_gray_plank_bed": {
+    "criteria": {
+      "has_base_item": "2025-12-20 13:47:04 -0600"
+    },
+    "done": true
+  },
+  "skniro_furniture:recipes/decorations/crimson_light_gray_wood_bed": {
+    "criteria": {
+      "has_base_item": "2025-12-20 13:47:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "skniro_furniture:recipes/decorations/acacia_light_gray_wood_bed": {
+    "criteria": {
+      "has_base_item": "2025-12-20 13:47:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2025-12-20 13:47:04 -0600"
+    },
+    "done": true
+  },
+  "skniro_furniture:recipes/decorations/spruce_light_gray_plank_bed": {
+    "criteria": {
+      "has_base_item": "2025-12-20 13:47:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/hellbark_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-12-20 12:39:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-12-20 13:48:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-12-20 13:48:40 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/hellbark_sign": {
+    "criteria": {
+      "has_planks": "2025-12-20 12:39:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-12-20 13:48:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2025-12-20 13:47:04 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/hellbark_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-12-20 12:39:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-12-20 13:48:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-12-20 13:48:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-12-20 13:48:40 -0600"
+    },
+    "done": true
+  },
+  "skniro_furniture:recipes/decorations/crimson_light_gray_plank_bed": {
+    "criteria": {
+      "has_base_item": "2025-12-20 13:47:04 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/hellbark_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-12-20 12:39:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/hellbark_slab": {
+    "criteria": {
+      "has_planks": "2025-12-20 12:39:39 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/umbran_wood": {
+    "criteria": {
+      "has_log": "2025-12-20 12:45:12 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/hellbark_door": {
+    "criteria": {
+      "has_planks": "2025-12-20 12:39:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-12-20 13:48:40 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/hellbark_stairs": {
+    "criteria": {
+      "has_planks": "2025-12-20 12:39:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/silk_touch_nest": {
+    "criteria": {
+      "silk_touch_nest": "2025-12-20 12:06:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "skniro_furniture:recipes/decorations/birch_light_gray_wood_bed": {
+    "criteria": {
+      "has_base_item": "2025-12-20 13:47:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-12-20 13:48:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/red_maple_leaf_litter": {
+    "criteria": {
+      "has_red_maple_leaves": "2025-12-20 12:49:06 -0600"
+    },
+    "done": true
+  },
+  "skniro_furniture:recipes/decorations/pale_oak_light_gray_plank_bed": {
+    "criteria": {
+      "has_base_item": "2025-12-20 13:47:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/redwood_wood": {
+    "criteria": {
+      "has_log": "2025-12-20 12:41:38 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/maple_planks": {
+    "criteria": {
+      "has_logs": "2025-12-20 13:27:17 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-12-20 13:48:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/willow_planks": {
+    "criteria": {
+      "has_logs": "2025-12-20 13:27:11 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/hellbark_fence": {
+    "criteria": {
+      "has_planks": "2025-12-20 12:39:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2025-12-20 13:47:04 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/willow_wood": {
+    "criteria": {
+      "has_log": "2025-12-20 13:27:11 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/hellbark_button": {
+    "criteria": {
+      "has_planks": "2025-12-20 12:39:39 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/hellbark_wood": {
+    "criteria": {
+      "has_log": "2025-12-20 12:39:27 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-12-20 13:48:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-12-20 13:54:44 -0600"
+    },
+    "done": true
+  },
+  "skniro_furniture:recipes/decorations/bamboo_light_gray_plank_bed": {
+    "criteria": {
+      "has_base_item": "2025-12-20 13:47:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-12-20 13:48:40 -0600"
+    },
+    "done": true
+  },
+  "skniro_furniture:recipes/decorations/birch_light_gray_plank_bed": {
+    "criteria": {
+      "has_base_item": "2025-12-20 13:47:04 -0600"
     },
     "done": true
   },

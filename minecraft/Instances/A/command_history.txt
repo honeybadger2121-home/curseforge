@@ -21,12 +21,6 @@
 /gamemode creative
 /gamemode survival
 /gamemode creative
-/kill
-/kill @e
-/kill @a
-/kill @
-/kill @n
-/kill @r
 /gamemode survival
 /gamemode creative
 /gamemode survival
@@ -41,6 +35,12 @@
 /gamemode creative
 /gamemode survival
 /gamemode creative
+/xp add HoneyBadger75315 5000
+/gamemode survival
+/xp add HoneyBadger75315 5000
+/gamemode creative
+/kill mob
+/time set day
 /gamemode survival
 /gamemode creative
 /gamemode survival

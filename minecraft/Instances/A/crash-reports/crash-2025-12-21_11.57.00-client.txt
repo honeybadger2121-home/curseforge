@@ -1,0 +1,255 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 2025-12-21 11:57:00
+Description: Unexpected error
+
+java.lang.NullPointerException: Cannot invoke "journeymap.client.JourneymapClient.isInitialized()" because the return value of "journeymap.client.JourneymapClient.getInstance()" is null
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.handler$journeymap$zem000$journeymap_onGameLoadFinishedMixin(Minecraft.java:4465) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.onGameLoadFinished(Minecraft.java:712) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.onResourceLoadFinished(Minecraft.java:700) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.lambda$new$7(Minecraft.java:665) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.util.Util.ifElse(Util.java:636) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.lambda$new$8(Minecraft.java:659) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.gui.screens.LoadingOverlay.tick(LoadingOverlay.java:137) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.tick(Minecraft.java:1821) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.runTick(Minecraft.java:1273) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.run(Minecraft.java:893) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.main.Main.main(Main.java:223) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.0.2/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) ~[fmlloader-1.21.11-61.0.2.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.0.2/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) ~[fmlloader-1.21.11-61.0.2.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.4.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+Transformer Audit:
+  net.minecraft.client.Minecraft
+    REASON: mixin
+    PLUGIN: accesstransformer:BEFORE
+    REASON: classloading
+    PLUGIN: accesstransformer:BEFORE
+    PLUGIN: mixin:APP:entity_texture_features.mixins.json:reloading.MixinMinecraftClient
+    PLUGIN: mixin:APP:entity_texture_features.mixins.json:reloading.MixinResourceReload
+    PLUGIN: mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin
+    PLUGIN: mixin:APP:journeymap.mixins.json:client.MinecraftMixin
+    PLUGIN: mixin:APP:glitchcore.mixins.json:client.MixinMinecraft
+    PLUGIN: mixin:AFTER
+  net.minecraft.client.gui.screens.LoadingOverlay
+    REASON: classloading
+  net.minecraft.client.main.Main
+    REASON: classloading
+  net.minecraft.util.Util
+    REASON: classloading
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mod: 
+	Journeymap (journeymap), Version: 1.21.11-6.0.0-beta.53
+		Issue tracker URL: https://github.com/TeamJM/journeymap/issues
+		Mixin class: journeymap.common.mixin.client.MinecraftMixin
+		Target: net.minecraft.client.Minecraft
+		at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.handler$journeymap$zem000$journeymap_onGameLoadFinishedMixin(Minecraft.java:4465)
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.handler$journeymap$zem000$journeymap_onGameLoadFinishedMixin(Minecraft.java:4465) ~[forge-1.21.11-61.0.2-client.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.onGameLoadFinished(Minecraft.java:712) ~[forge-1.21.11-61.0.2-client.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.onResourceLoadFinished(Minecraft.java:700) ~[forge-1.21.11-61.0.2-client.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.lambda$new$7(Minecraft.java:665) ~[forge-1.21.11-61.0.2-client.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.util.Util.ifElse(Util.java:636) ~[forge-1.21.11-61.0.2-client.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.lambda$new$8(Minecraft.java:659) ~[forge-1.21.11-61.0.2-client.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.gui.screens.LoadingOverlay.tick(LoadingOverlay.java:137) ~[forge-1.21.11-61.0.2-client.jar!/:?]
+Transformer Audit:
+  net.minecraft.client.Minecraft
+    REASON: mixin
+    PLUGIN: accesstransformer:BEFORE
+    REASON: classloading
+    PLUGIN: accesstransformer:BEFORE
+    PLUGIN: mixin:APP:entity_texture_features.mixins.json:reloading.MixinMinecraftClient
+    PLUGIN: mixin:APP:entity_texture_features.mixins.json:reloading.MixinResourceReload
+    PLUGIN: mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin
+    PLUGIN: mixin:APP:journeymap.mixins.json:client.MinecraftMixin
+    PLUGIN: mixin:APP:glitchcore.mixins.json:client.MixinMinecraft
+    PLUGIN: mixin:AFTER
+  net.minecraft.client.gui.screens.LoadingOverlay
+    REASON: classloading
+  net.minecraft.util.Util
+    REASON: classloading
+-- Uptime --
+Details:
+	JVM uptime: 35.170s
+	Wall uptime: 9.941s
+	High-res time: 25.546s
+	Client ticks: 70 ticks / 3.500s
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.fillReport(Minecraft.java:2368) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:957) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.run(Minecraft.java:916) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.main.Main.main(Main.java:223) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.0.2/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) ~[fmlloader-1.21.11-61.0.2.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.0.2/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) ~[fmlloader-1.21.11-61.0.2.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.4.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+Transformer Audit:
+  net.minecraft.client.Minecraft
+    REASON: mixin
+    PLUGIN: accesstransformer:BEFORE
+    REASON: classloading
+    PLUGIN: accesstransformer:BEFORE
+    PLUGIN: mixin:APP:entity_texture_features.mixins.json:reloading.MixinMinecraftClient
+    PLUGIN: mixin:APP:entity_texture_features.mixins.json:reloading.MixinResourceReload
+    PLUGIN: mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin
+    PLUGIN: mixin:APP:journeymap.mixins.json:client.MinecraftMixin
+    PLUGIN: mixin:APP:glitchcore.mixins.json:client.MixinMinecraft
+    PLUGIN: mixin:AFTER
+  net.minecraft.client.main.Main
+    REASON: classloading
+
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: vanilla
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.11
+	Minecraft Version ID: 1.21.11
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.9, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 91474944 bytes (87 MiB) / 538968064 bytes (514 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+	Identifier: Intel64 Family 6 Model 140 Stepping 1
+	Microarchitecture: Tiger Lake
+	Frequency (GHz): 2.80
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: Intel(R) Iris(R) Xe Graphics
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 1024.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 30.0.101.1960
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 21799.30
+	Virtual memory used (MiB): 10574.44
+	Swap memory total (MiB): 5632.00
+	Swap memory used (MiB): 38.17
+	Space in storage for jna.tmpdir (MiB): available: 63869.47, total: 243350.00
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 63869.47, total: 243350.00
+	Space in storage for io.netty.native.workdir (MiB): available: 63869.47, total: 243350.00
+	Space in storage for java.io.tmpdir (MiB): available: 63869.47, total: 243350.00
+	Space in storage for workdir (MiB): available: 63869.47, total: 243350.00
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx4096m -Xms256m
+	Debug Flags: 0 total; 
+	Launched Version: forge-61.0.2
+	Launcher name: CurseForge
+	Backend library: LWJGL version 3.3.3+5
+	Backend API: Intel(R) Iris(R) Xe Graphics GL version 4.6.0 - Build 30.0.101.1960, Intel
+	Window size: 1920x991
+	GFLW Platform: win32
+	Render Extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
+	GL debug messages: 
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Universe: 400921fb54442d18
+	Type: Client (map_client.txt)
+	Transparency: regular
+	Render Distance: 8/8 chunks
+	Resource Packs: vanilla
+	Current Language: en_us
+	Locale: en_US
+	System encoding: Cp1252
+	File encoding: UTF-8
+	CPU: 8x 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+	ModLauncher: 10.2.4
+	ModLauncher launch target: forge_client
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/ slf4jfixer PLUGINSERVICE 
+		/ runtimedistcleaner PLUGINSERVICE 
+		/ runtime_enum_extender PLUGINSERVICE 
+		/ capability_token_subclass PLUGINSERVICE 
+		/ accesstransformer PLUGINSERVICE 
+		/ mixin PLUGINSERVICE 
+		/ fml TRANSFORMATIONSERVICE 
+		/ forge TRANSFORMATIONSERVICE 
+		/ mixin TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@61.0.2
+		minecraft@1.0
+		kotlinforforge@6.0.0
+		lowcodefml@61
+	Mod List: 
+		forge-1.21.11-61.0.2-client.jar                   |Minecraft                     |minecraft                     |1.21.11             |NONE      |Manifest: NOSIGNATURE
+		entity_texture_features_1.21.11-forge-7.0.7.jar   |Entity Texture Features       |entity_texture_features       |7.0.7               |NONE      |Manifest: NOSIGNATURE
+		trade-cycling-forge-1.21.11-1.0.19.jar            |Trade Cycling                 |trade_cycling                 |1.21.11-1.0.19      |NONE      |Manifest: NOSIGNATURE
+		doubledoors-1.21.11-7.2.jar                       |Double Doors                  |doubledoors                   |7.2                 |NONE      |Manifest: NOSIGNATURE
+		TerraBlender-forge-1.21.11-21.11.0.0.jar          |TerraBlender                  |terrablender                  |21.11.0.0           |NONE      |Manifest: NOSIGNATURE
+		improved-village-placement-1.1.2.jar              |Improved Village Placement    |improved_village_placement    |1.1.2               |NONE      |Manifest: NOSIGNATURE
+		MouseTweaks-forge-mc1.21.11-2.30.jar              |Mouse Tweaks                  |mousetweaks                   |2.30                |NONE      |Manifest: NOSIGNATURE
+		supermartijn642configlib-1.1.8-forge-mc1.21.6.jar |SuperMartijn642's Config Libra|supermartijn642configlib      |1.1.8               |NONE      |Manifest: NOSIGNATURE
+		areas-1.21.11-6.2.jar                             |Areas                         |areas                         |6.2                 |NONE      |Manifest: NOSIGNATURE
+		treeharvester-1.21.11-9.3.jar                     |Tree Harvester                |treeharvester                 |9.3                 |NONE      |Manifest: NOSIGNATURE
+		common-networking-forge-1.0.22-1.21.11.jar        |Common Networking             |commonnetworking              |1.0.22              |NONE      |Manifest: NOSIGNATURE
+		Saros-Fruit-Trees-Mod-1.21.11-3.0.jar             |Saro´s Fruit Trees Mod        |saros_fruit_trees_mod         |3.1                 |NONE      |Manifest: NOSIGNATURE
+		breadvariants-forge-1.21.6-1.0.4b.jar             |BreadVariants                 |breadvariants                 |1.0.4               |NONE      |Manifest: NOSIGNATURE
+		O.F.Device-forge-1.21.11-12.0.0.jar               |O.F.Device (Ore Farming Device|orefarmingdevice              |12.0.0              |NONE      |Manifest: NOSIGNATURE
+		/thedarkcolour.kffmod-6.0.0.jar                   |Kotlin For Forge              |kotlinforforge                |6.0.0               |NONE      |Manifest: NOSIGNATURE
+		sound-physics-remastered-forge-1.21.11-1.5.1.jar  |Sound Physics Remastered      |sound_physics_remastered      |1.21.11-1.5.1       |NONE      |Manifest: NOSIGNATURE
+		collective-1.21.11-8.13.jar                       |Collective                    |collective                    |8.13                |NONE      |Manifest: NOSIGNATURE
+		villagernames-1.21.11-8.3.jar                     |Villager Names                |villagernames                 |8.3                 |NONE      |Manifest: NOSIGNATURE
+		realisticbees-1.21.11-4.3.jar                     |Realistic Bees                |realisticbees                 |4.3                 |NONE      |Manifest: NOSIGNATURE
+		Clumps-forge-1.21.11-29.0.0.1.jar                 |Clumps                        |clumps                        |29.0.0.1            |NONE      |Manifest: NOSIGNATURE
+		journeymap-forge-1.21.11-6.0.0-beta.53.jar        |Journeymap                    |journeymap                    |1.21.11-6.0.0-beta.5|NONE      |Manifest: NOSIGNATURE
+		Controlling-forge-1.21.11-29.0.1.jar              |Controlling                   |controlling                   |29.0.1              |NONE      |Manifest: NOSIGNATURE
+		Searchables-forge-1.21.11-1.0.2.jar               |Searchables                   |searchables                   |1.0.2               |NONE      |Manifest: NOSIGNATURE
+		StorageDrawers-forge-1.21.11-20.0.0.jar           |Storage Drawers               |storagedrawers                |20.0.0              |NONE      |Manifest: NOSIGNATURE
+		randomvillagenames-1.21.11-4.0.jar                |Random Village Names          |randomvillagenames            |4.0                 |NONE      |Manifest: NOSIGNATURE
+		GlitchCore-forge-1.21.11-21.11.0.2.jar            |GlitchCore                    |glitchcore                    |21.11.0.2           |NONE      |Manifest: NOSIGNATURE
+		BiomesOPlenty-forge-1.21.11-21.11.0.6.jar         |Biomes O' Plenty              |biomesoplenty                 |21.11.0.6           |NONE      |Manifest: NOSIGNATURE
+		ly-portals-v1.0.1.jar                             |Portals                       |mr_ly_portals                 |1-v1.0.1            |NONE      |Manifest: NOSIGNATURE
+		oreharvester-1.21.11-1.5.jar                      |Ore Harvester                 |oreharvester                  |1.5                 |NONE      |Manifest: NOSIGNATURE
+		breedablekillerrabbit-1.21.11-3.8.jar             |Breedable Killer Rabbit       |breedablekillerrabbit         |3.8                 |NONE      |Manifest: NOSIGNATURE
+		darksmelting-forge-1.21.11-1.1.9a.jar             |DarkSmelting                  |darksmelting                  |1.1.8               |NONE      |Manifest: NOSIGNATURE
+		catalogue-forge-1.21.11-1.12.3.jar                |Catalogue                     |catalogue                     |1.12.3              |NONE      |Manifest: 0D:78:5F:44:C0:47:0C:8C:E2:63:A3:04:43:D4:12:7D:B0:7C:35:37:DC:40:B1:C1:98:EC:51:EB:3B:3C:45:99
+		smelting-enchantment-v1.1.0.jar                   |Smelting Enchantment          |mr_smelting_enchantment       |1-v1.1.0            |NONE      |Manifest: NOSIGNATURE
+		Terralith_1.21.x_v2.5.14.jar                      |Terralith                     |terralith                     |2.5.14              |NONE      |Manifest: NOSIGNATURE
+		SkniroFurniture-1.4.0-1.21.11-Forge.jar           |SkniroFurniture               |skniro_furniture              |1.4.0-1.21.11-Forge |NONE      |Manifest: NOSIGNATURE
+		BetterThanMending-2.2.5.jar                       |BetterThanMending             |betterthanmending             |2.2.5               |NONE      |Manifest: NOSIGNATURE
+		forge-1.21.11-61.0.2-universal.jar                |Forge                         |forge                         |61.0.2              |NONE      |Manifest: 84:CE:76:E8:45:35:E4:0E:63:86:DF:47:59:80:0F:67:6C:C1:5F:6E:5F:4D:B3:54:47:1A:9F:7F:ED:5E:F2:90
+		/journeymap-api-forge-2.0.0-1.21.11-SNAPSHOT.jar  |JourneyMap API                |journeymap_api                |2.0.0-1.21.11-SNAPSH|NONE      |Manifest: NOSIGNATURE
+		EuphoriaPatcher-1.7.8-r5.6.1-forge.jar            |EuphoriaPatcher               |euphoria_patcher              |1.7.8-r5.6.1-forge  |NONE      |Manifest: NOSIGNATURE
+		Geophilic v3.4.5.mod.jar                          |Geophilic                     |geophilic                     |3.4.5               |NONE      |Manifest: NOSIGNATURE
+		darkinventory-forge-1.21.11-1.2.1a.jar            |DarkInventory                 |darkinventory                 |1.2.0               |NONE      |Manifest: NOSIGNATURE

@@ -1,0 +1,383 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 2025-12-21 12:13:59
+Description: Initializing game
+
+java.lang.IllegalArgumentException: No delegate exists for value null
+	at TRANSFORMER/net.minecraftforge.forge@61.0.2/net.minecraftforge.registries.ForgeRegistry.lambda$getDelegateOrThrow$5(ForgeRegistry.java:497) ~[forge-1.21.11-61.0.2-universal.jar:?]
+	at java.base/java.util.Optional.orElseThrow(Unknown Source) ~[?:?]
+	at TRANSFORMER/net.minecraftforge.forge@61.0.2/net.minecraftforge.registries.ForgeRegistry.getDelegateOrThrow(ForgeRegistry.java:497) ~[forge-1.21.11-61.0.2-universal.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.color.block.BlockColors.register(BlockColors.java:122) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at TRANSFORMER/net.minecraftforge.forge@61.0.2/net.minecraftforge.client.event.RegisterColorHandlersEvent$Block.register(RegisterColorHandlersEvent.java:68) ~[forge-1.21.11-61.0.2-universal.jar!/:?]
+	at TRANSFORMER/glitchcore@21.11.0.2/glitchcore.forge.handlers.ColorsEventHandler.lambda$onRegisterBlockColors$0(ColorsEventHandler.java:20) ~[GlitchCore-forge-1.21.11-21.11.0.2.jar!/:21.11.0.2]
+	at TRANSFORMER/glitchcore@21.11.0.2/glitchcore.event.client.RegisterColorsEvent.register(RegisterColorsEvent.java:25) ~[GlitchCore-forge-1.21.11-21.11.0.2.jar!/:21.11.0.2]
+	at TRANSFORMER/biomesoplenty@21.11.0.6/biomesoplenty.init.ModClient.registerBlockColors(ModClient.java:335) ~[BiomesOPlenty-forge-1.21.11-21.11.0.6.jar!/:21.11.0.6]
+	at TRANSFORMER/glitchcore@21.11.0.2/glitchcore.event.EventManager.fire(EventManager.java:45) ~[GlitchCore-forge-1.21.11-21.11.0.2.jar!/:21.11.0.2]
+	at TRANSFORMER/glitchcore@21.11.0.2/glitchcore.forge.handlers.ColorsEventHandler.onRegisterBlockColors(ColorsEventHandler.java:20) ~[GlitchCore-forge-1.21.11-21.11.0.2.jar!/:21.11.0.2]
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.internal.EventBusImpl.post(EventBusImpl.java:64) ~[eventbus-7.0-beta.12.jar:7.0-beta.12]
+	at TRANSFORMER/net.minecraftforge.forge@61.0.2/net.minecraftforge.client.ForgeHooksClient.onBlockColorsInit(ForgeHooksClient.java:277) ~[forge-1.21.11-61.0.2-universal.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.color.block.BlockColors.createDefault(BlockColors.java:99) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.<init>(Minecraft.java:537) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.main.Main.main(Main.java:208) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.0.2/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) ~[fmlloader-1.21.11-61.0.2.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.0.2/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) ~[fmlloader-1.21.11-61.0.2.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.4.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+Transformer Audit:
+  biomesoplenty.init.ModClient
+    REASON: classloading
+  glitchcore.event.EventManager
+    REASON: mixin
+    REASON: classloading
+  glitchcore.event.client.RegisterColorsEvent
+    REASON: classloading
+  glitchcore.forge.handlers.ColorsEventHandler
+    REASON: classloading
+  java.util.Optional
+    REASON: computing_frames
+    REASON: mixin
+  net.minecraft.client.Minecraft
+    REASON: mixin
+    PLUGIN: accesstransformer:BEFORE
+    REASON: classloading
+    PLUGIN: accesstransformer:BEFORE
+    PLUGIN: mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin
+    PLUGIN: mixin:APP:journeymap.mixins.json:client.MinecraftMixin
+    PLUGIN: mixin:APP:glitchcore.mixins.json:client.MixinMinecraft
+    PLUGIN: mixin:AFTER
+  net.minecraft.client.color.block.BlockColors
+    REASON: classloading
+  net.minecraft.client.main.Main
+    REASON: classloading
+  net.minecraftforge.client.ForgeHooksClient
+    REASON: classloading
+    PLUGIN: mixin:APP:journeymap.forge.mixins.json:client.ClientHooksMixin
+    PLUGIN: mixin:AFTER
+  net.minecraftforge.client.event.RegisterColorHandlersEvent$Block
+    REASON: classloading
+  net.minecraftforge.registries.ForgeRegistry
+    REASON: classloading
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mods: 
+	Biomes O' Plenty (biomesoplenty), Version: 21.11.0.6
+		Issue tracker URL: https://github.com/Glitchfiend/BiomesOPlenty/issues
+		at TRANSFORMER/biomesoplenty@21.11.0.6/biomesoplenty.init.ModClient.registerBlockColors(ModClient.java:335)
+
+	GlitchCore (glitchcore), Version: 21.11.0.2
+		Issue tracker URL: https://github.com/Glitchfiend/GlitchCore/issues
+		at TRANSFORMER/glitchcore@21.11.0.2/glitchcore.forge.handlers.ColorsEventHandler.lambda$onRegisterBlockColors$0(ColorsEventHandler.java:20)
+Stacktrace:
+	at TRANSFORMER/net.minecraftforge.forge@61.0.2/net.minecraftforge.registries.ForgeRegistry.lambda$getDelegateOrThrow$5(ForgeRegistry.java:497) ~[forge-1.21.11-61.0.2-universal.jar!/:?]
+	at java.base/java.util.Optional.orElseThrow(Unknown Source) ~[?:?]
+	at TRANSFORMER/net.minecraftforge.forge@61.0.2/net.minecraftforge.registries.ForgeRegistry.getDelegateOrThrow(ForgeRegistry.java:497) ~[forge-1.21.11-61.0.2-universal.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.color.block.BlockColors.register(BlockColors.java:122) ~[forge-1.21.11-61.0.2-client.jar!/:?]
+	at TRANSFORMER/net.minecraftforge.forge@61.0.2/net.minecraftforge.client.event.RegisterColorHandlersEvent$Block.register(RegisterColorHandlersEvent.java:68) ~[forge-1.21.11-61.0.2-universal.jar!/:?]
+	at TRANSFORMER/glitchcore@21.11.0.2/glitchcore.forge.handlers.ColorsEventHandler.lambda$onRegisterBlockColors$0(ColorsEventHandler.java:20) ~[GlitchCore-forge-1.21.11-21.11.0.2.jar!/:21.11.0.2]
+	at TRANSFORMER/glitchcore@21.11.0.2/glitchcore.event.client.RegisterColorsEvent.register(RegisterColorsEvent.java:25) ~[GlitchCore-forge-1.21.11-21.11.0.2.jar!/:21.11.0.2]
+	at TRANSFORMER/biomesoplenty@21.11.0.6/biomesoplenty.init.ModClient.registerBlockColors(ModClient.java:335) ~[BiomesOPlenty-forge-1.21.11-21.11.0.6.jar!/:21.11.0.6]
+	at TRANSFORMER/glitchcore@21.11.0.2/glitchcore.event.EventManager.fire(EventManager.java:45) ~[GlitchCore-forge-1.21.11-21.11.0.2.jar!/:21.11.0.2]
+	at TRANSFORMER/glitchcore@21.11.0.2/glitchcore.forge.handlers.ColorsEventHandler.onRegisterBlockColors(ColorsEventHandler.java:20) ~[GlitchCore-forge-1.21.11-21.11.0.2.jar!/:21.11.0.2]
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.internal.EventBusImpl.post(EventBusImpl.java:64) ~[eventbus-7.0-beta.12.jar!/:7.0-beta.12]
+	at TRANSFORMER/net.minecraftforge.forge@61.0.2/net.minecraftforge.client.ForgeHooksClient.onBlockColorsInit(ForgeHooksClient.java:277) ~[forge-1.21.11-61.0.2-universal.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.color.block.BlockColors.createDefault(BlockColors.java:99) ~[forge-1.21.11-61.0.2-client.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.<init>(Minecraft.java:537) ~[forge-1.21.11-61.0.2-client.jar!/:?]
+Transformer Audit:
+  biomesoplenty.init.ModClient
+    REASON: classloading
+  glitchcore.event.EventManager
+    REASON: mixin
+    REASON: classloading
+  glitchcore.event.client.RegisterColorsEvent
+    REASON: classloading
+  glitchcore.forge.handlers.ColorsEventHandler
+    REASON: classloading
+  java.util.Optional
+    REASON: computing_frames
+    REASON: mixin
+  net.minecraft.client.Minecraft
+    REASON: mixin
+    PLUGIN: accesstransformer:BEFORE
+    REASON: classloading
+    PLUGIN: accesstransformer:BEFORE
+    PLUGIN: mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin
+    PLUGIN: mixin:APP:journeymap.mixins.json:client.MinecraftMixin
+    PLUGIN: mixin:APP:glitchcore.mixins.json:client.MixinMinecraft
+    PLUGIN: mixin:AFTER
+  net.minecraft.client.color.block.BlockColors
+    REASON: classloading
+  net.minecraftforge.client.ForgeHooksClient
+    REASON: classloading
+    PLUGIN: mixin:APP:journeymap.forge.mixins.json:client.ClientHooksMixin
+    PLUGIN: mixin:AFTER
+  net.minecraftforge.client.event.RegisterColorHandlersEvent$Block
+    REASON: classloading
+  net.minecraftforge.registries.ForgeRegistry
+    REASON: classloading
+-- Initialization --
+Details:
+	Modules: 
+		ADVAPI32.dll:Advanced Windows 32 Base API:10.0.26100.3624 (WinBuild.160101.0800):Microsoft Corporation
+		COMCTL32.dll:User Experience Controls Library:6.10 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPT32.dll:Crypto API32:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTBASE.DLL:Base cryptographic API DLL:10.0.26100.7019 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTSP.dll:Cryptographic Service Provider API:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		CoreMessaging.dll:Microsoft CoreMessaging Dll:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		CoreUIComponents.dll:Microsoft Core UI Components Dll:10.0.26100.7462:Microsoft Corporation
+		DBGHELP.DLL:Windows Image Helper:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		DEVOBJ.dll:Device Information Set DLL:10.0.26100.1150 (WinBuild.160101.0800):Microsoft Corporation
+		DNSAPI.dll:DNS Client API DLL:10.0.26100.1591 (WinBuild.160101.0800):Microsoft Corporation
+		GDI32.dll:GDI Client DLL:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		GLU32.dll:OpenGL Utility Library DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		IMM32.DLL:Multi-User Windows IMM32 API Client DLL:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		IPHLPAPI.DLL:IP Helper API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		KERNEL32.DLL:Windows NT BASE API Client DLL:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		KERNELBASE.dll:Windows NT BASE API Client DLL:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		MMDevApi.dll:MMDevice API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		MSCTF.dll:MSCTF Server DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		MpOav.dll:IOfficeAntiVirus Module:4.18.25110.6 (747f30181b4cd739116f0a6ad3cabef997251d7f):Microsoft Corporation
+		NSI.dll:NSI User-mode interface DLL:10.0.26100.7019 (WinBuild.160101.0800):Microsoft Corporation
+		NTASN1.dll:Microsoft ASN.1 API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		OLEAUT32.dll:OLEAUT32.DLL:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		OpenAL.dll:Main implementation library:1.23.1:
+		POWRPROF.dll:Power Profile Helper DLL:10.0.26100.4202 (WinBuild.160101.0800):Microsoft Corporation
+		PSAPI.DLL:Process Status Helper:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		Pdh.dll:Windows Performance Data Helper DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		RPCRT4.dll:Remote Procedure Call Runtime:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		SHCORE.dll:SHCORE:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		SHELL32.dll:Windows Shell Common Dll:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		UMPDC.dll:User Mode Power Dependency Coordinator:10.0.26100.7019 (WinBuild.160101.0800):Microsoft Corporation
+		USER32.dll:Multi-User Windows USER API Client DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		USERENV.dll:Userenv:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		VCRUNTIME140.dll:Microsoft® C Runtime Library:14.40.33810.0:Microsoft Corporation
+		VERSION.dll:Version Checking and File Installation Libraries:10.0.26100.1150 (WinBuild.160101.0800):Microsoft Corporation
+		WINHTTP.dll:Windows HTTP Services:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		WINMM.dll:MCI API DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		WS2_32.dll:Windows Socket 2.0 32-Bit DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		amsi.dll:Anti-Malware Scan Interface:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		bcrypt.dll:Windows Cryptographic Primitives Library:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		bcryptPrimitives.dll:Windows Cryptographic Primitives Library:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		cfgmgr32.dll:Configuration Manager DLL:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		clbcatq.dll:COM+ Configuration Catalog:2001.12.10941.16384 (WinBuild.160101.0800):Microsoft Corporation
+		combase.dll:Microsoft COM for Windows:10.0.26100.6725 (WinBuild.160101.0800):Microsoft Corporation
+		dbgcore.DLL:Windows Core Debugging Helpers:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		dinput8.dll:Microsoft DirectInput:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		directxdatabasehelper.dll:DirectXDatabaseHelper:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		dwmapi.dll:Microsoft Desktop Window Manager API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		dxcore.dll:DXCore:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		dxgi.dll:DirectX Graphics Infrastructure:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		extnet.dll:OpenJDK Platform binary:21.0.9.0:Eclipse Adoptium
+		fwpuclnt.dll:FWP/IPsec User-Mode API:10.0.26100.3915 (WinBuild.160101.0800):Microsoft Corporation
+		gdi32full.dll:GDI Client DLL:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		glfw.dll:GLFW 3.4.0 DLL:3.4.0:GLFW
+		icm32.dll:Microsoft Color Management Module (CMM):10.0.26100.2314 (WinBuild.160101.0800):Microsoft Corporation
+		igc64.dll:Intel Graphics Shader Compiler for Intel(R) Graphics Accelerator:30.0.101.1960:Intel Corporation
+		igdgmm64.dll:User Mode Driver for Intel(R) Graphics Technology:30.0.101.1960:Intel Corporation
+		igdml64.dll:Metrics Library for Intel(R) Graphics Technology:30.0.101.1960:Intel Corporation
+		igxelpicd64.dll:OpenGL(R) Driver for Intel(R) Graphics Accelerator:30.0.101.1960:Intel Corporation
+		inputhost.dll:InputHost:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		java.dll:OpenJDK Platform binary:21.0.9.0:Eclipse Adoptium
+		javaw.exe:OpenJDK Platform binary:21.0.9.0:Eclipse Adoptium
+		jemalloc.dll
+		jimage.dll:OpenJDK Platform binary:21.0.9.0:Eclipse Adoptium
+		jli.dll:OpenJDK Platform binary:21.0.9.0:Eclipse Adoptium
+		jna12229038224468563753.dll:JNA native library:7.0.2:Java(TM) Native Access (JNA)
+		jsvml.dll:OpenJDK Platform binary:21.0.9.0:Eclipse Adoptium
+		jvm.dll:OpenJDK 64-Bit server VM:21.0.9.0:Eclipse Adoptium
+		kernel.appcore.dll:AppModel API Host:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		lwjgl.dll
+		lwjgl_opengl.dll
+		lwjgl_stb.dll
+		management.dll:OpenJDK Platform binary:21.0.9.0:Eclipse Adoptium
+		management_ext.dll:OpenJDK Platform binary:21.0.9.0:Eclipse Adoptium
+		mscms.dll:Microsoft Color Matching System DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		msvcp140.dll:Microsoft® C Runtime Library:14.40.33810.0:Microsoft Corporation
+		msvcp_win.dll:Microsoft® C Runtime Library:10.0.26100.7019 (WinBuild.160101.0800):Microsoft Corporation
+		msvcrt.dll:Windows NT CRT DLL:7.0.26100.7019 (WinBuild.160101.0800):Microsoft Corporation
+		mswsock.dll:Microsoft Windows Sockets 2.0 Service Provider:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		napinsp.dll:E-mail Naming Shim Provider:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		ncrypt.dll:Windows NCrypt Router:10.0.26100.1591 (WinBuild.160101.0800):Microsoft Corporation
+		net.dll:OpenJDK Platform binary:21.0.9.0:Eclipse Adoptium
+		nio.dll:OpenJDK Platform binary:21.0.9.0:Eclipse Adoptium
+		nlansp_c.dll:NLA Namespace Service Provider DLL:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		ntdll.dll:NT Layer DLL:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		ole32.dll:Microsoft OLE for Windows:10.0.26100.6725 (WinBuild.160101.0800):Microsoft Corporation
+		opengl32.dll:OpenGL Client DLL:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		perfos.dll:Windows System Performance Objects DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		pfclient.dll:SysMain Client:10.0.26100.4202 (WinBuild.160101.0800):Microsoft Corporation
+		profapi.dll:User Profile Basic API:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		rasadhlp.dll:Remote Access AutoDial Helper:10.0.26100.7171 (WinBuild.160101.0800):Microsoft Corporation
+		rsaenh.dll:Microsoft Enhanced Cryptographic Provider:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		sechost.dll:Host for SCM/SDDL/LSA Lookup APIs:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		shlwapi.dll:Shell Light-weight Utility Library:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		sunmscapi.dll:OpenJDK Platform binary:21.0.9.0:Eclipse Adoptium
+		textinputframework.dll:"TextInputFramework.DYNLINK":10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		ucrtbase.dll:Microsoft® C Runtime Library:10.0.26100.7019 (WinBuild.160101.0800):Microsoft Corporation
+		uxtheme.dll:Microsoft UxTheme Library:10.0.26100.7019 (WinBuild.160101.0800):Microsoft Corporation
+		vcruntime140_1.dll:Microsoft® C Runtime Library:14.40.33810.0:Microsoft Corporation
+		verify.dll:OpenJDK Platform binary:21.0.9.0:Eclipse Adoptium
+		win32u.dll:Win32u:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		windows.staterepositorycore.dll:Windows StateRepository API Core:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		windows.storage.dll:Microsoft WinRT Storage API:10.0.26100.7019 (WinBuild.160101.0800):Microsoft Corporation
+		winrnr.dll:LDAP RnR Provider DLL:10.0.26100.1882 (WinBuild.160101.0800):Microsoft Corporation
+		wintypes.dll:Windows Base Types DLL:10.0.26100.6725 (WinBuild.160101.0800):Microsoft Corporation
+		wshbth.dll:Windows Sockets Helper DLL:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		xinput1_4.dll:Microsoft Common Controller API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		zip.dll:OpenJDK Platform binary:21.0.9.0:Eclipse Adoptium
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.main.Main.main(Main.java:208) ~[forge-1.21.11-61.0.2-client.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.0.2/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) ~[fmlloader-1.21.11-61.0.2.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.0.2/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) ~[fmlloader-1.21.11-61.0.2.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.4.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+Transformer Audit:
+  net.minecraft.client.main.Main
+    REASON: classloading
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.11
+	Minecraft Version ID: 1.21.11
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.9, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 215566704 bytes (205 MiB) / 520093696 bytes (496 MiB) up to 8489271296 bytes (8096 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+	Identifier: Intel64 Family 6 Model 140 Stepping 1
+	Microarchitecture: Tiger Lake
+	Frequency (GHz): 2.80
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: Intel(R) Iris(R) Xe Graphics
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 1024.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 30.0.101.1960
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 21799.30
+	Virtual memory used (MiB): 12002.26
+	Swap memory total (MiB): 5632.00
+	Swap memory used (MiB): 29.34
+	Space in storage for jna.tmpdir (MiB): available: 64062.10, total: 243350.00
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 64062.10, total: 243350.00
+	Space in storage for io.netty.native.workdir (MiB): available: 64062.10, total: 243350.00
+	Space in storage for java.io.tmpdir (MiB): available: 64062.10, total: 243350.00
+	Space in storage for workdir (MiB): available: 64062.10, total: 243350.00
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx8096m -Xms256m
+	Debug Flags: 0 total; 
+	Launched Version: forge-61.0.2
+	Launcher name: CurseForge
+	Backend library: LWJGL version 3.3.3+5
+	Backend API: Intel(R) Iris(R) Xe Graphics GL version 4.6.0 - Build 30.0.101.1960, Intel
+	Window size: <not initialized>
+	GFLW Platform: win32
+	Render Extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
+	GL debug messages: 
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Universe: 404
+	Type: Client (map_client.txt)
+	Locale: en_US
+	System encoding: Cp1252
+	File encoding: UTF-8
+	CPU: 8x 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+	ModLauncher: 10.2.4
+	ModLauncher launch target: forge_client
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/ slf4jfixer PLUGINSERVICE 
+		/ runtimedistcleaner PLUGINSERVICE 
+		/ runtime_enum_extender PLUGINSERVICE 
+		/ capability_token_subclass PLUGINSERVICE 
+		/ accesstransformer PLUGINSERVICE 
+		/ mixin PLUGINSERVICE 
+		/ fml TRANSFORMATIONSERVICE 
+		/ forge TRANSFORMATIONSERVICE 
+		/ mixin TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@61
+		javafml@61.0.2
+	Mod List: 
+		forge-1.21.11-61.0.2-client.jar                   |Minecraft                     |minecraft                     |1.21.11             |COMMON_SET|Manifest: NOSIGNATURE
+		trade-cycling-forge-1.21.11-1.0.19.jar            |Trade Cycling                 |trade_cycling                 |1.21.11-1.0.19      |COMMON_SET|Manifest: NOSIGNATURE
+		doubledoors-1.21.11-7.2.jar                       |Double Doors                  |doubledoors                   |7.2                 |COMMON_SET|Manifest: NOSIGNATURE
+		TerraBlender-forge-1.21.11-21.11.0.0.jar          |TerraBlender                  |terrablender                  |21.11.0.0           |COMMON_SET|Manifest: NOSIGNATURE
+		improved-village-placement-1.1.2.jar              |Improved Village Placement    |improved_village_placement    |1.1.2               |COMMON_SET|Manifest: NOSIGNATURE
+		MouseTweaks-forge-mc1.21.11-2.30.jar              |Mouse Tweaks                  |mousetweaks                   |2.30                |COMMON_SET|Manifest: NOSIGNATURE
+		supermartijn642configlib-1.1.8-forge-mc1.21.6.jar |SuperMartijn642's Config Libra|supermartijn642configlib      |1.1.8               |ERROR     |Manifest: NOSIGNATURE
+		formationsnether-1.0.5-mc1.21+.jar                |Formations Nether             |formationsnether              |1.0.5               |COMMON_SET|Manifest: NOSIGNATURE
+		areas-1.21.11-6.2.jar                             |Areas                         |areas                         |6.2                 |COMMON_SET|Manifest: NOSIGNATURE
+		treeharvester-1.21.11-9.3.jar                     |Tree Harvester                |treeharvester                 |9.3                 |COMMON_SET|Manifest: NOSIGNATURE
+		common-networking-forge-1.0.22-1.21.11.jar        |Common Networking             |commonnetworking              |1.0.22              |COMMON_SET|Manifest: NOSIGNATURE
+		Saros-Fruit-Trees-Mod-1.21.11-3.0.jar             |Saro´s Fruit Trees Mod        |saros_fruit_trees_mod         |3.1                 |COMMON_SET|Manifest: NOSIGNATURE
+		breadvariants-forge-1.21.6-1.0.4b.jar             |BreadVariants                 |breadvariants                 |1.0.4               |COMMON_SET|Manifest: NOSIGNATURE
+		O.F.Device-forge-1.21.11-12.0.0.jar               |O.F.Device (Ore Farming Device|orefarmingdevice              |12.0.0              |COMMON_SET|Manifest: NOSIGNATURE
+		sound-physics-remastered-forge-1.21.11-1.5.1.jar  |Sound Physics Remastered      |sound_physics_remastered      |1.21.11-1.5.1       |COMMON_SET|Manifest: NOSIGNATURE
+		collective-1.21.11-8.13.jar                       |Collective                    |collective                    |8.13                |COMMON_SET|Manifest: NOSIGNATURE
+		villagernames-1.21.11-8.3.jar                     |Villager Names                |villagernames                 |8.3                 |COMMON_SET|Manifest: NOSIGNATURE
+		realisticbees-1.21.11-4.3.jar                     |Realistic Bees                |realisticbees                 |4.3                 |COMMON_SET|Manifest: NOSIGNATURE
+		Clumps-forge-1.21.11-29.0.0.1.jar                 |Clumps                        |clumps                        |29.0.0.1            |COMMON_SET|Manifest: NOSIGNATURE
+		journeymap-forge-1.21.11-6.0.0-beta.53.jar        |Journeymap                    |journeymap                    |1.21.11-6.0.0-beta.5|COMMON_SET|Manifest: NOSIGNATURE
+		Controlling-forge-1.21.11-29.0.1.jar              |Controlling                   |controlling                   |29.0.1              |COMMON_SET|Manifest: NOSIGNATURE
+		Searchables-forge-1.21.11-1.0.2.jar               |Searchables                   |searchables                   |1.0.2               |COMMON_SET|Manifest: NOSIGNATURE
+		StorageDrawers-forge-1.21.11-20.0.0.jar           |Storage Drawers               |storagedrawers                |20.0.0              |COMMON_SET|Manifest: NOSIGNATURE
+		randomvillagenames-1.21.11-4.0.jar                |Random Village Names          |randomvillagenames            |4.0                 |COMMON_SET|Manifest: NOSIGNATURE
+		GlitchCore-forge-1.21.11-21.11.0.2.jar            |GlitchCore                    |glitchcore                    |21.11.0.2           |COMMON_SET|Manifest: NOSIGNATURE
+		BiomesOPlenty-forge-1.21.11-21.11.0.6.jar         |Biomes O' Plenty              |biomesoplenty                 |21.11.0.6           |COMMON_SET|Manifest: NOSIGNATURE
+		ly-portals-v1.0.1.jar                             |Portals                       |mr_ly_portals                 |1-v1.0.1            |COMMON_SET|Manifest: NOSIGNATURE
+		oreharvester-1.21.11-1.5.jar                      |Ore Harvester                 |oreharvester                  |1.5                 |COMMON_SET|Manifest: NOSIGNATURE
+		breedablekillerrabbit-1.21.11-3.8.jar             |Breedable Killer Rabbit       |breedablekillerrabbit         |3.8                 |COMMON_SET|Manifest: NOSIGNATURE
+		darksmelting-forge-1.21.11-1.1.9a.jar             |DarkSmelting                  |darksmelting                  |1.1.8               |COMMON_SET|Manifest: NOSIGNATURE
+		catalogue-forge-1.21.11-1.12.3.jar                |Catalogue                     |catalogue                     |1.12.3              |COMMON_SET|Manifest: 0D:78:5F:44:C0:47:0C:8C:E2:63:A3:04:43:D4:12:7D:B0:7C:35:37:DC:40:B1:C1:98:EC:51:EB:3B:3C:45:99
+		smelting-enchantment-v1.1.0.jar                   |Smelting Enchantment          |mr_smelting_enchantment       |1-v1.1.0            |COMMON_SET|Manifest: NOSIGNATURE
+		Terralith_1.21.x_v2.5.14.jar                      |Terralith                     |terralith                     |2.5.14              |COMMON_SET|Manifest: NOSIGNATURE
+		SkniroFurniture-1.4.0-1.21.11-Forge.jar           |SkniroFurniture               |skniro_furniture              |1.4.0-1.21.11-Forge |COMMON_SET|Manifest: NOSIGNATURE
+		BetterThanMending-2.2.5.jar                       |BetterThanMending             |betterthanmending             |2.2.5               |COMMON_SET|Manifest: NOSIGNATURE
+		formations-1.0.4-forge-mc1.21.11.jar              |Formations                    |formations                    |1.0.4               |COMMON_SET|Manifest: NOSIGNATURE
+		forge-1.21.11-61.0.2-universal.jar                |Forge                         |forge                         |61.0.2              |COMMON_SET|Manifest: 84:CE:76:E8:45:35:E4:0E:63:86:DF:47:59:80:0F:67:6C:C1:5F:6E:5F:4D:B3:54:47:1A:9F:7F:ED:5E:F2:90
+		/journeymap-api-forge-2.0.0-1.21.11-SNAPSHOT.jar  |JourneyMap API                |journeymap_api                |2.0.0-1.21.11-SNAPSH|COMMON_SET|Manifest: NOSIGNATURE
+		EuphoriaPatcher-1.7.8-r5.6.1-forge.jar            |EuphoriaPatcher               |euphoria_patcher              |1.7.8-r5.6.1-forge  |COMMON_SET|Manifest: NOSIGNATURE
+		Geophilic v3.4.5.mod.jar                          |Geophilic                     |geophilic                     |3.4.5               |COMMON_SET|Manifest: NOSIGNATURE
+		durabilitytooltip-1.1.6-forge-mc1.21.6.jar        |Durability Tooltip            |durabilitytooltip             |1.1.6               |ERROR     |Manifest: NOSIGNATURE
+		darkinventory-forge-1.21.11-1.2.1a.jar            |DarkInventory                 |darkinventory                 |1.2.0               |COMMON_SET|Manifest: NOSIGNATURE
+		formationsoverworld-1.0.5-mc1.21+.jar             |Formations Overworld          |formationsoverworld           |1.0.5               |COMMON_SET|Manifest: NOSIGNATURE
+	Crash Report UUID: 3b01083e-d729-428e-9747-8672399dfc88
+	FML: 61.0
+	Forge: net.minecraftforge:61.0.2

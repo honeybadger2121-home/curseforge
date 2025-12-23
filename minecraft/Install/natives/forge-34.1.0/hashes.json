@@ -1,0 +1,82 @@
+{
+  "org.lwjgl:lwjgl:3.2.2": [
+    {
+      "name": "lwjgl.dll",
+      "sha1": "D01410449D2402A952E9A6063699F1868196883F"
+    },
+    {
+      "name": "lwjgl32.dll",
+      "sha1": "A7AA4FBAA375FD39C4CB8EABEEF45B44D5848BCB"
+    }
+  ],
+  "org.lwjgl:lwjgl-jemalloc:3.2.2": [
+    {
+      "name": "jemalloc.dll",
+      "sha1": "8A6EB00B934DA6C97B0DC9D2DC321843076C8987"
+    },
+    {
+      "name": "jemalloc32.dll",
+      "sha1": "0D3C5C4D18D9A60501BCE1F586684CD2FC5C466F"
+    }
+  ],
+  "org.lwjgl:lwjgl-openal:3.2.2": [
+    {
+      "name": "OpenAL.dll",
+      "sha1": "DC8F7A5704164FE3DFF3631C326BAB7159A9358D"
+    },
+    {
+      "name": "OpenAL32.dll",
+      "sha1": "AA3FA9446B7C1264E2B463BB53946718E4F8CE82"
+    }
+  ],
+  "org.lwjgl:lwjgl-opengl:3.2.2": [
+    {
+      "name": "lwjgl_opengl.dll",
+      "sha1": "8E9836DD0D1691356DB654AA02533AD80E9BF52C"
+    },
+    {
+      "name": "lwjgl_opengl32.dll",
+      "sha1": "2E0FE073B23AB972AF00025097EFCFCB446D927F"
+    }
+  ],
+  "org.lwjgl:lwjgl-glfw:3.2.2": [
+    {
+      "name": "glfw.dll",
+      "sha1": "9D95A8F52CBD48AB87937714EB4FD2129ED10F0A"
+    },
+    {
+      "name": "glfw32.dll",
+      "sha1": "B9A18C65931B474A453CCA5B20903220975F0FC9"
+    }
+  ],
+  "org.lwjgl:lwjgl-tinyfd:3.2.2": [
+    {
+      "name": "lwjgl_tinyfd.dll",
+      "sha1": "EC0FD8007AFBA6697D5B3B8249B5BE27096A0CE8"
+    },
+    {
+      "name": "lwjgl_tinyfd32.dll",
+      "sha1": "079540A19727772F056CD80535E9645A674190B4"
+    }
+  ],
+  "org.lwjgl:lwjgl-stb:3.2.2": [
+    {
+      "name": "lwjgl_stb.dll",
+      "sha1": "8B047FB3F6C31946FE33157E7912AC31595CD3B8"
+    },
+    {
+      "name": "lwjgl_stb32.dll",
+      "sha1": "1C28819763F77CBB4593A95B1CBB0999F136695D"
+    }
+  ],
+  "com.mojang:text2speech:1.11.3": [
+    {
+      "name": "SAPIWrapper_x86.dll",
+      "sha1": "70E85AB3F880A7C3D5F0A9AAE0F65661CB8AF5A6"
+    },
+    {
+      "name": "SAPIWrapper_x64.dll",
+      "sha1": "C4A293116E7531D950DB2D5EA737E61A9912B61D"
+    }
+  ]
+}

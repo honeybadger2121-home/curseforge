@@ -1,50 +1,50 @@
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/xp add HoneyBadger75315 5000
-/gamemode survival
-/xp add HoneyBadger75315 5000
-/gamemode creative
-/kill mob
 /time set day
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
+/fill <-876> <68> <-1130> <-820> <68> <-1164> <polished_blackstone_bricks>
+/fill -876 68 -1130 -820 68 -1164 polished_blackstone_bricks
+/time set day
+/fill -854 68 -1193 -814 68 -1137 polished_blackstone_bricks
+/fill -817 82 -1114 -867 82 -1205 polished_blackstone_bricks
+/fill -817 83 -1114 -867 83 -1205 polished_blackstone_brick_slab
+/time set day
+/fill -817 69 -1114 -867 69 -1205 polished_blackstone_bricks
+/fill -817 69 -1114 -867 69 -1205 minecraft:polished_blackstone_brick_slab
+/fill -817 69 -1114 -867 69 -1205 minecraft:torch\
+/fill -817 69 -1114 -867 69 -1205 minecraft:torch
+/fill -817 68 -1114 -867 68 -1205 polished_blackstone_bricks
+/fill -817 68 -1114 -867 82 -1205 polished_blackstone_bricks outline
+/fill -817 68 -1114 -867 82 -1205 polished_blackstone_bricks outlin
+/fill -817 68 -1114 -867 82 -1205 polished_blackstone_bricks outline
+/fill -817 68 -1114 -867 82 -1105 polished_blackstone_bricks outline
+/fill -817 68 -1114 -867 70 -1204 polished_blackstone_bricks outline
+/fill 575 73 -411 602 73 -300 minecraft:cracked_polished_blackstone_bricks outline
+/fill 575 73 -411 602 76 -300 minecraft:cracked_polished_blackstone_bricks outline
+/fill 575 73 -411 602 73 -300 minecraft:cracked_polished_blackstone_bricks hollow
+/fill 575 73 -411 602 73 -300 air hollow
+/fill 575 73 -411 602 75 -300 air hollow
+/fill 575 73 -411 602 76 -300 air hollow
+/fill 575 72 -411 602 76 -300 minecraft:cracked_polished_blackstone_bricks outline
+/fill 575 72 -411 602 76 -300 minecraft:glowstone outline
+/time set day
+/kill @e[type=!player]
+/time set day
+/fill 555 96 -423 minecraft:glowstone outline
+/fill 555 96 -423 573 96 -408 air hollow
+/fill 555 96 -423 573 80 -408 air hollow
+/fill 555 96 -423 573 66 -408 air hollow
+/fill 555 96 -423 573 66 -408 stone
+/fill 555 96 -423 573 66 -408 air
+/fill 555 85 -423 573 66 -408 stone
+/time set day
+/fill 602 72 -410 stone
+/fill 602 72 -410 576 72 -372 air
+/fill 602 72 -410 576 72 -372 water
+/fill 602 72 -410 576 65 -372 water
+/fill 602 65 -410 576 65 -372 minecraft:brain_coral
+/fill 601 72 -365
+/fill 601 72 -365 576 69 -300 sand
+/fill 601 72 -365
+/fill 601 72 -365 576 69 -300 sand
+/fill 603 65 -409
+/fill 603 65 -409 603 71 -409 minecraft:brain_coral_block
+/fill 603 65 -409 603 73 -409 minecraft:brain_coral_block
+/fill 603 65 -409 603 73 -372 minecraft:brain_coral_block

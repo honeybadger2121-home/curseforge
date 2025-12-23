@@ -166,6 +166,7 @@ key_key.debug.profilingChart:key.keyboard.1
 key_key.debug.fpsCharts:key.keyboard.2
 key_key.debug.networkCharts:key.keyboard.3
 key_key.trade_cycling.cycle_trades:key.keyboard.c
+key_key.mobhealthbar.chooser:key.keyboard.h
 key_key.journeymap.zoom_in:key.keyboard.equal
 key_key.journeymap.zoom_out:key.keyboard.minus
 key_key.journeymap.minimap_type:key.keyboard.left.bracket

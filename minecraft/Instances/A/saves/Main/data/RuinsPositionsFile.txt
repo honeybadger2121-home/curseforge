@@ -12,8 +12,8 @@
 407 79 -570 414 85 -563 randomenchantmenthut.tml
 420 112 -335 426 122 -328 tikihead2.tml
 427 100 -262 434 113 -257 tikihead3.tml
-429 67 -410 435 73 -401 randomruins2.tml
 429 71 -488 441 78 -475 ruinedbuilding.tml
+429 67 -410 435 73 -401 randomruins2.tml
 521 89 -451 532 96 -441 ZombieHut.tml
 538 117 -679 543 144 -674 balloontest.tml
 543 93 -607 554 103 -598 randomoreveinsmall.tml
@@ -39,8 +39,8 @@
 919 57 -1430 930 67 -1421 randomoreveinsmall.tml
 920 65 -1256 927 71 -1249 randomenchantmenthut.tml
 921 60 -1097 928 73 -1092 tikihead3.tml
-922 106 -385 929 119 -380 tikihead3.tml
 922 104 -509 933 114 -500 randomoreveinsmall.tml
+922 106 -385 929 119 -380 tikihead3.tml
 931 73 -1179 940 83 -1170 fountain.tml
 937 92 -666 946 99 -661 mininghut.tml
 986 148 -244 995 155 -239 mininghut.tml

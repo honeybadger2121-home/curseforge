@@ -3,7 +3,7 @@ ao:true
 biomeBlendRadius:2
 chunkSectionFadeInTime:0.75
 cutoutLeaves:true
-enableVsync:true
+enableVsync:false
 entityDistanceScaling:1.25
 entityShadows:true
 forceUnicodeFont:false
@@ -20,7 +20,7 @@ gamma:0.5
 guiScale:0
 maxAnisotropyBit:2
 textureFiltering:1
-maxFps:120
+maxFps:260
 improvedTransparency:true
 inactivityFpsLimit:"afk"
 mipmapLevels:4
@@ -207,4 +207,4 @@ modelPart_right_sleeve:true
 modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
 modelPart_hat:true
-fullscreenResolution:2560x1440@144:24
+fullscreenResolution:2560x1440@180:24

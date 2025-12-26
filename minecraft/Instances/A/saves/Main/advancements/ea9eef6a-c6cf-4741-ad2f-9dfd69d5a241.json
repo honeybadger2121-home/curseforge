@@ -18,11 +18,13 @@
       "minecraft:birch_forest": "2025-12-13 15:26:51 -0600",
       "minecraft:old_growth_spruce_taiga": "2025-12-21 12:30:21 -0600",
       "minecraft:snowy_beach": "2025-12-21 15:08:53 -0600",
+      "minecraft:bamboo_jungle": "2025-12-23 20:57:06 -0600",
       "minecraft:warm_ocean": "2025-12-16 19:31:40 -0600",
       "minecraft:deep_lukewarm_ocean": "2025-12-16 19:36:34 -0600",
       "minecraft:savanna_plateau": "2025-12-13 15:27:10 -0600",
       "minecraft:beach": "2025-12-21 15:11:29 -0600",
       "minecraft:stony_peaks": "2025-12-13 15:27:14 -0600",
+      "minecraft:sparse_jungle": "2025-12-23 20:50:30 -0600",
       "minecraft:river": "2025-12-13 23:27:27 -0600",
       "minecraft:lukewarm_ocean": "2025-12-16 19:32:23 -0600",
       "minecraft:stony_shore": "2025-12-13 15:26:35 -0600",
@@ -2960,9 +2962,11 @@
       "minecraft:elder_guardian": "2025-12-16 19:50:23 -0600",
       "minecraft:parched": "2025-12-16 19:53:33 -0600",
       "minecraft:zombified_piglin": "2025-12-16 19:12:36 -0600",
+      "minecraft:witch": "2025-12-23 19:58:10 -0600",
       "minecraft:ravager": "2025-12-16 19:53:13 -0600",
       "minecraft:bogged": "2025-12-16 19:52:40 -0600",
       "minecraft:ghast": "2025-12-14 15:33:03 -0600",
+      "minecraft:cave_spider": "2025-12-23 19:58:52 -0600",
       "minecraft:piglin": "2025-12-14 15:33:19 -0600",
       "minecraft:breeze": "2025-12-16 19:53:40 -0600",
       "minecraft:creaking": "2025-12-21 15:14:25 -0600",
@@ -3361,10 +3365,13 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:mooshroom": "2025-12-23 19:46:39 -0600",
       "minecraft:cow": "2025-12-16 17:31:05 -0600",
       "minecraft:chicken": "2025-12-16 17:31:22 -0600",
       "minecraft:pig": "2025-12-16 17:32:24 -0600",
-      "minecraft:panda": "2025-12-16 17:49:44 -0600"
+      "minecraft:panda": "2025-12-16 17:49:44 -0600",
+      "minecraft:turtle": "2025-12-23 19:48:27 -0600",
+      "minecraft:sheep": "2025-12-23 19:46:36 -0600"
     },
     "done": false
   },
@@ -4925,6 +4932,216 @@
   "minecraft:recipes/combat/turtle_helmet": {
     "criteria": {
       "has_turtle_scute": "2025-12-22 12:51:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2025-12-23 19:24:22 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone": {
+    "criteria": {
+      "has_red_sandstone": "2025-12-23 19:26:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_red_sandstone": {
+    "criteria": {
+      "has_red_sandstone": "2025-12-23 19:26:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone": {
+    "criteria": {
+      "has_red_sandstone": "2025-12-23 19:26:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_sandstone_wall_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2025-12-23 19:26:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_slab": {
+    "criteria": {
+      "has_red_sandstone": "2025-12-23 19:26:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_stairs": {
+    "criteria": {
+      "has_red_sandstone": "2025-12-23 19:26:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_red_sandstone_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2025-12-23 19:26:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_slab_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2025-12-23 19:26:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_slab_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2025-12-23 19:26:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2025-12-23 19:26:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_stairs_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2025-12-23 19:26:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_sandstone_wall": {
+    "criteria": {
+      "has_red_sandstone": "2025-12-23 19:26:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_bed": {
+    "criteria": {
+      "has_orange_wool": "2025-12-23 20:58:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_banner": {
+    "criteria": {
+      "has_orange_wool": "2025-12-23 20:58:16 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/tnt_from_bop_sand": {
+    "criteria": {
+      "has_gunpowder": "2025-12-23 20:58:08 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_shelf": {
+    "criteria": {
+      "has_stripped_jungle_log": "2025-12-23 20:54:29 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/willow_boat": {
+    "criteria": {
+      "in_water": "2025-12-23 20:54:22 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/fir_boat": {
+    "criteria": {
+      "in_water": "2025-12-23 20:54:22 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/umbran_boat": {
+    "criteria": {
+      "in_water": "2025-12-23 20:54:22 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/maple_boat": {
+    "criteria": {
+      "in_water": "2025-12-23 20:54:22 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/dead_boat": {
+    "criteria": {
+      "in_water": "2025-12-23 20:54:22 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/magic_boat": {
+    "criteria": {
+      "in_water": "2025-12-23 20:54:22 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/redwood_boat": {
+    "criteria": {
+      "in_water": "2025-12-23 20:54:22 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/hellbark_boat": {
+    "criteria": {
+      "in_water": "2025-12-23 20:54:22 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/jacaranda_boat": {
+    "criteria": {
+      "in_water": "2025-12-23 20:54:22 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/mahogany_boat": {
+    "criteria": {
+      "in_water": "2025-12-23 20:54:22 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/palm_boat": {
+    "criteria": {
+      "in_water": "2025-12-23 20:54:22 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/empyreal_boat": {
+    "criteria": {
+      "in_water": "2025-12-23 20:54:22 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/origin_oak_boat": {
+    "criteria": {
+      "in_water": "2025-12-23 20:54:22 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/pine_boat": {
+    "criteria": {
+      "in_water": "2025-12-23 20:54:22 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_carpet": {
+    "criteria": {
+      "has_orange_wool": "2025-12-23 20:58:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-12-23 20:54:29 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/food/rabbit_stew_from_toadstool": {
+    "criteria": {
+      "has_cooked_rabbit": "2025-12-23 20:45:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2025-12-23 20:54:29 -0600"
     },
     "done": true
   },

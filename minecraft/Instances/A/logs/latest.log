@@ -1,404 +1,331 @@
-[17:56:30] [main/INFO]: ModLauncher running: args [--username, HoneyBadger75315, --version, forge-61.0.2, --gameDir, C:\Users\Ben\curseforge\minecraft\Instances\A, --assetsDir, C:\Users\Ben\curseforge\minecraft\Install\assets, --assetIndex, 29, --uuid, ea9eef6ac6cf4741ad2f9dfd69d5a241, --accessToken, **********, --clientId, 8ee1a9-cfbd7e-509b53-f192ca-fef9cc, --xuid, 2535448093732349, --versionType, release, --width, 2560, --height, 1440, --quickPlayPath, C:\Users\Ben\curseforge\minecraft\Quickplay\2eb8695d-8332-41ee-9c6b-ba6636d4378f.json, , , , --launchTarget, forge_client]
-[17:56:30] [main/INFO]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.9+10-LTS
-[17:56:30] [main/INFO]: ModLauncher 10.2.4 starting: java version 21.0.9 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[17:56:30] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
-[17:56:30] [main/INFO]: Trying GL version 4.6
-[17:56:30] [main/INFO]: Requested GL version 4.6 got version 4.6
-[17:56:30] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/Ben/curseforge/minecraft/Install/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=CLIENT
-[17:56:31] [EarlyDisplay/INFO]: GL info: AMD Radeon RX 7900 XT GL version 4.6.0 Core Profile Context 25.9.1.250912, ATI Technologies Inc.
-[17:56:31] [main/INFO]: Found mod file balm-forge-1.21.11-21.11.3-all.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file BetterThanMending-2.2.5.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file breadvariants-forge-1.21.6-1.0.4b.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file catalogue-forge-1.21.11-1.12.3.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file collective-1.21.11-8.13.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file common-networking-forge-1.0.22-1.21.11.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file Controlling-forge-1.21.11-29.0.1.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file darkinventory-forge-1.21.11-1.2.1a.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file darksmelting-forge-1.21.11-1.1.9a.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file despawningeggshatch-1.21.11-4.5.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file EuphoriaPatcher-1.7.8-r5.6.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file Explorify v1.6.4 f15-88.mod.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file followersteleporttoo-1.21.11-2.7.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file formations-1.0.4-forge-mc1.21.11.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file furnacerecycle-1.21.11-2.6.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file GlitchCore-forge-1.21.11-21.11.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file improved-village-placement-1.1.2.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file journeymap-forge-1.21.11-6.0.0-beta.53.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file ly-portals-v1.0.1.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file mobhealthbar-forge-1.21.11-2.3.2.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file MouseTweaks-forge-mc1.21.11-2.30.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file onlyexcavators-1.21.11-0.1.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file ore-vein-miner-1.0 (1.21.11).jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file pirate-savanna-outpost-2.13.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file realisticbees-1.21.11-4.3.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file replantingcrops-1.21.11-5.5.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file ruins-1.21.11.1.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file Saros-Fruit-Trees-Mod-1.21.11-3.0.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file Searchables-forge-1.21.11-1.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file smelting-enchantment-v1.1.0.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file sound-physics-remastered-forge-1.21.11-1.5.1.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file spiral_tower_village-0.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file starterkit-1.21.11-7.6.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file stickyenchantinglapis-1.21.11-1.5.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file TerraBlender-forge-1.21.11-21.11.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file Terralith_1.21.x_v2.5.14.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file trade-cycling-forge-1.21.11-1.0.19.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file tree-vein-miner-1.1 (1.21.11).jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file treeharvester-1.21.11-9.3.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file villagernames-1.21.11-8.3.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file villagespawnpoint-1.21.11-4.7.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[17:56:31] [main/INFO]: Found mod file forge-1.21.11-61.0.2-client.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@50b1f030
-[17:56:31] [main/INFO]: Found mod file javafmllanguage-1.21.11-61.0.2.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@3241713e
-[17:56:31] [main/INFO]: Found mod file lowcodelanguage-1.21.11-61.0.2.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@3241713e
-[17:56:31] [main/INFO]: Found mod file mclanguage-1.21.11-61.0.2.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@3241713e
-[17:56:31] [main/INFO]: Found mod file fmlcore-1.21.11-61.0.2.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@3241713e
-[17:56:31] [main/INFO]: Found mod file forge-1.21.11-61.0.2-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@3241713e
-[17:56:31] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: commonnetworking. Using common-networking-forge-1.0.22-1.21.11.jar
-[17:56:31] [main/INFO]: Closeing unselected FileSystem journeymap-forge-1.21.11-6.0.0-beta.53.jar!/META-INF/jarjar/common-networking-forge-1.0.22-1.21.11.jar
-[17:56:31] [main/INFO]: Found 5 dependencies adding them to mods collection
-[17:56:31] [main/INFO]: Found mod file /MixinExtras-0.5.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@31cb96e1
-[17:56:31] [main/INFO]: Found mod file /pngj-2.1.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@31cb96e1
-[17:56:31] [main/INFO]: Found mod file mixinextras-forge-0.5.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@31cb96e1
-[17:56:31] [main/INFO]: Found mod file /journeymap-api-forge-2.0.0-1.21.11-SNAPSHOT.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@31cb96e1
-[17:56:31] [main/INFO]: Found mod file /kuma-api-forge-21.11.9.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@31cb96e1
-[17:56:31] [main/INFO]: Compatibility level set to JAVA_17
-[17:56:31] [main/INFO]: Compatibility level set to JAVA_21
-[17:56:31] [main/ERROR]: Mixin config mobhealthbar.mixins.json does not specify "minVersion" or "requiredFeatures" property
-[17:56:31] [main/INFO]: Launching target 'forge_client' with arguments [--version, forge-61.0.2, --gameDir, C:\Users\Ben\curseforge\minecraft\Instances\A, --assetsDir, C:\Users\Ben\curseforge\minecraft\Install\assets, --uuid, ea9eef6ac6cf4741ad2f9dfd69d5a241, --username, HoneyBadger75315, --assetIndex, 29, --accessToken, **********, --clientId, 8ee1a9-cfbd7e-509b53-f192ca-fef9cc, --xuid, 2535448093732349, --versionType, release, --width, 2560, --height, 1440, --quickPlayPath, C:\Users\Ben\curseforge\minecraft\Quickplay\2eb8695d-8332-41ee-9c6b-ba6636d4378f.json, , , ]
-[17:56:31] [main/WARN]: Reference map 'trade_cycling.refmap.json' for trade_cycling.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:56:31] [main/WARN]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:56:31] [main/WARN]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:56:31] [main/WARN]: Reference map 'terrablender.refmap.json' for terrablender.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:56:31] [main/WARN]: Reference map 'sound_physics_remastered.refmap.json' for sound_physics_remastered.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:56:31] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:56:31] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:56:31] [main/WARN]: Reference map 'controlling.refmap.json' for controlling.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:56:31] [main/WARN]: Reference map 'controlling.refmap.json' for controlling.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:56:31] [main/WARN]: Reference map 'searchables.refmap.json' for searchables.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:56:31] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:56:31] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:56:31] [main/WARN]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:56:31] [main/WARN]: Reference map 'balm.refmap.json' for balm.api.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:56:31] [main/WARN]: Reference map 'formations.mixins.refmap.json' for formations.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:56:32] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[17:56:33] [Datafixer Bootstrap/INFO]: 287 Datafixer optimizations took 494 milliseconds
-[17:56:33] [main/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:root
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:sound_event
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:fluid
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:particle_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:attribute
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:mob_effect
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:block
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:enchantment_effect_component_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:entity_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:loot_score_provider_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:loot_number_provider_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:map_decoration_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:loot_pool_entry_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:loot_nbt_provider_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:loot_function_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:data_component_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:item
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:game_event
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:debug_subscription
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:potion
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:block_entity_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:stat_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:custom_stat
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:chunk_status
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:rule_test
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:rule_block_entity_modifier
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:pos_rule_test
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:menu
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:recipe_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:recipe_serializer
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:position_source_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:command_argument_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:villager_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:villager_profession
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:point_of_interest_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:memory_module_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:sensor_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:activity
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:loot_condition_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:float_provider_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:int_provider_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:height_provider_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:block_predicate_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/carver
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_processor
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/feature
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_placement
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_piece
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/placement_modifier_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/block_state_provider_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/foliage_placer_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/trunk_placer_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/root_placer_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/tree_decorator_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/feature_size_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/biome_source
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/chunk_generator
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/material_condition
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/material_rule
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/density_function_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:block_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_pool_element
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:worldgen/pool_alias_binding
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:decorated_pot_pattern
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:creative_mode_tab
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:trigger_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:number_format_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:game_rule
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:entity_sub_predicate_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:data_component_predicate_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:enchantment_level_based_value_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:enchantment_entity_effect_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:enchantment_location_based_effect_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:enchantment_value_effect_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:enchantment_provider_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:consume_effect_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:recipe_display
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:slot_display
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:recipe_book_category
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:ticket_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:incoming_rpc_methods
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:outgoing_rpc_methods
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:test_environment_definition_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:test_instance_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:spawn_condition_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:dialog_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:dialog_action_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:input_control_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:dialog_body_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:permission_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:permission_check_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:attribute_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:environment_attribute
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:slot_source_type
-[17:56:37] [pool-5-thread-1/INFO]: 	minecraft:test_function
-[17:56:37] [main/INFO]: Completely ignored arguments: [, , ]
-[17:56:37] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[17:56:37] [Render thread/INFO]: Setting user: HoneyBadger75315
-[17:56:38] [Render thread/INFO]: Backend library: LWJGL version 3.3.3+5
-[17:56:38] [Render thread/INFO]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
-[17:56:38] [modloading-worker-0/INFO]: Loading Collective version 8.13.
-[17:56:38] [modloading-worker-0/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
-[17:56:38] [modloading-worker-0/INFO]: Ruins instance built, events registered
-[17:56:38] [modloading-worker-0/INFO]: Forge mod loading, version 61.0.2, for MC 1.21.11 with MCP 20251209.095502
-[17:56:38] [modloading-worker-0/INFO]: MinecraftForge v61.0.2 Initialized
-[17:56:38] [modloading-worker-0/INFO]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[17:56:38] [modloading-worker-0/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[17:56:38] [modloading-worker-0/INFO]: Loaded journeymap.common.helpers.ForgeClientHooks@105327c0 for service interface journeymap.api.services.ClientPlatformService
-[17:56:38] [modloading-worker-0/INFO]: Loaded journeymap.common.helpers.ForgeHooks@1413887d for service interface journeymap.api.services.CommonPlatformService
-[17:56:38] [modloading-worker-0/INFO]: EuphoriaPatcher: [UPDATE CHECKER] The EuphoriaPatcher Mod is up to date
-[17:56:38] [modloading-worker-0/WARN]: EuphoriaPatcher: No shader loader mod was found
-[17:56:38] [modloading-worker-0/INFO]: EuphoriaPatcher: Allocating luck points...
-[17:56:38] [modloading-worker-0/INFO]: EuphoriaPatcher: EuphoriaPatches_1.7.8 is already installed.
-[17:56:38] [modloading-worker-0/INFO]: 
+[19:28:12] [main/INFO]: ModLauncher running: args [--username, HoneyBadger75315, --version, forge-61.0.2, --gameDir, C:\Users\Ben\curseforge\minecraft\Instances\A, --assetsDir, C:\Users\Ben\curseforge\minecraft\Install\assets, --assetIndex, 29, --uuid, ea9eef6ac6cf4741ad2f9dfd69d5a241, --accessToken, **********, --clientId, cb552f-6c9f85-e81f1e-802cdd-220feb, --xuid, 2535448093732349, --versionType, release, --width, 2048, --height, 1152, --quickPlayPath, C:\Users\Ben\curseforge\minecraft\Quickplay\2eb8695d-8332-41ee-9c6b-ba6636d4378f.json, , , , --launchTarget, forge_client]
+[19:28:12] [main/INFO]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.9+10-LTS
+[19:28:12] [main/INFO]: ModLauncher 10.2.4 starting: java version 21.0.9 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[19:28:13] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[19:28:13] [main/INFO]: Trying GL version 4.6
+[19:28:13] [main/INFO]: Requested GL version 4.6 got version 4.6
+[19:28:13] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/Ben/curseforge/minecraft/Install/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=CLIENT
+[19:28:13] [EarlyDisplay/INFO]: GL info: AMD Radeon RX 7900 XT GL version 4.6.0 Core Profile Context 25.12.1.251128, ATI Technologies Inc.
+[19:28:13] [main/INFO]: Found mod file balm-forge-1.21.11-21.11.3-all.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file BetterThanMending-2.2.5.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file BiomesOPlenty-forge-1.21.11-21.11.0.6.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file breadvariants-forge-1.21.6-1.0.4b.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file collective-1.21.11-8.13.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file common-networking-forge-1.0.22-1.21.11.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file Controlling-forge-1.21.11-29.0.1.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file darkinventory-forge-1.21.11-1.2.1a.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file darksmelting-forge-1.21.11-1.1.9a.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file despawningeggshatch-1.21.11-4.5.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file DnT-nether-fortress-overhaul-v3.1 [Forge].jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file EuphoriaPatcher-1.7.8-r5.6.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file followersteleporttoo-1.21.11-2.7.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file formations-1.0.4-forge-mc1.21.11.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file furnacerecycle-1.21.11-2.6.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file GlitchCore-forge-1.21.11-21.11.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file improved-village-placement-1.1.2.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file journeymap-forge-1.21.11-6.0.0-beta.53.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file ly-portals-v1.0.1.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file mobhealthbar-forge-1.21.11-2.3.2.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file MouseTweaks-forge-mc1.21.11-2.30.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file onlyexcavators-1.21.11-0.1.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file ore-vein-miner-1.0 (1.21.11).jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file realisticbees-1.21.11-4.3.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file replantingcrops-1.21.11-5.5.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file Saros-Fruit-Trees-Mod-1.21.11-3.0.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file Searchables-forge-1.21.11-1.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file smelting-enchantment-v1.1.0.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file sound-physics-remastered-forge-1.21.11-1.5.1.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file starterkit-1.21.11-7.6.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file TerraBlender-forge-1.21.11-21.11.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file Terralith_1.21.x_v2.5.14.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file trade-cycling-forge-1.21.11-1.0.19.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file tree-vein-miner-1.1 (1.21.11).jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file treeharvester-1.21.11-9.3.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file villagernames-1.21.11-8.3.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file villagespawnpoint-1.21.11-4.7.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:28:13] [main/INFO]: Found mod file forge-1.21.11-61.0.2-client.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@232024b9
+[19:28:13] [main/INFO]: Found mod file javafmllanguage-1.21.11-61.0.2.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@72ed9aad
+[19:28:13] [main/INFO]: Found mod file lowcodelanguage-1.21.11-61.0.2.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@72ed9aad
+[19:28:13] [main/INFO]: Found mod file mclanguage-1.21.11-61.0.2.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@72ed9aad
+[19:28:13] [main/INFO]: Found mod file fmlcore-1.21.11-61.0.2.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@72ed9aad
+[19:28:13] [main/INFO]: Found mod file forge-1.21.11-61.0.2-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@72ed9aad
+[19:28:13] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: commonnetworking. Using common-networking-forge-1.0.22-1.21.11.jar
+[19:28:13] [main/INFO]: Closeing unselected FileSystem journeymap-forge-1.21.11-6.0.0-beta.53.jar!/META-INF/jarjar/common-networking-forge-1.0.22-1.21.11.jar
+[19:28:13] [main/INFO]: Found 5 dependencies adding them to mods collection
+[19:28:13] [main/INFO]: Found mod file /MixinExtras-0.5.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@aa004a0
+[19:28:13] [main/INFO]: Found mod file /pngj-2.1.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@aa004a0
+[19:28:13] [main/INFO]: Found mod file mixinextras-forge-0.5.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@aa004a0
+[19:28:13] [main/INFO]: Found mod file /journeymap-api-forge-2.0.0-1.21.11-SNAPSHOT.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@aa004a0
+[19:28:13] [main/INFO]: Found mod file /kuma-api-forge-21.11.9.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@aa004a0
+[19:28:14] [main/INFO]: Compatibility level set to JAVA_17
+[19:28:14] [main/INFO]: Compatibility level set to JAVA_21
+[19:28:14] [main/ERROR]: Mixin config mobhealthbar.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[19:28:14] [main/INFO]: Launching target 'forge_client' with arguments [--version, forge-61.0.2, --gameDir, C:\Users\Ben\curseforge\minecraft\Instances\A, --assetsDir, C:\Users\Ben\curseforge\minecraft\Install\assets, --uuid, ea9eef6ac6cf4741ad2f9dfd69d5a241, --username, HoneyBadger75315, --assetIndex, 29, --accessToken, **********, --clientId, cb552f-6c9f85-e81f1e-802cdd-220feb, --xuid, 2535448093732349, --versionType, release, --width, 2048, --height, 1152, --quickPlayPath, C:\Users\Ben\curseforge\minecraft\Quickplay\2eb8695d-8332-41ee-9c6b-ba6636d4378f.json, , , ]
+[19:28:14] [main/WARN]: Reference map 'trade_cycling.refmap.json' for trade_cycling.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:14] [main/WARN]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:14] [main/WARN]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:14] [main/WARN]: Reference map 'terrablender.refmap.json' for terrablender.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:14] [main/WARN]: Reference map 'sound_physics_remastered.refmap.json' for sound_physics_remastered.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:14] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:14] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:14] [main/WARN]: Reference map 'controlling.refmap.json' for controlling.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:14] [main/WARN]: Reference map 'controlling.refmap.json' for controlling.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:14] [main/WARN]: Reference map 'searchables.refmap.json' for searchables.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:14] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:14] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:14] [main/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:14] [main/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:14] [main/WARN]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:14] [main/WARN]: Reference map 'balm.refmap.json' for balm.api.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:14] [main/WARN]: Reference map 'formations.mixins.refmap.json' for formations.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:28:14] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[19:28:16] [Datafixer Bootstrap/INFO]: 287 Datafixer optimizations took 374 milliseconds
+[19:28:16] [main/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:root
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:sound_event
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:fluid
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:particle_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:attribute
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:mob_effect
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:block
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:enchantment_effect_component_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:entity_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:loot_score_provider_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:loot_number_provider_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:map_decoration_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:loot_pool_entry_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:loot_nbt_provider_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:loot_function_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:data_component_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:item
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:game_event
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:debug_subscription
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:potion
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:block_entity_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:stat_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:custom_stat
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:chunk_status
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:rule_test
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:rule_block_entity_modifier
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:pos_rule_test
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:menu
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:recipe_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:recipe_serializer
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:position_source_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:command_argument_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:villager_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:villager_profession
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:point_of_interest_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:memory_module_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:sensor_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:activity
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:loot_condition_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:float_provider_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:int_provider_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:height_provider_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:block_predicate_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/carver
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_processor
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/feature
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_placement
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_piece
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/placement_modifier_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/block_state_provider_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/foliage_placer_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/trunk_placer_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/root_placer_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/tree_decorator_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/feature_size_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/biome_source
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/chunk_generator
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/material_condition
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/material_rule
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/density_function_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:block_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_pool_element
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:worldgen/pool_alias_binding
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:decorated_pot_pattern
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:creative_mode_tab
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:trigger_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:number_format_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:game_rule
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:entity_sub_predicate_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:data_component_predicate_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:enchantment_level_based_value_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:enchantment_entity_effect_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:enchantment_location_based_effect_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:enchantment_value_effect_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:enchantment_provider_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:consume_effect_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:recipe_display
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:slot_display
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:recipe_book_category
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:ticket_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:incoming_rpc_methods
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:outgoing_rpc_methods
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:test_environment_definition_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:test_instance_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:spawn_condition_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:dialog_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:dialog_action_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:input_control_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:dialog_body_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:permission_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:permission_check_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:attribute_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:environment_attribute
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:slot_source_type
+[19:28:19] [pool-5-thread-1/INFO]: 	minecraft:test_function
+[19:28:19] [main/INFO]: Completely ignored arguments: [, , ]
+[19:28:19] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[19:28:19] [Render thread/INFO]: Setting user: HoneyBadger75315
+[19:28:19] [Render thread/INFO]: Backend library: LWJGL version 3.3.3+5
+[19:28:19] [Render thread/INFO]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
+[19:28:19] [modloading-worker-0/INFO]: Loading Collective version 8.13.
+[19:28:20] [modloading-worker-0/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[19:28:20] [modloading-worker-0/INFO]: Forge mod loading, version 61.0.2, for MC 1.21.11 with MCP 20251209.095502
+[19:28:20] [modloading-worker-0/INFO]: MinecraftForge v61.0.2 Initialized
+[19:28:20] [modloading-worker-0/INFO]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[19:28:20] [modloading-worker-0/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[19:28:20] [modloading-worker-0/INFO]: Loaded journeymap.common.helpers.ForgeClientHooks@47c553f1 for service interface journeymap.api.services.ClientPlatformService
+[19:28:20] [modloading-worker-0/INFO]: Loaded journeymap.common.helpers.ForgeHooks@4c5569b4 for service interface journeymap.api.services.CommonPlatformService
+[19:28:20] [modloading-worker-0/INFO]: EuphoriaPatcher: [UPDATE CHECKER] The EuphoriaPatcher Mod is up to date
+[19:28:20] [modloading-worker-0/WARN]: EuphoriaPatcher: No shader loader mod was found
+[19:28:20] [modloading-worker-0/INFO]: EuphoriaPatcher: Optimizing framerate... in a text-based interface.
+[19:28:20] [modloading-worker-0/INFO]: EuphoriaPatcher: EuphoriaPatches_1.7.8 is already installed.
+[19:28:20] [modloading-worker-0/INFO]: 
 
 EuphoriaPatcher: Thank you for using Euphoria Patches - SpacEagle17
 
-[17:56:38] [Render thread/ERROR]: Couldn't load mod:mr_ore_veinminer pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
-[17:56:38] [Render thread/ERROR]: Couldn't load mod:mr_tree_veinminer pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
-[17:56:38] [Render thread/ERROR]: Couldn't load mod:formations pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
-[17:56:39] [Render thread/INFO]: Registering Keybinds
-[17:56:39] [Render thread/INFO]: Reloading ResourceManager: vanilla, mod_resources
-[17:56:39] [Worker-Main-11/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
-[17:56:39] [Worker-Main-5/INFO]: Found unifont_pua-17.0.01.hex, loading
-[17:56:39] [Worker-Main-3/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
-[17:56:39] [Worker-Main-8/INFO]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
-[17:56:39] [Worker-Main-5/INFO]: Reloading reverb parameters
-[17:56:39] [Forge Version Check/INFO]: [trade_cycling] Starting version check at https://update.maxhenkel.de/forge/trade_cycling
-[17:56:39] [Worker-Main-5/INFO]: Unknown sound in sound rate config: biomesoplenty:block.blood.ambient
-[17:56:39] [Worker-Main-5/INFO]: Unknown sound in sound rate config: biomesoplenty:block.flesh_tendon.drip
-[17:56:39] [Worker-Main-5/INFO]: Unknown sound in sound rate config: biomesoplenty:block.pus_bubble.pop
-[17:56:39] [Worker-Main-5/INFO]: Unknown sound in sound rate config: biomesoplenty:block.spider_egg.break
-[17:56:39] [Worker-Main-5/INFO]: Unknown sound in sound rate config: biomesoplenty:music.nether.crystalline_chasm
-[17:56:39] [Worker-Main-5/INFO]: Unknown sound in sound rate config: biomesoplenty:music.nether.erupting_inferno
-[17:56:39] [Worker-Main-5/INFO]: Unknown sound in sound rate config: biomesoplenty:music.nether.undergrowth
-[17:56:39] [Worker-Main-5/INFO]: Unknown sound in sound rate config: biomesoplenty:music.nether.visceral_heap
-[17:56:39] [Worker-Main-5/INFO]: Unknown sound in sound rate config: biomesoplenty:music.nether.withered_abyss
-[17:56:39] [Worker-Main-5/INFO]: Unknown sound in sound rate config: biomesoplenty:music.overworld.nostalgic
-[17:56:39] [Worker-Main-5/INFO]: Unknown sound in sound rate config: biomesoplenty:music.overworld.origin_valley
-[17:56:39] [Worker-Main-5/INFO]: Unknown sound in sound rate config: biomesoplenty:music_disc.wanderer
-[17:56:40] [Render thread/INFO]: Journeymap Initializing
-[17:56:40] [Forge Version Check/INFO]: [trade_cycling] Found status: BETA Current: 1.21.11-1.0.19 Target: 1.21.11-1.0.19
-[17:56:40] [Forge Version Check/INFO]: [mr_ore_veinminer] Starting version check at https://api.modrinth.com/updates/Xl2GihRU/forge_updates.json
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/a:
+[19:28:20] [Render thread/ERROR]: Couldn't load mod:mr_ore_veinminer pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[19:28:20] [Render thread/ERROR]: Couldn't load mod:mr_tree_veinminer pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[19:28:20] [Render thread/ERROR]: Couldn't load mod:formations pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[19:28:21] [Render thread/INFO]: Registering Keybinds
+[19:28:21] [Render thread/INFO]: Reloading ResourceManager: vanilla, mod_resources
+[19:28:21] [Worker-Main-14/WARN]: Texture saros_fruit_trees_mod:block/sass with size 16x8 limits mip level from 4 to 3
+[19:28:21] [Worker-Main-9/INFO]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[19:28:21] [Worker-Main-6/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
+[19:28:21] [Worker-Main-5/INFO]: Found unifont_pua-17.0.01.hex, loading
+[19:28:21] [Worker-Main-11/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
+[19:28:21] [Forge Version Check/INFO]: [trade_cycling] Starting version check at https://update.maxhenkel.de/forge/trade_cycling
+[19:28:21] [Render thread/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[19:28:21] [Render thread/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[19:28:21] [Render thread/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[19:28:21] [Render thread/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[19:28:21] [Render thread/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[19:28:21] [Render thread/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[19:28:21] [Render thread/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[19:28:21] [Worker-Main-13/INFO]: Reloading reverb parameters
+[19:28:22] [Render thread/INFO]: Journeymap Initializing
+[19:28:22] [Forge Version Check/INFO]: [trade_cycling] Found status: BETA Current: 1.21.11-1.0.19 Target: 1.21.11-1.0.19
+[19:28:22] [Forge Version Check/INFO]: [mr_dungeons_andtavernsnetherfortressoverhaul] Starting version check at https://api.modrinth.com/updates/8Dbnvm77/forge_updates.json
+[19:28:22] [Forge Version Check/INFO]: [mr_dungeons_andtavernsnetherfortressoverhaul] Found status: AHEAD Current: 1-v3.1 Target: null
+[19:28:22] [Forge Version Check/INFO]: [mr_ore_veinminer] Starting version check at https://api.modrinth.com/updates/Xl2GihRU/forge_updates.json
+[19:28:22] [Forge Version Check/INFO]: [mr_ore_veinminer] Found status: OUTDATED Current: 1.0 Target: 1.0+mod
+[19:28:22] [Forge Version Check/INFO]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/a:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/e:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/e:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/x:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/x:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/y:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/y:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/w:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/w:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/z:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/z:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/p:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/p:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/o:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/o:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/t:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/t:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/u:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/u:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/r:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/r:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/s:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/s:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/h:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/h:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/i:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/i:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/f:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/f:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/g:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/g:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/dd:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/dd:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/l:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/l:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/worm_remover_l_8:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/j:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/j:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/worm_remover_l_8:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/worm_remover_l_9:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/worm_remover_l_9:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Worker-Main-4/WARN]: Missing textures in model saros_fruit_trees_mod:block/k:
+[19:28:22] [Worker-Main-10/WARN]: Missing textures in model saros_fruit_trees_mod:block/k:
     minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:40] [Forge Version Check/INFO]: [mr_ore_veinminer] Found status: OUTDATED Current: 1.0 Target: 1.0+mod
-[17:56:40] [Forge Version Check/INFO]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
-[17:56:40] [Forge Version Check/INFO]: [sound_physics_remastered] Found status: BETA Current: 1.21.11-1.5.1 Target: 1.21.11-1.5.1
-[17:56:40] [Forge Version Check/INFO]: [mr_pirate_savannaoutpost] Starting version check at https://api.modrinth.com/updates/BlEOLLlB/forge_updates.json
-[17:56:40] [Forge Version Check/INFO]: [mr_pirate_savannaoutpost] Found status: OUTDATED Current: 2.13 Target: 2.13.1+mod
-[17:56:40] [Forge Version Check/INFO]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[17:56:40] [Forge Version Check/INFO]: [journeymap] Found status: BETA Current: 1.21.11-6.0.0-beta.53 Target: null
-[17:56:40] [Forge Version Check/INFO]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.21.11&ml=forge
-[17:56:41] [Forge Version Check/INFO]: [controlling] Found status: BETA Current: 29.0.1 Target: 29.0.1
-[17:56:41] [Forge Version Check/INFO]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.21.11&ml=forge
-[17:56:41] [Forge Version Check/INFO]: [searchables] Found status: BETA Current: 1.0.2 Target: 1.0.2
-[17:56:41] [Forge Version Check/INFO]: [mr_ly_portals] Starting version check at https://api.modrinth.com/updates/r7vyY3IN/forge_updates.json
-[17:56:41] [Forge Version Check/INFO]: [mr_ly_portals] Found status: AHEAD Current: 1-v1.0.1 Target: null
-[17:56:41] [Forge Version Check/INFO]: [mr_smelting_enchantment] Starting version check at https://api.modrinth.com/updates/NhwceuDF/forge_updates.json
-[17:56:41] [Forge Version Check/INFO]: [mr_smelting_enchantment] Found status: AHEAD Current: 1-v1.1.0 Target: null
-[17:56:41] [Forge Version Check/INFO]: [mr_tree_veinminer] Starting version check at https://api.modrinth.com/updates/wEhW4ceB/forge_updates.json
-[17:56:41] [Forge Version Check/INFO]: [mr_tree_veinminer] Found status: OUTDATED Current: 1.1 Target: 1.1+mod
-[17:56:41] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[17:56:41] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
-[17:56:41] [Render thread/INFO]: Initializing Sound Physics
-[17:56:41] [Render thread/INFO]: EFX Extension recognized
-[17:56:41] [Render thread/INFO]: Max auxiliary sends: 4
-[17:56:41] [Render thread/INFO]: Aux slot 1 created
-[17:56:41] [Render thread/INFO]: Aux slot 2 created
-[17:56:41] [Render thread/INFO]: Aux slot 3 created
-[17:56:41] [Render thread/INFO]: Aux slot 4 created
-[17:56:41] [Render thread/INFO]: EFX ready
-[17:56:41] [Render thread/INFO]: Sound engine started
-[17:56:41] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[17:56:41] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
-[17:56:41] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
-[17:56:41] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[17:56:41] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
-[17:56:41] [Render thread/INFO]: Created: 1024x1024x2 minecraft:textures/atlas/blocks.png-atlas
-[17:56:41] [Forge Version Check/INFO]: [forge] Found status: BETA_OUTDATED Current: 61.0.2 Target: 61.0.3
-[17:56:41] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
-[17:56:41] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
-[17:56:41] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
-[17:56:41] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/beds.png-atlas
-[17:56:41] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/items.png-atlas
-[17:56:41] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
-[17:56:41] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[17:56:41] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/signs.png-atlas
-[17:56:41] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
-[17:56:54] [Render thread/ERROR]: Couldn't load mod:mr_ore_veinminer pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
-[17:56:54] [Render thread/ERROR]: Couldn't load mod:mr_tree_veinminer pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
-[17:56:54] [Render thread/ERROR]: Couldn't load mod:formations pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
-[17:56:54] [Render thread/INFO]: Reloading ResourceManager: vanilla, mod_resources
-[17:56:54] [Worker-Main-9/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
-[17:56:54] [Worker-Main-3/INFO]: Found unifont_pua-17.0.01.hex, loading
-[17:56:55] [Worker-Main-3/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
-[17:56:55] [Worker-Main-7/WARN]: Texture saros_fruit_trees_mod:block/sass with size 16x8 limits mip level from 4 to 3
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/a:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/e:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/x:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/y:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/w:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/z:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/p:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/o:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/t:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/u:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/r:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/s:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/h:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/i:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/f:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/g:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/dd:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/l:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/worm_remover_l_8:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/j:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/worm_remover_l_9:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Worker-Main-6/WARN]: Missing textures in model saros_fruit_trees_mod:block/k:
-    minecraft:block_or_item:saros_fruit_trees_mod:block/
-[17:56:55] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
-[17:56:55] [Render thread/INFO]: Initializing Sound Physics
-[17:56:55] [Render thread/INFO]: EFX Extension recognized
-[17:56:55] [Render thread/INFO]: Max auxiliary sends: 4
-[17:56:55] [Render thread/INFO]: Aux slot 1 created
-[17:56:55] [Render thread/INFO]: Aux slot 2 created
-[17:56:55] [Render thread/INFO]: Aux slot 3 created
-[17:56:55] [Render thread/INFO]: Aux slot 4 created
-[17:56:55] [Render thread/INFO]: EFX ready
-[17:56:55] [Render thread/INFO]: Sound engine started
-[17:56:55] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[17:56:55] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
-[17:56:55] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
-[17:56:55] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[17:56:55] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
-[17:56:55] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
-[17:56:55] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
-[17:56:55] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
-[17:56:55] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
-[17:56:55] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/beds.png-atlas
-[17:56:55] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/items.png-atlas
-[17:56:55] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
-[17:56:55] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[17:56:55] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/signs.png-atlas
-[17:56:55] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
-[17:57:02] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
-[17:57:02] [Render thread/ERROR]: Couldn't load mod:trade_cycling pack metadata: Pack declares support for format 65, but game versions supporting formats 17 to 81 require a supported_formats field. Add "supported_formats": [65, 81] or require a version greater or equal to 82.0.
-[17:57:02] [Render thread/ERROR]: Couldn't load mod:sound_physics_remastered pack metadata: Pack declares support for format 65, but game versions supporting formats 17 to 81 require a supported_formats field. Add "supported_formats": [65, 81] or require a version greater or equal to 82.0.
-[17:57:03] [Worker-Main-8/INFO]: Ruins registerCommands
-[17:57:03] [Worker-Main-6/ERROR]: Couldn't parse data file 'furnacerecycle:smelt_chain' from 'furnacerecycle:recipe/smelt_chain.json': DataResult.Error['Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
-[17:57:03] [Render thread/INFO]: Loaded 1531 recipes
-[17:57:03] [Render thread/ERROR]: Failed to load function stm:fortune_effect
+[19:28:22] [Forge Version Check/INFO]: [sound_physics_remastered] Found status: BETA Current: 1.21.11-1.5.1 Target: 1.21.11-1.5.1
+[19:28:22] [Forge Version Check/INFO]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[19:28:22] [Forge Version Check/INFO]: [journeymap] Found status: BETA Current: 1.21.11-6.0.0-beta.53 Target: null
+[19:28:22] [Forge Version Check/INFO]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.21.11&ml=forge
+[19:28:23] [Forge Version Check/INFO]: [controlling] Found status: BETA Current: 29.0.1 Target: 29.0.1
+[19:28:23] [Forge Version Check/INFO]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.21.11&ml=forge
+[19:28:23] [Forge Version Check/INFO]: [searchables] Found status: BETA Current: 1.0.2 Target: 1.0.2
+[19:28:23] [Forge Version Check/INFO]: [mr_ly_portals] Starting version check at https://api.modrinth.com/updates/r7vyY3IN/forge_updates.json
+[19:28:23] [Forge Version Check/INFO]: [mr_ly_portals] Found status: AHEAD Current: 1-v1.0.1 Target: null
+[19:28:23] [Forge Version Check/INFO]: [mr_smelting_enchantment] Starting version check at https://api.modrinth.com/updates/NhwceuDF/forge_updates.json
+[19:28:23] [Forge Version Check/INFO]: [mr_smelting_enchantment] Found status: AHEAD Current: 1-v1.1.0 Target: null
+[19:28:23] [Forge Version Check/INFO]: [mr_tree_veinminer] Starting version check at https://api.modrinth.com/updates/wEhW4ceB/forge_updates.json
+[19:28:23] [Forge Version Check/INFO]: [mr_tree_veinminer] Found status: OUTDATED Current: 1.1 Target: 1.1+mod
+[19:28:23] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[19:28:23] [Forge Version Check/INFO]: [forge] Found status: BETA_OUTDATED Current: 61.0.2 Target: 61.0.3
+[19:28:24] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[19:28:24] [Render thread/INFO]: Initializing Sound Physics
+[19:28:24] [Render thread/INFO]: EFX Extension recognized
+[19:28:24] [Render thread/INFO]: Max auxiliary sends: 4
+[19:28:24] [Render thread/INFO]: Aux slot 1 created
+[19:28:24] [Render thread/INFO]: Aux slot 2 created
+[19:28:24] [Render thread/INFO]: Aux slot 3 created
+[19:28:24] [Render thread/INFO]: Aux slot 4 created
+[19:28:24] [Render thread/INFO]: EFX ready
+[19:28:24] [Render thread/INFO]: Sound engine started
+[19:28:24] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:28:24] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[19:28:24] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[19:28:24] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:28:24] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:28:24] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[19:28:24] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
+[19:28:24] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
+[19:28:24] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:28:24] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/beds.png-atlas
+[19:28:24] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/items.png-atlas
+[19:28:24] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[19:28:24] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[19:28:24] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/signs.png-atlas
+[19:28:24] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:28:31] [Render thread/WARN]: The following mods have version differences that were not resolved:
+explorify (version 1.6.4 -> MISSING)
+mr_pirate_savannaoutpost (version 2.13 -> MISSING)
+ruins (version 1.21.11.1 -> MISSING)
+spiral_tower_village (version 0.0.2 -> MISSING)
+Things may not work well.
+[19:28:31] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
+[19:28:32] [Render thread/ERROR]: Couldn't load mod:trade_cycling pack metadata: Pack declares support for format 65, but game versions supporting formats 17 to 81 require a supported_formats field. Add "supported_formats": [65, 81] or require a version greater or equal to 82.0.
+[19:28:32] [Render thread/ERROR]: Couldn't load mod:sound_physics_remastered pack metadata: Pack declares support for format 65, but game versions supporting formats 17 to 81 require a supported_formats field. Add "supported_formats": [65, 81] or require a version greater or equal to 82.0.
+[19:28:32] [Render thread/WARN]: Missing data pack mod:explorify
+[19:28:32] [Render thread/WARN]: Missing data pack mod:mr_pirate_savannaoutpost
+[19:28:32] [Render thread/WARN]: Missing data pack mod:spiral_tower_village
+[19:28:32] [Render thread/WARN]: Missing data pack mod:ruins
+[19:28:32] [Worker-Main-3/WARN]: Found loot table element validation problem in {nova_structures:chests/nether_fortress_overhaul/fortress_overhaul@minecraft:loot_table}.functions[0]: Missing element nova_structures:loot_modifier of type minecraft:item_modifier
+[19:28:32] [Worker-Main-3/WARN]: Found loot table element validation problem in {nova_structures:chests/nether_fortress_overhaul/skeleton_supply@minecraft:loot_table}.functions[0]: Missing element nova_structures:loot_modifier of type minecraft:item_modifier
+[19:28:33] [Worker-Main-8/ERROR]: Couldn't parse data file 'furnacerecycle:smelt_chain' from 'furnacerecycle:recipe/smelt_chain.json': DataResult.Error['Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
+[19:28:33] [Render thread/INFO]: Loaded 1886 recipes
+[19:28:33] [Render thread/ERROR]: Failed to load function stm:fortune_effect
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Can't parse function line 1: 'execute if block ~ ~ ~ air run return fail'
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
@@ -419,7 +346,7 @@ Caused by: java.lang.IllegalArgumentException: No variables in macro
 	at TRANSFORMER/minecraft@1.21.11/net.minecraft.commands.functions.StringTemplate.fromString(StringTemplate.java:36)
 	at TRANSFORMER/minecraft@1.21.11/net.minecraft.commands.functions.FunctionBuilder.addMacro(FunctionBuilder.java:47)
 	... 10 more
-[17:57:03] [Render thread/ERROR]: Failed to load function darkinventory:voidtrinkets
+[19:28:33] [Render thread/ERROR]: Failed to load function darkinventory:voidtrinkets
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 18: ...as @s run <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
@@ -435,7 +362,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at TRANSFORMER/minecraft@1.21.11/net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:80)
 	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:85)
 	... 8 more
-[17:57:03] [Render thread/ERROR]: Failed to load function stm:silk_touch_effect
+[19:28:33] [Render thread/ERROR]: Failed to load function stm:silk_touch_effect
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Malformed 'minecraft:enchantments' component: 'Not a number; Failed to get element minecraft:levels missed input: {levels:{"minecraft:silk_touch":1}}' at position 75: ...hantments=<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
@@ -451,108 +378,95 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3:
 	at TRANSFORMER/minecraft@1.21.11/net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:80)
 	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:85)
 	... 8 more
-[17:57:03] [Render thread/INFO]: Loaded 1597 advancements
-[17:57:03] [Server thread/INFO]: Starting integrated minecraft server version 1.21.11
-[17:57:03] [Server thread/INFO]: Generating keypair
-[17:57:03] [Server thread/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[17:57:03] [Server thread/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[17:57:03] [Server thread/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[17:57:03] [Server thread/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[17:57:04] [Server thread/INFO]: Loading 75 persistent chunks...
-[17:57:04] [Server thread/INFO]: Preparing spawn area: 7%
-[17:57:04] [Server thread/INFO]: Preparing spawn area: 7%
-[17:57:05] [Server thread/INFO]: Preparing spawn area: 26%
-[17:57:05] [Server thread/INFO]: Successfully initialized permission handler forge:default_handler
-[17:57:05] [Server thread/INFO]: Loading 49 chunks for player spawn...
-[17:57:05] [Server thread/INFO]: Preparing spawn area: 69%
-[17:57:06] [Server thread/INFO]: Time elapsed: 1589 ms
-[17:57:06] [Render thread/INFO]: Connected to a modded server.
-[17:57:06] [Server thread/INFO]: HoneyBadger75315[local:E:97fa5352] logged in with entity id 135 at (590.5, 79.0, -457.5)
-[17:57:06] [Server thread/INFO]: HoneyBadger75315 joined the game
-[17:57:06] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
-[17:57:06] [Server thread/INFO]: Changing view distance to 32, from 10
-[17:57:06] [Server thread/INFO]: Changing simulation distance to 12, from 0
-[17:57:06] [Render thread/INFO]: [System] [CHAT] [SVM] Simple Vein Miner loaded successfully!
-[17:57:06] [Render thread/INFO]: [System] [CHAT] [STM] Tree Vein Miner loaded successfully!
-[17:57:06] [Render thread/INFO]: Loaded 878 advancements
-[17:57:06] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
-[17:57:06] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
-[17:57:07] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 2 reached during a single frame. New capacity will be 8.
-[17:57:07] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
-[17:57:07] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
-[17:57:07] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
-[17:57:07] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
-[17:57:07] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
-[17:57:07] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
-[17:57:07] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.tropical_fish.ambient
-[17:57:08] [Render thread/INFO]: [System] [CHAT] §eJourneyMap:§f Press [§bJ§f]
-[17:57:08] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
-[17:57:09] [Server thread/INFO]: Saving and pausing game...
-[17:57:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Main]'/minecraft:overworld
-[17:57:09] [Server thread/INFO]: config/ruins_config exists, not extracting
-[17:57:09] [Server thread/INFO]: Ruins mod determines World Save Dir to be at: C:\Users\Ben\curseforge\minecraft\Instances\A\saves\Main\data
-[17:57:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Main]'/minecraft:the_nether
-[17:57:09] [Server thread/INFO]: config/ruins_config exists, not extracting
-[17:57:09] [Server thread/INFO]: Ruins mod determines World Save Dir to be at: C:\Users\Ben\curseforge\minecraft\Instances\A\saves\Main\DIM-1\data
-[17:57:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Main]'/minecraft:the_end
-[17:57:09] [Server thread/INFO]: config/ruins_config exists, not extracting
-[17:57:09] [Server thread/INFO]: Ruins mod determines World Save Dir to be at: C:\Users\Ben\curseforge\minecraft\Instances\A\saves\Main\DIM1\data
-[17:57:10] [Thread-35/INFO]: Successfully loaded template balloontest.tml with weight 7.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template balloontest.tml with weight 7.0.
-[17:57:10] [Thread-31/INFO]: Successfully loaded template balloontest.tml with weight 7.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template burrow.tml with weight 1.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template castlesmall.tml with weight 1.0.
-[17:57:10] [Thread-31/INFO]: Successfully loaded template castlesmall.tml with weight 1.0.
-[17:57:10] [Thread-35/INFO]: Successfully loaded template castlesmall.tml with weight 1.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template dungounlarge1.tml with weight 1.0.
-[17:57:10] [Thread-35/INFO]: Successfully loaded template fountain.tml with weight 1.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template fountain.tml with weight 1.0.
-[17:57:10] [Thread-31/INFO]: Successfully loaded template fountain.tml with weight 1.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template largemodern.tml with weight 1.0.
-[17:57:10] [Thread-31/INFO]: Successfully loaded template mininghut.tml with weight 1.0.
-[17:57:10] [Thread-35/INFO]: Successfully loaded template mininghut.tml with weight 1.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template mininghut.tml with weight 1.0.
-[17:57:10] [Thread-31/INFO]: Successfully loaded template netherruin1.tml with weight 1.0.
-[17:57:10] [Thread-31/INFO]: Successfully loaded template netherruin2.tml with weight 1.0.
-[17:57:10] [Thread-31/INFO]: Successfully loaded template pirateship1.tml with weight 6.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template pirateship1.tml with weight 6.0.
-[17:57:10] [Thread-35/INFO]: Successfully loaded template pirateship1.tml with weight 6.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template randombigruin.tml with weight 1.0.
-[17:57:10] [Thread-35/INFO]: Successfully loaded template randomenchantmenthut.tml with weight 2.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template randomenchantmenthut.tml with weight 2.0.
-[17:57:10] [Thread-31/INFO]: Successfully loaded template randomenchantmenthut.tml with weight 2.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template randomoreveinsmall.tml with weight 3.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template randomplants.tml with weight 1.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template randomruins2.tml with weight 1.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template randomruinsmall1.tml with weight 1.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template ruinedbuilding.tml with weight 1.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template skeletontowermedium.tml with weight 1.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template smallcastleruin.tml with weight 1.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template smallspiderhouse.tml with weight 1.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template tikihead1.tml with weight 1.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template tikihead2.tml with weight 1.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template tikihead3.tml with weight 1.0.
-[17:57:10] [Thread-31/INFO]: Successfully loaded template witherworshipers.tml with weight 1.0.
-[17:57:10] [Thread-35/INFO]: Successfully loaded template witherworshipers.tml with weight 1.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template witherworshipers.tml with weight 1.0.
-[17:57:10] [Thread-29/INFO]: Successfully loaded template ZombieHut.tml with weight 1.0.
-[17:57:10] [Thread-31/INFO]: Loading options from: C:\Users\Ben\curseforge\minecraft\Instances\A\saves\Main\DIM-1\data
-[17:57:10] [Thread-29/INFO]: Loading options from: C:\Users\Ben\curseforge\minecraft\Instances\A\saves\Main\data
-[17:57:10] [Thread-35/INFO]: Loading options from: C:\Users\Ben\curseforge\minecraft\Instances\A\saves\Main\DIM1\data
-[17:57:10] [Thread-31/INFO]: Ruins mod loaded successfully for world C:\Users\Ben\curseforge\minecraft\Instances\A\saves\Main\DIM-1\data template files: 9
-[17:57:10] [Thread-29/INFO]: Ruins mod loaded successfully for world C:\Users\Ben\curseforge\minecraft\Instances\A\saves\Main\data template files: 23
-[17:57:10] [Thread-35/INFO]: Ruins mod loaded successfully for world C:\Users\Ben\curseforge\minecraft\Instances\A\saves\Main\DIM1\data template files: 7
-[17:57:10] [Server thread/INFO]: HoneyBadger75315 lost connection: Disconnected
-[17:57:10] [Server thread/INFO]: HoneyBadger75315 left the game
-[17:57:10] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[17:57:10] [Server thread/INFO]: Stopping server
-[17:57:10] [Server thread/INFO]: Saving players
-[17:57:10] [Server thread/INFO]: Saving worlds
-[17:57:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Main]'/minecraft:overworld
-[17:57:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Main]'/minecraft:the_nether
-[17:57:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Main]'/minecraft:the_end
-[17:57:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (Main): All chunks are saved
-[17:57:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:57:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:57:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:57:13] [Render thread/INFO]: Stopping!
+[19:28:33] [Render thread/INFO]: Loaded 1954 advancements
+[19:28:33] [Server thread/INFO]: Starting integrated minecraft server version 1.21.11
+[19:28:33] [Server thread/INFO]: Generating keypair
+[19:28:33] [Server thread/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[19:28:33] [Server thread/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[19:28:34] [Server thread/INFO]: Loading 0 persistent chunks...
+[19:28:34] [Server thread/INFO]: Preparing spawn area: 16%
+[19:28:34] [Server thread/INFO]: Successfully initialized permission handler forge:default_handler
+[19:28:34] [Server thread/INFO]: Loading 49 chunks for player spawn...
+[19:28:34] [Server thread/INFO]: Preparing spawn area: 16%
+[19:28:35] [Server thread/INFO]: Time elapsed: 993 ms
+[19:28:35] [Render thread/INFO]: Connected to a modded server.
+[19:28:35] [Server thread/INFO]: HoneyBadger75315[local:E:e20b787c] logged in with entity id 85 at (-202.44271731921586, 65.0, -325.02387284448736)
+[19:28:35] [Server thread/INFO]: HoneyBadger75315 joined the game
+[19:28:35] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[19:28:35] [Server thread/INFO]: Changing view distance to 32, from 10
+[19:28:35] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[19:28:35] [Render thread/INFO]: [System] [CHAT] [SVM] Simple Vein Miner loaded successfully!
+[19:28:35] [Render thread/INFO]: [System] [CHAT] [STM] Tree Vein Miner loaded successfully!
+[19:28:35] [Render thread/INFO]: Loaded 445 advancements
+[19:28:35] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[19:28:36] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[19:28:36] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 4 reached during a single frame. New capacity will be 16.
+[19:28:36] [Render thread/INFO]: [System] [CHAT] §eJourneyMap:§f Press [§bJ§f]
+[19:28:36] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[19:28:36] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[19:28:36] [Server thread/INFO]: Saving and pausing game...
+[19:28:36] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[19:28:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New Main]'/minecraft:overworld
+[19:28:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New Main]'/minecraft:the_nether
+[19:28:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New Main]'/minecraft:the_end
+[19:28:39] [Server thread/WARN]: Found reference to unknown structure 'explorify:farmstead' in chunk [5, -2], discarding
+[19:28:39] [Server thread/WARN]: Found reference to unknown structure 'explorify:farmstead' in chunk [6, -2], discarding
+[19:28:39] [Server thread/WARN]: Found reference to unknown structure 'explorify:farmstead' in chunk [5, -1], discarding
+[19:28:39] [Server thread/WARN]: Found reference to unknown structure 'explorify:farmstead' in chunk [7, -2], discarding
+[19:28:39] [Server thread/WARN]: Found reference to unknown structure 'explorify:farmstead' in chunk [6, -1], discarding
+[19:28:39] [Server thread/WARN]: Found reference to unknown structure 'explorify:farmstead' in chunk [7, -1], discarding
+[19:28:39] [Server thread/WARN]: Found reference to unknown structure 'explorify:farmstead' in chunk [8, -2], discarding
+[19:28:39] [Server thread/WARN]: Found reference to unknown structure 'explorify:farmstead' in chunk [8, -1], discarding
+[19:28:39] [Server thread/WARN]: Found reference to unknown structure 'explorify:farmstead' in chunk [5, 0], discarding
+[19:28:39] [Server thread/WARN]: Found reference to unknown structure 'explorify:farmstead' in chunk [6, 0], discarding
+[19:28:39] [Server thread/ERROR]: Unknown structure start: explorify:farmstead
+[19:28:39] [Server thread/WARN]: Found reference to unknown structure 'explorify:farmstead' in chunk [8, 0], discarding
+[19:28:39] [Server thread/WARN]: Found reference to unknown structure 'explorify:farmstead' in chunk [7, 0], discarding
+[19:28:39] [Server thread/WARN]: Found reference to unknown structure 'explorify:watchtower/plains' in chunk [-35, -41], discarding
+[19:28:39] [Server thread/WARN]: Found reference to unknown structure 'explorify:watchtower/plains' in chunk [-35, -40], discarding
+[19:28:39] [Server thread/WARN]: Found reference to unknown structure 'explorify:watchtower/plains' in chunk [-35, -39], discarding
+[19:28:40] [Server thread/WARN]: Found reference to unknown structure 'explorify:farmstead' in chunk [5, 1], discarding
+[19:28:40] [Server thread/WARN]: Found reference to unknown structure 'explorify:farmstead' in chunk [6, 1], discarding
+[19:28:40] [Server thread/WARN]: Found reference to unknown structure 'explorify:farmstead' in chunk [7, 1], discarding
+[19:28:40] [Server thread/WARN]: Found reference to unknown structure 'explorify:farmstead' in chunk [8, 1], discarding
+[19:28:40] [Server thread/ERROR]: Unknown structure start: explorify:watchtower/plains
+[19:28:40] [Server thread/WARN]: Found reference to unknown structure 'explorify:watchtower/plains' in chunk [-36, -40], discarding
+[19:28:40] [Server thread/WARN]: Found reference to unknown structure 'explorify:watchtower/plains' in chunk [-36, -39], discarding
+[19:28:40] [Server thread/WARN]: Found reference to unknown structure 'explorify:watchtower/plains' in chunk [-36, -41], discarding
+[19:28:40] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[19:28:41] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[19:28:41] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[19:28:41] [Server thread/WARN]: Found reference to unknown structure 'explorify:mausoleum' in chunk [-25, 3], discarding
+[19:28:41] [Server thread/WARN]: Found reference to unknown structure 'explorify:watchtower/plains' in chunk [-37, -41], discarding
+[19:28:41] [Server thread/WARN]: Found reference to unknown structure 'explorify:watchtower/plains' in chunk [-37, -40], discarding
+[19:28:41] [Server thread/WARN]: Found reference to unknown structure 'explorify:watchtower/plains' in chunk [-37, -39], discarding
+[19:28:41] [Server thread/WARN]: Found reference to unknown structure 'explorify:mausoleum' in chunk [-27, 3], discarding
+[19:28:41] [Server thread/WARN]: Found reference to unknown structure 'explorify:mausoleum' in chunk [-26, 3], discarding
+[19:28:41] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
+[19:28:41] [Server thread/WARN]: Found reference to unknown structure 'explorify:mausoleum' in chunk [-25, 4], discarding
+[19:28:41] [Server thread/WARN]: Found reference to unknown structure 'explorify:mausoleum' in chunk [-27, 4], discarding
+[19:28:41] [Server thread/WARN]: Found reference to unknown structure 'explorify:mausoleum' in chunk [-26, 4], discarding
+[19:28:41] [Server thread/WARN]: Found reference to unknown structure 'explorify:mausoleum' in chunk [-27, 5], discarding
+[19:28:41] [Server thread/WARN]: Found reference to unknown structure 'explorify:mausoleum' in chunk [-26, 5], discarding
+[19:28:42] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 1024 reached during a single frame. New capacity will be 2048.
+[19:28:42] [Server thread/INFO]: Saving and pausing game...
+[19:28:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New Main]'/minecraft:overworld
+[19:28:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New Main]'/minecraft:the_nether
+[19:28:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New Main]'/minecraft:the_end
+[19:28:42] [Server thread/ERROR]: Unknown structure start: explorify:mausoleum
+[19:28:42] [Server thread/WARN]: Found reference to unknown structure 'explorify:mausoleum' in chunk [-25, 5], discarding
+[19:28:42] [Server thread/INFO]: HoneyBadger75315 lost connection: Disconnected
+[19:28:42] [Server thread/INFO]: HoneyBadger75315 left the game
+[19:28:42] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[19:28:42] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[19:28:42] [Server thread/INFO]: Stopping server
+[19:28:42] [Server thread/INFO]: Saving players
+[19:28:42] [Server thread/INFO]: Saving worlds
+[19:28:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New Main]'/minecraft:overworld
+[19:28:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New Main]'/minecraft:the_nether
+[19:28:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New Main]'/minecraft:the_end
+[19:28:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (New Main.backup): All chunks are saved
+[19:28:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:28:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:28:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:28:46] [Render thread/INFO]: Stopping!

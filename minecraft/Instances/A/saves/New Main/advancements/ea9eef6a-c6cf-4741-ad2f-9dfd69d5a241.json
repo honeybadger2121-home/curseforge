@@ -8,7 +8,8 @@
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "lavender_field": "2025-12-23 21:01:10 -0600",
-      "mediterranean_forest": "2025-12-23 20:59:49 -0600"
+      "mediterranean_forest": "2025-12-23 20:59:49 -0600",
+      "scrubland": "2025-12-25 19:48:48 -0600"
     },
     "done": false
   },
@@ -87,12 +88,6 @@
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2025-12-23 21:00:03 -0600"
-    },
-    "done": true
-  },
-  "onlyexcavators:recipes/tools/wooden_excavator": {
-    "criteria": {
-      "has_oak_log": "2025-12-23 21:00:03 -0600"
     },
     "done": true
   },
@@ -350,12 +345,6 @@
     },
     "done": true
   },
-  "onlyexcavators:recipes/tools/emerald_excavator": {
-    "criteria": {
-      "has_emerald": "2025-12-23 21:05:02 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2025-12-23 21:05:02 -0600"
@@ -521,12 +510,6 @@
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2025-12-23 21:06:50 -0600"
-    },
-    "done": true
-  },
-  "onlyexcavators:recipes/tools/stone_excavator": {
-    "criteria": {
-      "has_stone": "2025-12-23 21:06:50 -0600"
     },
     "done": true
   },
@@ -873,12 +856,6 @@
     },
     "done": true
   },
-  "onlyexcavators:recipes/tools/lapis_excavator": {
-    "criteria": {
-      "has_lapis_lazuli": "2025-12-23 21:25:29 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2025-12-23 21:25:29 -0600"
@@ -1024,12 +1001,6 @@
     "done": true
   },
   "minecraft:recipes/tools/iron_shovel": {
-    "criteria": {
-      "has_iron_ingot": "2025-12-23 21:27:30 -0600"
-    },
-    "done": true
-  },
-  "onlyexcavators:recipes/tools/iron_excavator": {
     "criteria": {
       "has_iron_ingot": "2025-12-23 21:27:30 -0600"
     },
@@ -1754,12 +1725,6 @@
     },
     "done": true
   },
-  "onlyexcavators:recipes/tools/redstone_excavator": {
-    "criteria": {
-      "has_redstone": "2025-12-25 17:49:26 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
       "has_redstone": "2025-12-25 17:49:26 -0600"
@@ -2333,6 +2298,12 @@
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2025-12-25 18:55:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/silk_touch_nest": {
+    "criteria": {
+      "silk_touch_nest": "2025-12-25 19:48:34 -0600"
     },
     "done": true
   },

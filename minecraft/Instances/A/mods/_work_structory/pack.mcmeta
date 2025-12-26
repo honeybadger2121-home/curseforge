@@ -4,10 +4,6 @@
     "id": "structory_towers",
     "min_format": 48,
     "max_format": 94.1,
-    "supported_formats": [
-      48,
-      81
-    ],
     "description": [
       {
         "text": "Structory: Towers",
@@ -28,20 +24,12 @@
       {
         "min_format": 71,
         "max_format": 94.1,
-        "directory": "1-21-5-overlay",
-        "formats": [
-          71,
-          81
-        ]
+        "directory": "1-21-5-overlay"
       },
       {
         "min_format": 94.1,
         "max_format": 94.1,
-        "directory": "1-21-11-overlay",
-        "formats": [
-          94.1,
-          94.1
-        ]
+        "directory": "1-21-11-overlay"
       }
     ]
   }

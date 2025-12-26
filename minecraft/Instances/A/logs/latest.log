@@ -1,1087 +1,262 @@
-[19:45:11] [main/INFO]: ModLauncher running: args [--username, HoneyBadger75315, --version, forge-61.0.2, --gameDir, C:\Users\Ben\curseforge\minecraft\Instances\A, --assetsDir, C:\Users\Ben\curseforge\minecraft\Install\assets, --assetIndex, 29, --uuid, ea9eef6ac6cf4741ad2f9dfd69d5a241, --accessToken, **********, --clientId, cb552f-6c9f85-e81f1e-802cdd-220feb, --xuid, 2535448093732349, --versionType, release, --width, 2048, --height, 1152, --quickPlayPath, C:\Users\Ben\curseforge\minecraft\Quickplay\2eb8695d-8332-41ee-9c6b-ba6636d4378f.json, , , , --launchTarget, forge_client]
-[19:45:11] [main/INFO]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.9+10-LTS
-[19:45:11] [main/INFO]: ModLauncher 10.2.4 starting: java version 21.0.9 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[19:45:12] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
-[19:45:12] [main/INFO]: Trying GL version 4.6
-[19:45:12] [main/INFO]: Requested GL version 4.6 got version 4.6
-[19:45:12] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/Ben/curseforge/minecraft/Install/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=CLIENT
-[19:45:12] [EarlyDisplay/INFO]: GL info: AMD Radeon RX 7900 XT GL version 4.6.0 Core Profile Context 25.12.1.251128, ATI Technologies Inc.
-[19:45:12] [main/INFO]: Found mod file balm-forge-1.21.11-21.11.3-all.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file BetterThanMending-2.2.5.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file BiomesOPlenty-forge-1.21.11-21.11.0.6.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file breadvariants-forge-1.21.6-1.0.4b.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file collective-1.21.11-8.13.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file common-networking-forge-1.0.22-1.21.11.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file Controlling-forge-1.21.11-29.0.1.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file darkinventory-forge-1.21.11-1.2.1a.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file darksmelting-forge-1.21.11-1.1.9a.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file despawningeggshatch-1.21.11-4.5.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file DnT-nether-fortress-overhaul-v3.1 [Forge].jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file EuphoriaPatcher-1.7.8-r5.6.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file followersteleporttoo-1.21.11-2.7.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file formations-1.0.4-forge-mc1.21.11.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file furnacerecycle-1.21.11-2.6.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file GlitchCore-forge-1.21.11-21.11.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file improved-village-placement-1.1.2.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file journeymap-forge-1.21.11-6.0.0-beta.53.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file ly-portals-v1.0.1.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file mobhealthbar-forge-1.21.11-2.3.2.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file MouseTweaks-forge-mc1.21.11-2.30.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file ore-vein-miner-1.0 (1.21.11).jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file realisticbees-1.21.11-4.3.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file replantingcrops-1.21.11-5.5.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file Searchables-forge-1.21.11-1.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file smelting-enchantment-v1.1.0.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file sound-physics-remastered-forge-1.21.11-1.5.1.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file starterkit-1.21.11-7.6.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file TerraBlender-forge-1.21.11-21.11.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file Terralith_1.21.x_v2.5.14.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file trade-cycling-forge-1.21.11-1.0.19.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file tree-vein-miner-1.1 (1.21.11).jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file treeharvester-1.21.11-9.3.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file villagernames-1.21.11-8.3.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file villagespawnpoint-1.21.11-4.7.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
-[19:45:12] [main/INFO]: Found mod file forge-1.21.11-61.0.2-client.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b0f7d9d
-[19:45:12] [main/INFO]: Found mod file javafmllanguage-1.21.11-61.0.2.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@458544e0
-[19:45:12] [main/INFO]: Found mod file lowcodelanguage-1.21.11-61.0.2.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@458544e0
-[19:45:12] [main/INFO]: Found mod file mclanguage-1.21.11-61.0.2.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@458544e0
-[19:45:12] [main/INFO]: Found mod file fmlcore-1.21.11-61.0.2.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@458544e0
-[19:45:12] [main/INFO]: Found mod file forge-1.21.11-61.0.2-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@458544e0
-[19:45:12] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: commonnetworking. Using common-networking-forge-1.0.22-1.21.11.jar
-[19:45:12] [main/INFO]: Closeing unselected FileSystem journeymap-forge-1.21.11-6.0.0-beta.53.jar!/META-INF/jarjar/common-networking-forge-1.0.22-1.21.11.jar
-[19:45:12] [main/INFO]: Found 5 dependencies adding them to mods collection
-[19:45:12] [main/INFO]: Found mod file /MixinExtras-0.5.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@d176a31
-[19:45:12] [main/INFO]: Found mod file /pngj-2.1.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@d176a31
-[19:45:12] [main/INFO]: Found mod file mixinextras-forge-0.5.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@d176a31
-[19:45:12] [main/INFO]: Found mod file /journeymap-api-forge-2.0.0-1.21.11-SNAPSHOT.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@d176a31
-[19:45:12] [main/INFO]: Found mod file /kuma-api-forge-21.11.9.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@d176a31
-[19:45:13] [main/INFO]: Compatibility level set to JAVA_17
-[19:45:13] [main/INFO]: Compatibility level set to JAVA_21
-[19:45:13] [main/INFO]: Launching target 'forge_client' with arguments [--version, forge-61.0.2, --gameDir, C:\Users\Ben\curseforge\minecraft\Instances\A, --assetsDir, C:\Users\Ben\curseforge\minecraft\Install\assets, --uuid, ea9eef6ac6cf4741ad2f9dfd69d5a241, --username, HoneyBadger75315, --assetIndex, 29, --accessToken, **********, --clientId, cb552f-6c9f85-e81f1e-802cdd-220feb, --xuid, 2535448093732349, --versionType, release, --width, 2048, --height, 1152, --quickPlayPath, C:\Users\Ben\curseforge\minecraft\Quickplay\2eb8695d-8332-41ee-9c6b-ba6636d4378f.json, , , ]
-[19:45:13] [main/WARN]: Reference map 'trade_cycling.refmap.json' for trade_cycling.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:45:13] [main/WARN]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:45:13] [main/WARN]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:45:13] [main/WARN]: Reference map 'terrablender.refmap.json' for terrablender.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:45:13] [main/WARN]: Reference map 'sound_physics_remastered.refmap.json' for sound_physics_remastered.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:45:13] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:45:13] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:45:13] [main/WARN]: Reference map 'controlling.refmap.json' for controlling.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:45:13] [main/WARN]: Reference map 'controlling.refmap.json' for controlling.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:45:13] [main/WARN]: Reference map 'searchables.refmap.json' for searchables.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:45:13] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:45:13] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:45:13] [main/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:45:13] [main/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:45:13] [main/WARN]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:45:13] [main/WARN]: Reference map 'balm.refmap.json' for balm.api.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:45:13] [main/WARN]: Reference map 'formations.mixins.refmap.json' for formations.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:45:13] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[19:45:15] [Datafixer Bootstrap/INFO]: 287 Datafixer optimizations took 485 milliseconds
-[19:45:15] [main/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:root
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:sound_event
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:fluid
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:particle_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:attribute
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:mob_effect
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:block
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:enchantment_effect_component_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:entity_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:loot_score_provider_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:loot_number_provider_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:map_decoration_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:loot_pool_entry_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:loot_nbt_provider_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:loot_function_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:data_component_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:item
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:game_event
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:debug_subscription
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:potion
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:block_entity_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:stat_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:custom_stat
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:chunk_status
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:rule_test
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:rule_block_entity_modifier
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:pos_rule_test
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:menu
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:recipe_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:recipe_serializer
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:position_source_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:command_argument_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:villager_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:villager_profession
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:point_of_interest_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:memory_module_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:sensor_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:activity
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:loot_condition_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:float_provider_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:int_provider_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:height_provider_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:block_predicate_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/carver
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_processor
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/feature
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_placement
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_piece
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/placement_modifier_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/block_state_provider_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/foliage_placer_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/trunk_placer_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/root_placer_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/tree_decorator_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/feature_size_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/biome_source
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/chunk_generator
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/material_condition
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/material_rule
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/density_function_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:block_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_pool_element
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:worldgen/pool_alias_binding
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:decorated_pot_pattern
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:creative_mode_tab
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:trigger_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:number_format_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:game_rule
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:entity_sub_predicate_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:data_component_predicate_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:enchantment_level_based_value_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:enchantment_entity_effect_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:enchantment_location_based_effect_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:enchantment_value_effect_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:enchantment_provider_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:consume_effect_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:recipe_display
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:slot_display
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:recipe_book_category
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:ticket_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:incoming_rpc_methods
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:outgoing_rpc_methods
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:test_environment_definition_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:test_instance_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:spawn_condition_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:dialog_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:dialog_action_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:input_control_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:dialog_body_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:permission_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:permission_check_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:attribute_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:environment_attribute
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:slot_source_type
-[19:45:18] [pool-5-thread-1/INFO]: 	minecraft:test_function
-[19:45:19] [main/INFO]: Completely ignored arguments: [, , ]
-[19:45:19] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[19:45:19] [Render thread/INFO]: Setting user: HoneyBadger75315
-[19:45:19] [Render thread/INFO]: Backend library: LWJGL version 3.3.3+5
-[19:45:19] [Render thread/INFO]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
-[19:45:19] [modloading-worker-0/INFO]: Loading Collective version 8.13.
-[19:45:19] [modloading-worker-0/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
-[19:45:19] [modloading-worker-0/INFO]: Forge mod loading, version 61.0.2, for MC 1.21.11 with MCP 20251209.095502
-[19:45:19] [modloading-worker-0/INFO]: MinecraftForge v61.0.2 Initialized
-[19:45:19] [modloading-worker-0/INFO]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[19:45:19] [modloading-worker-0/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[19:45:19] [modloading-worker-0/INFO]: Loaded journeymap.common.helpers.ForgeClientHooks@1ff40218 for service interface journeymap.api.services.ClientPlatformService
-[19:45:19] [modloading-worker-0/INFO]: Loaded journeymap.common.helpers.ForgeHooks@1bb32b1 for service interface journeymap.api.services.CommonPlatformService
-[19:45:20] [modloading-worker-0/INFO]: EuphoriaPatcher: [UPDATE CHECKER] The EuphoriaPatcher Mod is up to date
-[19:45:20] [modloading-worker-0/WARN]: EuphoriaPatcher: No shader loader mod was found
-[19:45:20] [modloading-worker-0/INFO]: EuphoriaPatcher: Summoning the power of the internet...
-[19:45:20] [modloading-worker-0/INFO]: EuphoriaPatcher: EuphoriaPatches_1.7.8 is already installed.
-[19:45:20] [modloading-worker-0/INFO]: 
+[19:54:34] [main/INFO]: ModLauncher running: args [--username, HoneyBadger75315, --version, forge-61.0.2, --gameDir, C:\Users\Ben\curseforge\minecraft\Instances\A, --assetsDir, C:\Users\Ben\curseforge\minecraft\Install\assets, --assetIndex, 29, --uuid, ea9eef6ac6cf4741ad2f9dfd69d5a241, --accessToken, **********, --clientId, cb552f-6c9f85-e81f1e-802cdd-220feb, --xuid, 2535448093732349, --versionType, release, --width, 2048, --height, 1152, --quickPlayPath, C:\Users\Ben\curseforge\minecraft\Quickplay\2eb8695d-8332-41ee-9c6b-ba6636d4378f.json, , , , --launchTarget, forge_client]
+[19:54:34] [main/INFO]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.9+10-LTS
+[19:54:34] [main/INFO]: ModLauncher 10.2.4 starting: java version 21.0.9 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[19:54:34] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[19:54:34] [main/INFO]: Trying GL version 4.6
+[19:54:35] [main/INFO]: Requested GL version 4.6 got version 4.6
+[19:54:35] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/Ben/curseforge/minecraft/Install/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=CLIENT
+[19:54:35] [EarlyDisplay/INFO]: GL info: AMD Radeon RX 7900 XT GL version 4.6.0 Core Profile Context 25.12.1.251128, ATI Technologies Inc.
+[19:54:35] [main/INFO]: Found mod file balm-forge-1.21.11-21.11.3-all.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file BetterThanMending-2.2.5.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file BiomesOPlenty-forge-1.21.11-21.11.0.6.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file breadvariants-forge-1.21.6-1.0.4b.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file collective-1.21.11-8.13.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file common-networking-forge-1.0.22-1.21.11.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file Controlling-forge-1.21.11-29.0.1.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file darkinventory-forge-1.21.11-1.2.1a.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file darksmelting-forge-1.21.11-1.1.9a.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file despawningeggshatch-1.21.11-4.5.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file DnT-nether-fortress-overhaul-v3.1 [Forge].jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file EuphoriaPatcher-1.7.8-r5.6.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file followersteleporttoo-1.21.11-2.7.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file formations-1.0.4-forge-mc1.21.11.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file furnacerecycle-1.21.11-2.6.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file GlitchCore-forge-1.21.11-21.11.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file improved-village-placement-1.1.2.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file journeymap-forge-1.21.11-6.0.0-beta.53.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file ly-portals-v1.0.1.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file mobhealthbar-forge-1.21.11-2.3.2.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file MouseTweaks-forge-mc1.21.11-2.30.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file ore-vein-miner-1.0 (1.21.11).jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file realisticbees-1.21.11-4.3.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file replantingcrops-1.21.11-5.5.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file Searchables-forge-1.21.11-1.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file smelting-enchantment-v1.1.0.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file sound-physics-remastered-forge-1.21.11-1.5.1.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file starterkit-1.21.11-7.6.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file TerraBlender-forge-1.21.11-21.11.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file Terralith_1.21.x_v2.5.14.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file trade-cycling-forge-1.21.11-1.0.19.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file tree-vein-miner-1.1 (1.21.11).jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file treeharvester-1.21.11-9.3.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file villagernames-1.21.11-8.3.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file villagespawnpoint-1.21.11-4.7.jar of type MOD with provider {mods folder locator at C:\Users\Ben\curseforge\minecraft\Instances\A\mods}
+[19:54:35] [main/INFO]: Found mod file forge-1.21.11-61.0.2-client.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3b0f7d9d
+[19:54:35] [main/INFO]: Found mod file javafmllanguage-1.21.11-61.0.2.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@458544e0
+[19:54:35] [main/INFO]: Found mod file lowcodelanguage-1.21.11-61.0.2.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@458544e0
+[19:54:35] [main/INFO]: Found mod file mclanguage-1.21.11-61.0.2.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@458544e0
+[19:54:35] [main/INFO]: Found mod file fmlcore-1.21.11-61.0.2.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@458544e0
+[19:54:35] [main/INFO]: Found mod file forge-1.21.11-61.0.2-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@458544e0
+[19:54:35] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: commonnetworking. Using common-networking-forge-1.0.22-1.21.11.jar
+[19:54:35] [main/INFO]: Closeing unselected FileSystem journeymap-forge-1.21.11-6.0.0-beta.53.jar!/META-INF/jarjar/common-networking-forge-1.0.22-1.21.11.jar
+[19:54:35] [main/INFO]: Found 5 dependencies adding them to mods collection
+[19:54:35] [main/INFO]: Found mod file /MixinExtras-0.5.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@d176a31
+[19:54:35] [main/INFO]: Found mod file /pngj-2.1.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@d176a31
+[19:54:35] [main/INFO]: Found mod file mixinextras-forge-0.5.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@d176a31
+[19:54:35] [main/INFO]: Found mod file /journeymap-api-forge-2.0.0-1.21.11-SNAPSHOT.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@d176a31
+[19:54:35] [main/INFO]: Found mod file /kuma-api-forge-21.11.9.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@d176a31
+[19:54:35] [main/INFO]: Compatibility level set to JAVA_17
+[19:54:35] [main/INFO]: Compatibility level set to JAVA_21
+[19:54:35] [main/INFO]: Launching target 'forge_client' with arguments [--version, forge-61.0.2, --gameDir, C:\Users\Ben\curseforge\minecraft\Instances\A, --assetsDir, C:\Users\Ben\curseforge\minecraft\Install\assets, --uuid, ea9eef6ac6cf4741ad2f9dfd69d5a241, --username, HoneyBadger75315, --assetIndex, 29, --accessToken, **********, --clientId, cb552f-6c9f85-e81f1e-802cdd-220feb, --xuid, 2535448093732349, --versionType, release, --width, 2048, --height, 1152, --quickPlayPath, C:\Users\Ben\curseforge\minecraft\Quickplay\2eb8695d-8332-41ee-9c6b-ba6636d4378f.json, , , ]
+[19:54:35] [main/WARN]: Reference map 'trade_cycling.refmap.json' for trade_cycling.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:54:35] [main/WARN]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:54:35] [main/WARN]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:54:35] [main/WARN]: Reference map 'terrablender.refmap.json' for terrablender.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:54:35] [main/WARN]: Reference map 'sound_physics_remastered.refmap.json' for sound_physics_remastered.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:54:35] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:54:35] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:54:35] [main/WARN]: Reference map 'controlling.refmap.json' for controlling.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:54:35] [main/WARN]: Reference map 'controlling.refmap.json' for controlling.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:54:35] [main/WARN]: Reference map 'searchables.refmap.json' for searchables.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:54:35] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:54:35] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:54:35] [main/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:54:35] [main/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:54:35] [main/WARN]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:54:35] [main/WARN]: Reference map 'balm.refmap.json' for balm.api.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:54:35] [main/WARN]: Reference map 'formations.mixins.refmap.json' for formations.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:54:36] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[19:54:37] [Datafixer Bootstrap/INFO]: 287 Datafixer optimizations took 376 milliseconds
+[19:54:37] [main/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:root
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:sound_event
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:fluid
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:particle_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:attribute
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:mob_effect
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:block
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:enchantment_effect_component_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:entity_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:loot_score_provider_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:loot_number_provider_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:map_decoration_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:loot_pool_entry_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:loot_nbt_provider_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:loot_function_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:data_component_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:item
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:game_event
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:debug_subscription
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:potion
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:block_entity_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:stat_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:custom_stat
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:chunk_status
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:rule_test
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:rule_block_entity_modifier
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:pos_rule_test
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:menu
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:recipe_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:recipe_serializer
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:position_source_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:command_argument_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:villager_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:villager_profession
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:point_of_interest_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:memory_module_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:sensor_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:activity
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:loot_condition_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:float_provider_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:int_provider_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:height_provider_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:block_predicate_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/carver
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_processor
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/feature
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_placement
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_piece
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/placement_modifier_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/block_state_provider_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/foliage_placer_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/trunk_placer_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/root_placer_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/tree_decorator_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/feature_size_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/biome_source
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/chunk_generator
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/material_condition
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/material_rule
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/density_function_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:block_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/structure_pool_element
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:worldgen/pool_alias_binding
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:decorated_pot_pattern
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:creative_mode_tab
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:trigger_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:number_format_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:game_rule
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:entity_sub_predicate_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:data_component_predicate_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:enchantment_level_based_value_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:enchantment_entity_effect_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:enchantment_location_based_effect_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:enchantment_value_effect_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:enchantment_provider_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:consume_effect_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:recipe_display
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:slot_display
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:recipe_book_category
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:ticket_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:incoming_rpc_methods
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:outgoing_rpc_methods
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:test_environment_definition_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:test_instance_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:spawn_condition_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:dialog_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:dialog_action_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:input_control_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:dialog_body_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:permission_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:permission_check_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:attribute_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:environment_attribute
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:slot_source_type
+[19:54:40] [pool-5-thread-1/INFO]: 	minecraft:test_function
+[19:54:40] [main/INFO]: Completely ignored arguments: [, , ]
+[19:54:41] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[19:54:41] [Render thread/INFO]: Setting user: HoneyBadger75315
+[19:54:41] [Render thread/INFO]: Backend library: LWJGL version 3.3.3+5
+[19:54:41] [Render thread/INFO]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
+[19:54:41] [modloading-worker-0/INFO]: Loading Collective version 8.13.
+[19:54:41] [modloading-worker-0/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[19:54:41] [modloading-worker-0/INFO]: Forge mod loading, version 61.0.2, for MC 1.21.11 with MCP 20251209.095502
+[19:54:41] [modloading-worker-0/INFO]: MinecraftForge v61.0.2 Initialized
+[19:54:41] [modloading-worker-0/INFO]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[19:54:41] [modloading-worker-0/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[19:54:41] [modloading-worker-0/INFO]: Loaded journeymap.common.helpers.ForgeClientHooks@73aa8d53 for service interface journeymap.api.services.ClientPlatformService
+[19:54:41] [modloading-worker-0/INFO]: Loaded journeymap.common.helpers.ForgeHooks@78959309 for service interface journeymap.api.services.CommonPlatformService
+[19:54:41] [modloading-worker-0/INFO]: EuphoriaPatcher: [UPDATE CHECKER] The EuphoriaPatcher Mod is up to date
+[19:54:41] [modloading-worker-0/WARN]: EuphoriaPatcher: No shader loader mod was found
+[19:54:41] [modloading-worker-0/INFO]: EuphoriaPatcher: Converting coffee into pixels... nearly there!
+[19:54:42] [modloading-worker-0/INFO]: EuphoriaPatcher: EuphoriaPatches_1.7.8 is already installed.
+[19:54:42] [modloading-worker-0/INFO]: 
 
 EuphoriaPatcher: Thank you for using Euphoria Patches - SpacEagle17
 
-[19:45:21] [Render thread/INFO]: Registering Keybinds
-[19:45:21] [Render thread/INFO]: Reloading ResourceManager: vanilla, mod_resources
-[19:45:21] [Worker-Main-5/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
-[19:45:21] [Worker-Main-6/INFO]: Found unifont_pua-17.0.01.hex, loading
-[19:45:21] [Worker-Main-6/INFO]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
-[19:45:21] [Worker-Main-7/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
-[19:45:21] [Render thread/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[19:45:21] [Render thread/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[19:45:21] [Render thread/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[19:45:21] [Render thread/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[19:45:21] [Render thread/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[19:45:21] [Render thread/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[19:45:21] [Render thread/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[19:45:21] [Forge Version Check/INFO]: [trade_cycling] Starting version check at https://update.maxhenkel.de/forge/trade_cycling
-[19:45:21] [Worker-Main-6/INFO]: Reloading reverb parameters
-[19:45:21] [Render thread/INFO]: Journeymap Initializing
-[19:45:22] [Forge Version Check/INFO]: [trade_cycling] Found status: BETA Current: 1.21.11-1.0.19 Target: 1.21.11-1.0.19
-[19:45:22] [Forge Version Check/INFO]: [mr_dungeons_andtavernsnetherfortressoverhaul] Starting version check at https://api.modrinth.com/updates/8Dbnvm77/forge_updates.json
-[19:45:22] [Forge Version Check/INFO]: [mr_dungeons_andtavernsnetherfortressoverhaul] Found status: AHEAD Current: 1-v3.1 Target: null
-[19:45:22] [Forge Version Check/INFO]: [mr_ore_veinminer] Starting version check at https://api.modrinth.com/updates/Xl2GihRU/forge_updates.json
-[19:45:22] [Forge Version Check/INFO]: [mr_ore_veinminer] Found status: OUTDATED Current: 1.0 Target: 1.0+mod
-[19:45:22] [Forge Version Check/INFO]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
-[19:45:22] [Forge Version Check/INFO]: [sound_physics_remastered] Found status: BETA Current: 1.21.11-1.5.1 Target: 1.21.11-1.5.1
-[19:45:22] [Forge Version Check/INFO]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[19:45:22] [Forge Version Check/INFO]: [journeymap] Found status: BETA Current: 1.21.11-6.0.0-beta.53 Target: null
-[19:45:22] [Forge Version Check/INFO]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.21.11&ml=forge
-[19:45:23] [Forge Version Check/INFO]: [controlling] Found status: BETA Current: 29.0.1 Target: 29.0.1
-[19:45:23] [Forge Version Check/INFO]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.21.11&ml=forge
-[19:45:23] [Forge Version Check/INFO]: [searchables] Found status: BETA Current: 1.0.2 Target: 1.0.2
-[19:45:23] [Forge Version Check/INFO]: [mr_ly_portals] Starting version check at https://api.modrinth.com/updates/r7vyY3IN/forge_updates.json
-[19:45:23] [Forge Version Check/INFO]: [mr_ly_portals] Found status: AHEAD Current: 1-v1.0.1 Target: null
-[19:45:23] [Forge Version Check/INFO]: [mr_smelting_enchantment] Starting version check at https://api.modrinth.com/updates/NhwceuDF/forge_updates.json
-[19:45:23] [Forge Version Check/INFO]: [mr_smelting_enchantment] Found status: AHEAD Current: 1-v1.1.0 Target: null
-[19:45:23] [Forge Version Check/INFO]: [mr_tree_veinminer] Starting version check at https://api.modrinth.com/updates/wEhW4ceB/forge_updates.json
-[19:45:23] [Forge Version Check/INFO]: [mr_tree_veinminer] Found status: OUTDATED Current: 1.1 Target: 1.1+mod
-[19:45:23] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[19:45:23] [Forge Version Check/INFO]: [forge] Found status: BETA_OUTDATED Current: 61.0.2 Target: 61.0.3
-[19:45:24] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
-[19:45:24] [Render thread/INFO]: Initializing Sound Physics
-[19:45:24] [Render thread/INFO]: EFX Extension recognized
-[19:45:24] [Render thread/INFO]: Max auxiliary sends: 4
-[19:45:24] [Render thread/INFO]: Aux slot 1 created
-[19:45:24] [Render thread/INFO]: Aux slot 2 created
-[19:45:24] [Render thread/INFO]: Aux slot 3 created
-[19:45:24] [Render thread/INFO]: Aux slot 4 created
-[19:45:24] [Render thread/INFO]: EFX ready
-[19:45:24] [Render thread/INFO]: Sound engine started
-[19:45:24] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[19:45:24] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
-[19:45:24] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
-[19:45:24] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[19:45:24] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
-[19:45:24] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
-[19:45:24] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
-[19:45:24] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
-[19:45:24] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
-[19:45:24] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/beds.png-atlas
-[19:45:24] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
-[19:45:24] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
-[19:45:24] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[19:45:24] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/signs.png-atlas
-[19:45:24] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
-[19:45:44] [Render thread/WARN]: The following mods have version differences that were not resolved:
-onlyexcavators (version 1.21.11-0.1 -> MISSING)
-Things may not work well.
-[19:45:44] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
-[19:45:44] [Render thread/INFO]: Registry minecraft:item: Found a missing id from the world onlyexcavators:diamond_excavator
-[19:45:44] [Render thread/INFO]: Registry minecraft:item: Found a missing id from the world onlyexcavators:emerald_excavator
-[19:45:44] [Render thread/INFO]: Registry minecraft:item: Found a missing id from the world onlyexcavators:gold_excavator
-[19:45:44] [Render thread/INFO]: Registry minecraft:item: Found a missing id from the world onlyexcavators:iron_excavator
-[19:45:44] [Render thread/INFO]: Registry minecraft:item: Found a missing id from the world onlyexcavators:lapis_excavator
-[19:45:44] [Render thread/INFO]: Registry minecraft:item: Found a missing id from the world onlyexcavators:netherite_excavator
-[19:45:44] [Render thread/INFO]: Registry minecraft:item: Found a missing id from the world onlyexcavators:obsidian_excavator
-[19:45:44] [Render thread/INFO]: Registry minecraft:item: Found a missing id from the world onlyexcavators:redstone_excavator
-[19:45:44] [Render thread/INFO]: Registry minecraft:item: Found a missing id from the world onlyexcavators:stone_excavator
-[19:45:44] [Render thread/INFO]: Registry minecraft:item: Found a missing id from the world onlyexcavators:wooden_excavator
-[19:45:44] [Render thread/ERROR]: Unidentified mapping from registry minecraft:item
-	onlyexcavators:diamond_excavator: 2007
-	onlyexcavators:emerald_excavator: 2008
-	onlyexcavators:gold_excavator: 2004
-	onlyexcavators:iron_excavator: 2003
-	onlyexcavators:lapis_excavator: 2005
-	onlyexcavators:netherite_excavator: 2010
-	onlyexcavators:obsidian_excavator: 2009
-	onlyexcavators:redstone_excavator: 2006
-	onlyexcavators:stone_excavator: 2002
-	onlyexcavators:wooden_excavator: 2001
-
-[19:45:44] [Render thread/WARN]: Forge Mod Loader detected missing registry entries.
-
-There are 10 missing entries in this save.
-If you continue the missing entries will get removed.
-A world backup will be automatically created in your saves directory.
-
-
-[19:45:44] [Render thread/WARN]: Missing minecraft:item:
-    onlyexcavators:diamond_excavator
-    onlyexcavators:emerald_excavator
-    onlyexcavators:gold_excavator
-    onlyexcavators:iron_excavator
-    onlyexcavators:lapis_excavator
-    onlyexcavators:netherite_excavator
-    onlyexcavators:obsidian_excavator
-    onlyexcavators:redstone_excavator
-    onlyexcavators:stone_excavator
-    onlyexcavators:wooden_excavator
-
-
-[19:45:44] [Render thread/ERROR]: There are unidentified mappings in this world - we are going to attempt to process anyway
-[19:45:44] [Render thread/ERROR]: Couldn't load mod:trade_cycling pack metadata: Pack declares support for format 65, but game versions supporting formats 17 to 81 require a supported_formats field. Add "supported_formats": [65, 81] or require a version greater or equal to 82.0.
-[19:45:44] [Render thread/ERROR]: Couldn't load mod:mr_ore_veinminer pack metadata: Pack declares support for format 71, but game versions supporting formats 17 to 81 require a supported_formats field. Add "supported_formats": [71, 81] or require a version greater or equal to 82.0.
-[19:45:44] [Render thread/ERROR]: Couldn't load mod:sound_physics_remastered pack metadata: Pack declares support for format 65, but game versions supporting formats 17 to 81 require a supported_formats field. Add "supported_formats": [65, 81] or require a version greater or equal to 82.0.
-[19:45:44] [Render thread/ERROR]: Couldn't load mod:mr_tree_veinminer pack metadata: Pack declares support for format 71, but game versions supporting formats 17 to 81 require a supported_formats field. Add "supported_formats": [71, 81] or require a version greater or equal to 82.0.
-[19:45:44] [Render thread/ERROR]: Couldn't load mod:formations pack metadata: Pack declares support for format 80, but game versions supporting formats 17 to 81 require a supported_formats field. Add "supported_formats": [80, 81] or require a version greater or equal to 82.0.
-[19:45:44] [Render thread/WARN]: Missing data pack mod:onlyexcavators
-[19:45:45] [Worker-Main-8/WARN]: Found loot table element validation problem in {nova_structures:chests/nether_fortress_overhaul/fortress_overhaul@minecraft:loot_table}.functions[0]: Missing element nova_structures:loot_modifier of type minecraft:item_modifier
-[19:45:45] [Worker-Main-8/WARN]: Found loot table element validation problem in {nova_structures:chests/nether_fortress_overhaul/skeleton_supply@minecraft:loot_table}.functions[0]: Missing element nova_structures:loot_modifier of type minecraft:item_modifier
-[19:45:46] [Worker-Main-1/ERROR]: Couldn't parse data file 'furnacerecycle:smelt_chain' from 'furnacerecycle:recipe/smelt_chain.json': DataResult.Error['Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
-[19:45:46] [Render thread/INFO]: Loaded 1871 recipes
-[19:45:46] [Render thread/ERROR]: Failed to load function stm:fortune_effect
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Can't parse function line 1: 'execute if block ~ ~ ~ air run return fail'
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$prepareTasks$0(SimpleReloadInstance.java:51)
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(Unknown Source)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
-Caused by: java.lang.IllegalArgumentException: Can't parse function line 1: 'execute if block ~ ~ ~ air run return fail'
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.commands.functions.FunctionBuilder.addMacro(FunctionBuilder.java:49)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:75)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:85)
-	... 8 more
-Caused by: java.lang.IllegalArgumentException: No variables in macro
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.commands.functions.StringTemplate.fromString(StringTemplate.java:36)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.commands.functions.FunctionBuilder.addMacro(FunctionBuilder.java:47)
-	... 10 more
-[19:45:46] [Render thread/ERROR]: Failed to load function darkinventory:voidtrinkets
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 18: ...as @s run <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$prepareTasks$0(SimpleReloadInstance.java:51)
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(Unknown Source)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 18: ...as @s run <--[HERE]
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:80)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:85)
-	... 8 more
-[19:45:46] [Render thread/ERROR]: Failed to load function stm:silk_touch_effect
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Malformed 'minecraft:enchantments' component: 'Not a number; Failed to get element minecraft:levels missed input: {levels:{"minecraft:silk_touch":1}}' at position 75: ...hantments=<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$prepareTasks$0(SimpleReloadInstance.java:51)
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(Unknown Source)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Malformed 'minecraft:enchantments' component: 'Not a number; Failed to get element minecraft:levels missed input: {levels:{"minecraft:silk_touch":1}}' at position 75: ...hantments=<--[HERE]
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:80)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:85)
-	... 8 more
-[19:45:46] [Render thread/INFO]: Loaded 1944 advancements
-[19:45:46] [Server thread/INFO]: Starting integrated minecraft server version 1.21.11
-[19:45:46] [Server thread/INFO]: Generating keypair
-[19:45:46] [Server thread/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[19:45:46] [Server thread/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[19:45:47] [Server thread/INFO]: Loading 0 persistent chunks...
-[19:45:47] [Server thread/INFO]: Preparing spawn area: 16%
-[19:45:47] [Server thread/INFO]: Successfully initialized permission handler forge:default_handler
-[19:45:47] [Server thread/INFO]: Loading 49 chunks for player spawn...
-[19:45:47] [Server thread/INFO]: Preparing spawn area: 16%
-[19:45:48] [Server thread/INFO]: Time elapsed: 958 ms
-[19:45:48] [Render thread/INFO]: Connected to a modded server.
-[19:45:48] [Server thread/WARN]: Ignored advancement 'onlyexcavators:recipes/tools/wooden_excavator' in progress file C:\Users\Ben\curseforge\minecraft\Instances\A\saves\New Main\advancements\ea9eef6a-c6cf-4741-ad2f-9dfd69d5a241.json - it doesn't exist anymore?
-[19:45:48] [Server thread/WARN]: Ignored advancement 'onlyexcavators:recipes/tools/emerald_excavator' in progress file C:\Users\Ben\curseforge\minecraft\Instances\A\saves\New Main\advancements\ea9eef6a-c6cf-4741-ad2f-9dfd69d5a241.json - it doesn't exist anymore?
-[19:45:48] [Server thread/WARN]: Ignored advancement 'onlyexcavators:recipes/tools/stone_excavator' in progress file C:\Users\Ben\curseforge\minecraft\Instances\A\saves\New Main\advancements\ea9eef6a-c6cf-4741-ad2f-9dfd69d5a241.json - it doesn't exist anymore?
-[19:45:48] [Server thread/WARN]: Ignored advancement 'onlyexcavators:recipes/tools/lapis_excavator' in progress file C:\Users\Ben\curseforge\minecraft\Instances\A\saves\New Main\advancements\ea9eef6a-c6cf-4741-ad2f-9dfd69d5a241.json - it doesn't exist anymore?
-[19:45:48] [Server thread/WARN]: Ignored advancement 'onlyexcavators:recipes/tools/iron_excavator' in progress file C:\Users\Ben\curseforge\minecraft\Instances\A\saves\New Main\advancements\ea9eef6a-c6cf-4741-ad2f-9dfd69d5a241.json - it doesn't exist anymore?
-[19:45:48] [Server thread/WARN]: Ignored advancement 'onlyexcavators:recipes/tools/redstone_excavator' in progress file C:\Users\Ben\curseforge\minecraft\Instances\A\saves\New Main\advancements\ea9eef6a-c6cf-4741-ad2f-9dfd69d5a241.json - it doesn't exist anymore?
-[19:45:48] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / onlyexcavators:iron_excavator] removed now.
-[19:45:48] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / onlyexcavators:redstone_excavator] removed now.
-[19:45:48] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / onlyexcavators:wooden_excavator] removed now.
-[19:45:48] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / onlyexcavators:emerald_excavator] removed now.
-[19:45:48] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / onlyexcavators:stone_excavator] removed now.
-[19:45:48] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / onlyexcavators:lapis_excavator] removed now.
-[19:45:48] [Server thread/INFO]: HoneyBadger75315[local:E:52f0dc6d] logged in with entity id 57 at (-112.77702008999364, 64.0, -316.4323047722912)
-[19:45:48] [Server thread/INFO]: HoneyBadger75315 joined the game
-[19:45:48] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
-[19:45:48] [Server thread/INFO]: Changing view distance to 32, from 10
-[19:45:48] [Server thread/INFO]: Changing simulation distance to 12, from 0
-[19:45:48] [Render thread/INFO]: [System] [CHAT] [SVM] Simple Vein Miner loaded successfully!
-[19:45:48] [Render thread/INFO]: [System] [CHAT] [STM] Tree Vein Miner loaded successfully!
-[19:45:48] [Render thread/INFO]: Loaded 439 advancements
-[19:45:48] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
-[19:45:49] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 2 reached during a single frame. New capacity will be 8.
-[19:45:49] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
-[19:45:49] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
-[19:45:49] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
-[19:45:49] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
-[19:45:49] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
-[19:45:50] [Render thread/INFO]: [System] [CHAT] §eJourneyMap:§f Press [§bJ§f]
-[19:45:50] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
-[19:45:50] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
-[19:45:50] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
-[19:45:52] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
-[19:45:57] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 1024 reached during a single frame. New capacity will be 2048.
-[19:46:00] [Server thread/WARN]: Found reference to unknown structure 'explorify:watchtower/plains' in chunk [1, 15], discarding
-[19:46:00] [Server thread/WARN]: Found reference to unknown structure 'explorify:watchtower/plains' in chunk [2, 15], discarding
-[19:46:00] [Server thread/ERROR]: Unknown structure start: explorify:watchtower/plains
-[19:46:00] [Server thread/WARN]: Found reference to unknown structure 'explorify:watchtower/plains' in chunk [3, 15], discarding
-[19:46:01] [Server thread/WARN]: Found reference to unknown structure 'explorify:watchtower/plains' in chunk [1, 16], discarding
-[19:46:01] [Server thread/WARN]: Found reference to unknown structure 'explorify:watchtower/plains' in chunk [2, 16], discarding
-[19:46:01] [Server thread/WARN]: Found reference to unknown structure 'explorify:watchtower/plains' in chunk [3, 16], discarding
-[19:46:08] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 2048 reached during a single frame. New capacity will be 4096.
-[19:47:32] [Server thread/ERROR]: Failed to save chunk 30,-47
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BaseContainerBlockEntity.saveAdditional(BaseContainerBlockEntity.java:46)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.ChestBlockEntity.saveAdditional(ChestBlockEntity.java:94)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:398)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1141)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1011)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:129)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1043)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.processPacketsAndTick(IntegratedServer.java:102)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:762)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:47:32] [IO-Worker-65/FATAL]: Preparing crash report with UUID 97a53000-f2cc-48ea-a640-4e20215e57ea
-[19:47:32] [IO-Worker-65/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.47.32-server.txt
-[19:48:34] [Server thread/WARN]: [net.minecraft.world.entity.EntityType] Serialization errors:
-: Failed to decode value '[{base:0.0d,id:"porting_lib:step_height_addition"},{base:0.30000001192092896d,id:"minecraft:movement_speed"},{base:0.08d,id:"porting_lib:entity_gravity"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: porting_lib:entity_gravity; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: porting_lib:step_height_addition
-[19:48:34] [Server thread/WARN]: [net.minecraft.world.entity.EntityType] Serialization errors:
-: Failed to decode value '[{base:0.0d,id:"porting_lib:step_height_addition"},{base:0.08d,id:"porting_lib:entity_gravity"},{base:0.30000001192092896d,id:"minecraft:movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: porting_lib:entity_gravity; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: porting_lib:step_height_addition
-[19:48:34] [Server thread/INFO]: HoneyBadger75315 has made the advancement [Total Beelocation]
-[19:48:34] [Render thread/INFO]: [System] [CHAT] HoneyBadger75315 has made the advancement [Total Beelocation]
-[19:48:34] [Render thread/INFO]: Loaded 439 advancements
-[19:48:48] [Render thread/INFO]: Loaded 439 advancements
-[19:48:57] [Server thread/INFO]: Saving and pausing game...
-[19:48:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New Main]'/minecraft:overworld
-[19:48:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New Main]'/minecraft:the_end
-[19:48:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New Main]'/minecraft:the_nether
-[19:48:59] [Server thread/INFO]: HoneyBadger75315 lost connection: Disconnected
-[19:48:59] [Server thread/INFO]: HoneyBadger75315 left the game
-[19:48:59] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[19:48:59] [Server thread/INFO]: Stopping server
-[19:48:59] [Server thread/INFO]: Saving players
-[19:48:59] [Server thread/INFO]: Saving worlds
-[19:48:59] [Server thread/ERROR]: Failed to save chunk 6,35
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.SpawnerBlockEntity.saveAdditional(SpawnerBlockEntity.java:56)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:48:59] [Server thread/ERROR]: Failed to save chunk 33,35
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BaseContainerBlockEntity.saveAdditional(BaseContainerBlockEntity.java:46)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.DispenserBlockEntity.saveAdditional(DispenserBlockEntity.java:89)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:48:59] [IO-Worker-244/FATAL]: Preparing crash report with UUID 924e0579-229c-424a-bdaf-35d1de466f7b
-[19:48:59] [IO-Worker-244/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.48.59-server.txt
-[19:48:59] [Server thread/ERROR]: Failed to save chunk 46,33
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BaseContainerBlockEntity.saveAdditional(BaseContainerBlockEntity.java:46)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.ChestBlockEntity.saveAdditional(ChestBlockEntity.java:94)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:48:59] [IO-Worker-244/FATAL]: Preparing crash report with UUID 26d26b0f-5bab-4372-ae64-4e74c7cfce87
-[19:48:59] [IO-Worker-244/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.48.59-server.txt
-[19:48:59] [Server thread/ERROR]: Failed to save chunk 46,-28
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BaseContainerBlockEntity.saveAdditional(BaseContainerBlockEntity.java:46)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.HopperBlockEntity.saveAdditional(HopperBlockEntity.java:60)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:48:59] [IO-Worker-244/FATAL]: Preparing crash report with UUID 9392a332-5f3f-4b7c-8449-36ec354f454e
-[19:48:59] [IO-Worker-244/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.48.59-server.txt
-[19:48:59] [Server thread/ERROR]: Failed to save chunk 42,34
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BaseContainerBlockEntity.saveAdditional(BaseContainerBlockEntity.java:46)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.ChestBlockEntity.saveAdditional(ChestBlockEntity.java:94)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:48:59] [IO-Worker-244/FATAL]: Preparing crash report with UUID eac8a4d6-7ed1-4dfa-8f6a-cb176224aa03
-[19:48:59] [IO-Worker-244/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.48.59-server.txt
-[19:48:59] [Server thread/ERROR]: Failed to save chunk 34,35
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BaseContainerBlockEntity.saveAdditional(BaseContainerBlockEntity.java:46)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.DispenserBlockEntity.saveAdditional(DispenserBlockEntity.java:89)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:48:59] [IO-Worker-239/FATAL]: Preparing crash report with UUID ec9b6a15-3fec-4a13-a0ab-9c9aed6c8614
-[19:48:59] [IO-Worker-239/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.48.59-server.txt
-[19:48:59] [Server thread/ERROR]: Failed to save chunk 46,5
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BrushableBlockEntity.saveAdditional(BrushableBlockEntity.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:48:59] [IO-Worker-239/FATAL]: Preparing crash report with UUID 4f742954-9193-4a93-9ee2-395a7d1535ce
-[19:48:59] [IO-Worker-239/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.48.59-server.txt
-[19:48:59] [IO-Worker-239/FATAL]: Preparing crash report with UUID 9b099d58-f2c9-4b48-885d-3f1869ae2443
-[19:48:59] [IO-Worker-239/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.48.59-server.txt
-[19:48:59] [Server thread/ERROR]: Failed to save chunk 46,-26
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.SpawnerBlockEntity.saveAdditional(SpawnerBlockEntity.java:56)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:48:59] [Server thread/ERROR]: Failed to save chunk 46,4
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BrushableBlockEntity.saveAdditional(BrushableBlockEntity.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:48:59] [IO-Worker-224/FATAL]: Preparing crash report with UUID 137ae88d-0f65-4d74-ace8-0465f96a1606
-[19:48:59] [IO-Worker-224/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.48.59-server.txt
-[19:48:59] [Server thread/ERROR]: Failed to save chunk 46,-31
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BaseContainerBlockEntity.saveAdditional(BaseContainerBlockEntity.java:46)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.HopperBlockEntity.saveAdditional(HopperBlockEntity.java:60)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:48:59] [IO-Worker-224/FATAL]: Preparing crash report with UUID c15d0970-7365-4508-9613-3069eccd5807
-[19:48:59] [IO-Worker-224/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.48.59-server.txt
-[19:48:59] [Server thread/ERROR]: Failed to save chunk 33,-44
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BaseContainerBlockEntity.saveAdditional(BaseContainerBlockEntity.java:46)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.ChestBlockEntity.saveAdditional(ChestBlockEntity.java:94)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:48:59] [IO-Worker-224/FATAL]: Preparing crash report with UUID 93719766-28fe-4daa-bac2-6bf6e0f046e1
-[19:48:59] [IO-Worker-224/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.48.59-server.txt
-[19:48:59] [Server thread/ERROR]: Failed to save chunk 46,3
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BrushableBlockEntity.saveAdditional(BrushableBlockEntity.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:48:59] [IO-Worker-239/FATAL]: Preparing crash report with UUID 1986d629-add7-4ac3-a32e-d5f28f2a354f
-[19:48:59] [IO-Worker-239/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.48.59-server.txt
-[19:48:59] [Server thread/ERROR]: Failed to save chunk 32,35
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BaseContainerBlockEntity.saveAdditional(BaseContainerBlockEntity.java:46)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.DispenserBlockEntity.saveAdditional(DispenserBlockEntity.java:89)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:48:59] [IO-Worker-224/FATAL]: Preparing crash report with UUID 1e5b5f9a-72d4-452e-a340-dbefaf92d6dd
-[19:48:59] [IO-Worker-224/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.48.59-server.txt
-[19:48:59] [Server thread/ERROR]: Failed to save chunk 36,-42
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BaseContainerBlockEntity.saveAdditional(BaseContainerBlockEntity.java:46)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.ChestBlockEntity.saveAdditional(ChestBlockEntity.java:94)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:48:59] [IO-Worker-224/FATAL]: Preparing crash report with UUID de83ffc1-a285-4115-b955-9970c7462e0f
-[19:48:59] [IO-Worker-224/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.48.59-server.txt
-[19:48:59] [Server thread/ERROR]: Failed to save chunk 32,-45
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BaseContainerBlockEntity.saveAdditional(BaseContainerBlockEntity.java:46)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.ChestBlockEntity.saveAdditional(ChestBlockEntity.java:94)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:48:59] [IO-Worker-244/FATAL]: Preparing crash report with UUID 8e714cdb-5f6d-4edc-9aae-57d20d8e9482
-[19:48:59] [IO-Worker-244/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.48.59-server.txt
-[19:48:59] [Server thread/ERROR]: Failed to save chunk 46,17
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.SpawnerBlockEntity.saveAdditional(SpawnerBlockEntity.java:56)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:48:59] [IO-Worker-244/FATAL]: Preparing crash report with UUID 24a5603b-1914-49d0-83b8-d1afb72a7c5d
-[19:48:59] [IO-Worker-244/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.48.59-server.txt
-[19:49:00] [IO-Worker-244/FATAL]: Preparing crash report with UUID 54ccaa33-742a-43bd-8ab2-6c5cc345e701
-[19:49:00] [IO-Worker-244/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.49.00-server.txt
-[19:49:00] [Server thread/ERROR]: Failed to save chunk 46,-29
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.DecoratedPotBlockEntity.saveAdditional(DecoratedPotBlockEntity.java:45)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:49:00] [Server thread/ERROR]: Failed to save chunk 46,21
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BaseContainerBlockEntity.saveAdditional(BaseContainerBlockEntity.java:46)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.ChestBlockEntity.saveAdditional(ChestBlockEntity.java:94)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:49:00] [IO-Worker-244/FATAL]: Preparing crash report with UUID 25642fb1-f5a8-4374-89ed-afb097ccb334
-[19:49:00] [IO-Worker-244/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.49.00-server.txt
-[19:49:00] [Server thread/ERROR]: Failed to save chunk 36,35
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.SpawnerBlockEntity.saveAdditional(SpawnerBlockEntity.java:56)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:49:00] [IO-Worker-217/FATAL]: Preparing crash report with UUID cfa195fa-4235-4198-a058-0f8ca8299ceb
-[19:49:00] [IO-Worker-217/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.49.00-server.txt
-[19:49:00] [Server thread/ERROR]: Failed to save chunk 35,-42
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.SpawnerBlockEntity.saveAdditional(SpawnerBlockEntity.java:56)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:49:00] [IO-Worker-239/FATAL]: Preparing crash report with UUID a583d1b6-a0d8-4c70-a5c2-5d2c195f1a91
-[19:49:00] [IO-Worker-239/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.49.00-server.txt
-[19:49:00] [Server thread/ERROR]: Failed to save chunk 37,36
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BaseContainerBlockEntity.saveAdditional(BaseContainerBlockEntity.java:46)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.ChestBlockEntity.saveAdditional(ChestBlockEntity.java:94)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:49:00] [IO-Worker-217/FATAL]: Preparing crash report with UUID 79e60673-ac81-4cc1-b131-7a0c1ebffbde
-[19:49:00] [IO-Worker-217/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.49.00-server.txt
-[19:49:00] [Server thread/ERROR]: Failed to save chunk 46,-30
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:49:00] [IO-Worker-239/FATAL]: Preparing crash report with UUID 890f865b-c520-4821-aadc-34f9cb907fd4
-[19:49:00] [IO-Worker-239/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.49.00-server.txt
-[19:49:00] [Server thread/ERROR]: Failed to save chunk 35,35
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BaseContainerBlockEntity.saveAdditional(BaseContainerBlockEntity.java:46)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.DispenserBlockEntity.saveAdditional(DispenserBlockEntity.java:89)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:49:00] [IO-Worker-244/FATAL]: Preparing crash report with UUID 114ad4a9-0faf-4a1c-bddd-1752cd8df30a
-[19:49:00] [IO-Worker-244/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.49.00-server.txt
-[19:49:00] [Server thread/ERROR]: Failed to save chunk 33,-42
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.SkullBlockEntity.saveAdditional(SkullBlockEntity.java:38)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:49:00] [IO-Worker-244/FATAL]: Preparing crash report with UUID 4cfe440e-5bbe-4f05-9eb6-6732e2b1c3d1
-[19:49:00] [IO-Worker-244/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.49.00-server.txt
-[19:49:00] [Server thread/ERROR]: Failed to save chunk -16,35
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.SpawnerBlockEntity.saveAdditional(SpawnerBlockEntity.java:56)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:49:00] [IO-Worker-244/FATAL]: Preparing crash report with UUID e6a1eb23-3a0d-4fd0-b626-1e64a94a39a9
-[19:49:00] [IO-Worker-244/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.49.00-server.txt
-[19:49:00] [Server thread/ERROR]: Failed to save chunk 37,35
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.Level.registryAccess()" because "this.level" is null
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveAdditional(BlockEntity.java:109)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BaseContainerBlockEntity.saveAdditional(BaseContainerBlockEntity.java:46)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.ChestBlockEntity.saveAdditional(ChestBlockEntity.java:94)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithoutMetadata(BlockEntity.java:145)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:124)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata(BlockEntity.java:116)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.ProtoChunk.getBlockEntityNbtForSaving(ProtoChunk.java:289)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.chunk.storage.SerializableChunkData.copyOf(SerializableChunkData.java:370)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.save(ChunkMap.java:768)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$12(ChunkMap.java:528)
-	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(Unknown Source)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:490)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:455)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:672)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.server.IntegratedServer.stopServer(IntegratedServer.java:237)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:801)
-	at TRANSFORMER/minecraft@1.21.11/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:287)
-	at java.base/java.lang.Thread.run(Unknown Source)
-[19:49:00] [IO-Worker-239/FATAL]: Preparing crash report with UUID 0805ce23-311a-4efa-aa56-0953b59194e1
-[19:49:00] [IO-Worker-239/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.49.00-server.txt
-[19:49:00] [IO-Worker-239/FATAL]: Preparing crash report with UUID 537ae4b4-18b9-4a98-be37-eeb19400e0f0
-[19:49:00] [IO-Worker-239/INFO]: Saved details to C:\Users\Ben\curseforge\minecraft\Instances\A\debug\chunk-New Main-2025-12-25_19.49.00-server.txt
-[19:49:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New Main]'/minecraft:overworld
-[19:49:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New Main]'/minecraft:the_end
-[19:49:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New Main]'/minecraft:the_nether
-[19:49:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (New Main): All chunks are saved
-[19:49:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:49:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:49:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:52:35] [Render thread/INFO]: Stopping!
+[19:54:42] [Render thread/ERROR]: Couldn't load mod:trade_cycling pack metadata: Input is not a list of 2 elements; Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[19:54:42] [Render thread/ERROR]: Couldn't load mod:sound_physics_remastered pack metadata: Input is not a list of 2 elements; Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[19:54:42] [Render thread/INFO]: Registering Keybinds
+[19:54:42] [Render thread/INFO]: Reloading ResourceManager: vanilla, mod_resources
+[19:54:43] [Worker-Main-6/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
+[19:54:43] [Worker-Main-5/INFO]: Found unifont_pua-17.0.01.hex, loading
+[19:54:43] [Worker-Main-10/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
+[19:54:43] [Worker-Main-5/INFO]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[19:54:43] [Render thread/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[19:54:43] [Render thread/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[19:54:43] [Render thread/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[19:54:43] [Render thread/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[19:54:43] [Render thread/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[19:54:43] [Render thread/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[19:54:43] [Render thread/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[19:54:43] [Forge Version Check/INFO]: [trade_cycling] Starting version check at https://update.maxhenkel.de/forge/trade_cycling
+[19:54:43] [Worker-Main-13/INFO]: Reloading reverb parameters
+[19:54:43] [Render thread/INFO]: Journeymap Initializing
+[19:54:44] [Forge Version Check/INFO]: [trade_cycling] Found status: BETA Current: 1.21.11-1.0.19 Target: 1.21.11-1.0.19
+[19:54:44] [Forge Version Check/INFO]: [mr_dungeons_andtavernsnetherfortressoverhaul] Starting version check at https://api.modrinth.com/updates/8Dbnvm77/forge_updates.json
+[19:54:44] [Forge Version Check/INFO]: [mr_dungeons_andtavernsnetherfortressoverhaul] Found status: AHEAD Current: 1-v3.1 Target: null
+[19:54:44] [Forge Version Check/INFO]: [mr_ore_veinminer] Starting version check at https://api.modrinth.com/updates/Xl2GihRU/forge_updates.json
+[19:54:44] [Forge Version Check/INFO]: [mr_ore_veinminer] Found status: OUTDATED Current: 1.0 Target: 1.0+mod
+[19:54:44] [Forge Version Check/INFO]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[19:54:44] [Forge Version Check/INFO]: [sound_physics_remastered] Found status: BETA Current: 1.21.11-1.5.1 Target: 1.21.11-1.5.1
+[19:54:44] [Forge Version Check/INFO]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[19:54:44] [Forge Version Check/INFO]: [journeymap] Found status: BETA Current: 1.21.11-6.0.0-beta.53 Target: null
+[19:54:44] [Forge Version Check/INFO]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.21.11&ml=forge
+[19:54:44] [Forge Version Check/INFO]: [controlling] Found status: BETA Current: 29.0.1 Target: 29.0.1
+[19:54:44] [Forge Version Check/INFO]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.21.11&ml=forge
+[19:54:45] [Forge Version Check/INFO]: [searchables] Found status: BETA Current: 1.0.2 Target: 1.0.2
+[19:54:45] [Forge Version Check/INFO]: [mr_ly_portals] Starting version check at https://api.modrinth.com/updates/r7vyY3IN/forge_updates.json
+[19:54:45] [Forge Version Check/INFO]: [mr_ly_portals] Found status: AHEAD Current: 1-v1.0.1 Target: null
+[19:54:45] [Forge Version Check/INFO]: [mr_smelting_enchantment] Starting version check at https://api.modrinth.com/updates/NhwceuDF/forge_updates.json
+[19:54:45] [Forge Version Check/INFO]: [mr_smelting_enchantment] Found status: AHEAD Current: 1-v1.1.0 Target: null
+[19:54:45] [Forge Version Check/INFO]: [mr_tree_veinminer] Starting version check at https://api.modrinth.com/updates/wEhW4ceB/forge_updates.json
+[19:54:45] [Forge Version Check/INFO]: [mr_tree_veinminer] Found status: OUTDATED Current: 1.1 Target: 1.1+mod
+[19:54:45] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[19:54:45] [Forge Version Check/INFO]: [forge] Found status: BETA_OUTDATED Current: 61.0.2 Target: 61.0.3
+[19:54:46] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[19:54:46] [Render thread/INFO]: Initializing Sound Physics
+[19:54:46] [Render thread/INFO]: EFX Extension recognized
+[19:54:46] [Render thread/INFO]: Max auxiliary sends: 4
+[19:54:46] [Render thread/INFO]: Aux slot 1 created
+[19:54:46] [Render thread/INFO]: Aux slot 2 created
+[19:54:46] [Render thread/INFO]: Aux slot 3 created
+[19:54:46] [Render thread/INFO]: Aux slot 4 created
+[19:54:46] [Render thread/INFO]: EFX ready
+[19:54:46] [Render thread/INFO]: Sound engine started
+[19:54:46] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:54:46] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[19:54:46] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[19:54:46] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:54:46] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:54:46] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[19:54:46] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
+[19:54:46] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
+[19:54:46] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:54:46] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/beds.png-atlas
+[19:54:46] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
+[19:54:46] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[19:54:46] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[19:54:46] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/signs.png-atlas
+[19:54:46] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:55:00] [Render thread/INFO]: Stopping!

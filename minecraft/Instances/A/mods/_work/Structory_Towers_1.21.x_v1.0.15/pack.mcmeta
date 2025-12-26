@@ -28,20 +28,12 @@
       {
         "min_format": 71,
         "max_format": 94.1,
-        "directory": "1-21-5-overlay",
-        "formats": [
-          71,
-          94.1
-        ]
+        "directory": "1-21-5-overlay"
       },
       {
         "min_format": 94.1,
         "max_format": 94.1,
-        "directory": "1-21-11-overlay",
-        "formats": [
-          94.1,
-          94.1
-        ]
+        "directory": "1-21-11-overlay"
       }
     ]
   }

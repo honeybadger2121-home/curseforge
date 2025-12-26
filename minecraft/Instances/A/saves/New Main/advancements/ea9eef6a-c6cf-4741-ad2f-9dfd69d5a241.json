@@ -2327,5 +2327,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2025-12-25 21:07:16 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 4671
 }

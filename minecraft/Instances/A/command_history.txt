@@ -1,9 +1,3 @@
-/fill 555 85 -423 573 66 -408 stone
-/time set day
-/fill 602 72 -410 stone
-/fill 602 72 -410 576 72 -372 air
-/fill 602 72 -410 576 72 -372 water
-/fill 602 72 -410 576 65 -372 water
 /fill 602 65 -410 576 65 -372 minecraft:brain_coral
 /fill 601 72 -365
 /fill 601 72 -365 576 69 -300 sand
@@ -48,3 +42,9 @@
 /function replacer:small_area
 /reload
 /function replacer:small_area
+/reload
+/function replacer:small_area
+/function jacaranda:convert
+/reload
+/function jacaranda:convert
+/function jacaranda with block ~

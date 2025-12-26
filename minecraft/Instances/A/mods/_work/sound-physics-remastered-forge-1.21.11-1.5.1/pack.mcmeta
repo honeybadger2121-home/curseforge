@@ -9,6 +9,10 @@
     "max_format": [
       81,
       0
+    ],
+    "supported_formats": [
+      65,
+      81
     ]
   }
 }

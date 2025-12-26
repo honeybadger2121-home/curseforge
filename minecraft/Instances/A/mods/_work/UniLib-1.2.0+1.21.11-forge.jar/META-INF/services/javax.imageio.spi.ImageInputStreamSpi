@@ -1,5 +1,0 @@
-unilib.external.com.twelvemonkeys.imageio.stream.BufferedFileImageInputStreamSpi
-unilib.external.com.twelvemonkeys.imageio.stream.BufferedRAFImageInputStreamSpi
-unilib.external.com.twelvemonkeys.imageio.stream.BufferedInputStreamImageInputStreamSpi
-# Use SPI loading as a hook for early profile activation
-unilib.external.com.twelvemonkeys.imageio.color.ProfileDeferralActivator$Spi

@@ -1,0 +1,48 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "id": "structory_towers",
+    "supported_formats": [
+      48,
+      94.1
+    ],
+    "min_format": 48,
+    "max_format": 94.1,
+    "description": [
+      {
+        "text": "Structory: Towers",
+        "color": "#28d3ab"
+      },
+      {
+        "text": "\nCreated by ",
+        "color": "gray"
+      },
+      {
+        "text": "Stardust Labs",
+        "color": "#683edd"
+      }
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "min_format": 71,
+        "max_format": 94.1,
+        "directory": "1-21-5-overlay",
+        "formats": [
+          71,
+          81
+        ]
+      },
+      {
+        "min_format": 94.1,
+        "max_format": 94.1,
+        "directory": "1-21-11-overlay",
+        "formats": [
+          94.1,
+          94.1
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+# Small area version (20x20x20)
+# Usage: /function replacer:small_area
+
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_log replace biomesoplenty:jacaranda_log
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_wood replace biomesoplenty:jacaranda_wood
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:stripped_cherry_log replace biomesoplenty:stripped_jacaranda_log
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:stripped_cherry_wood replace biomesoplenty:stripped_jacaranda_wood
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_planks replace biomesoplenty:jacaranda_planks
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_leaves replace biomesoplenty:jacaranda_leaves
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_stairs replace biomesoplenty:jacaranda_stairs
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_slab replace biomesoplenty:jacaranda_slab
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_fence replace biomesoplenty:jacaranda_fence
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_fence_gate replace biomesoplenty:jacaranda_fence_gate
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_door replace biomesoplenty:jacaranda_door
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_trapdoor replace biomesoplenty:jacaranda_trapdoor
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_button replace biomesoplenty:jacaranda_button
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_pressure_plate replace biomesoplenty:jacaranda_pressure_plate
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_sign replace biomesoplenty:jacaranda_sign
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_wall_sign replace biomesoplenty:jacaranda_wall_sign
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_hanging_sign replace biomesoplenty:jacaranda_hanging_sign
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_wall_hanging_sign replace biomesoplenty:jacaranda_wall_hanging_sign
+
+tellraw @s {"text":"✓ Replaced jacaranda in 20x20x20 area!","color":"green"}

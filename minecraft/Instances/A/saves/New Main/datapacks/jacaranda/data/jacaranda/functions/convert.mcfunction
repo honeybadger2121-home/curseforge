@@ -1,6 +1,3 @@
-# Small area version (20x20x20)
-# Usage: /function replacer:small_area
-
 fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_log replace biomesoplenty:jacaranda_log
 fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_wood replace biomesoplenty:jacaranda_wood
 fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:stripped_cherry_log replace biomesoplenty:stripped_jacaranda_log
@@ -19,5 +16,4 @@ fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_sign replace biomesoplenty:jaca
 fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_wall_sign replace biomesoplenty:jacaranda_wall_sign
 fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_hanging_sign replace biomesoplenty:jacaranda_hanging_sign
 fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:cherry_wall_hanging_sign replace biomesoplenty:jacaranda_wall_hanging_sign
-
-tellraw @s {"text":"✓ Replaced jacaranda in 20x20x20 area!","color":"green"}
+tellraw @s {"text":"✓ Replaced all jacaranda blocks!","color":"green"}

@@ -1,9 +1,3 @@
-/fill 555 96 -423 minecraft:glowstone outline
-/fill 555 96 -423 573 96 -408 air hollow
-/fill 555 96 -423 573 80 -408 air hollow
-/fill 555 96 -423 573 66 -408 air hollow
-/fill 555 96 -423 573 66 -408 stone
-/fill 555 96 -423 573 66 -408 air
 /fill 555 85 -423 573 66 -408 stone
 /time set day
 /fill 602 72 -410 stone
@@ -46,5 +40,11 @@
 /fill -340 30 -189 -350 38 -225 air
 /fill -340 30 -189 -366 38 -225 air
 /kill @e[type=!player]
+/reload
+/function replacer:small_area
+/datapack list
+/function replacer:small_area
+/reload
+/function replacer:small_area
 /reload
 /function replacer:small_area

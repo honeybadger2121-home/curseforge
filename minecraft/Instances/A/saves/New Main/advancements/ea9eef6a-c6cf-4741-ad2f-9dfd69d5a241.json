@@ -5,20 +5,6 @@
     },
     "done": true
   },
-  "biomesoplenty:biomesoplenty/all_biomes": {
-    "criteria": {
-      "lavender_field": "2025-12-23 21:01:10 -0600",
-      "mediterranean_forest": "2025-12-23 20:59:49 -0600",
-      "scrubland": "2025-12-25 19:48:48 -0600"
-    },
-    "done": false
-  },
-  "biomesoplenty:biomesoplenty/root": {
-    "criteria": {
-      "mediterranean_forest": "2025-12-23 20:59:49 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_planks": "2025-12-23 21:00:03 -0600"
@@ -184,24 +170,6 @@
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2025-12-23 21:00:28 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/jacaranda_planks": {
-    "criteria": {
-      "has_logs": "2025-12-23 21:01:16 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/jacaranda_wood": {
-    "criteria": {
-      "has_log": "2025-12-23 21:01:16 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/purple_dye_from_lavender": {
-    "criteria": {
-      "has_lavender": "2025-12-23 21:01:35 -0600"
     },
     "done": true
   },
@@ -513,25 +481,7 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/transportation/willow_boat": {
-    "criteria": {
-      "in_water": "2025-12-23 21:07:26 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/fir_boat": {
-    "criteria": {
-      "in_water": "2025-12-23 21:07:26 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2025-12-23 21:07:26 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/umbran_boat": {
     "criteria": {
       "in_water": "2025-12-23 21:07:26 -0600"
     },
@@ -543,25 +493,7 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/transportation/maple_boat": {
-    "criteria": {
-      "in_water": "2025-12-23 21:07:26 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/dead_boat": {
-    "criteria": {
-      "in_water": "2025-12-23 21:07:26 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2025-12-23 21:07:26 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/magic_boat": {
     "criteria": {
       "in_water": "2025-12-23 21:07:26 -0600"
     },
@@ -579,55 +511,7 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/transportation/redwood_boat": {
-    "criteria": {
-      "in_water": "2025-12-23 21:07:26 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2025-12-23 21:07:26 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/hellbark_boat": {
-    "criteria": {
-      "in_water": "2025-12-23 21:07:26 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/jacaranda_boat": {
-    "criteria": {
-      "in_water": "2025-12-23 21:07:26 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/mahogany_boat": {
-    "criteria": {
-      "in_water": "2025-12-23 21:07:26 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/palm_boat": {
-    "criteria": {
-      "in_water": "2025-12-23 21:07:26 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/empyreal_boat": {
-    "criteria": {
-      "in_water": "2025-12-23 21:07:26 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/origin_oak_boat": {
-    "criteria": {
-      "in_water": "2025-12-23 21:07:26 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/pine_boat": {
     "criteria": {
       "in_water": "2025-12-23 21:07:26 -0600"
     },
@@ -654,12 +538,6 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2025-12-23 21:07:26 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/purple_dye_from_tall_lavender": {
-    "criteria": {
-      "has_tall_lavender": "2025-12-23 21:07:44 -0600"
     },
     "done": true
   },
@@ -697,7 +575,8 @@
     "criteria": {
       "minecraft:beach": "2025-12-25 20:46:26 -0600",
       "minecraft:lukewarm_ocean": "2025-12-23 21:09:32 -0600",
-      "minecraft:river": "2025-12-25 18:47:10 -0600"
+      "minecraft:river": "2025-12-25 18:47:10 -0600",
+      "minecraft:plains": "2025-12-26 12:01:15 -0600"
     },
     "done": false
   },
@@ -1295,81 +1174,9 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/jacaranda_slab": {
-    "criteria": {
-      "has_planks": "2025-12-23 22:58:53 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/jacaranda_fence": {
-    "criteria": {
-      "has_planks": "2025-12-23 22:58:53 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/jacaranda_button": {
-    "criteria": {
-      "has_planks": "2025-12-23 22:58:53 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/jacaranda_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-12-23 22:58:53 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/jacaranda_sign": {
-    "criteria": {
-      "has_planks": "2025-12-23 22:58:53 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/jacaranda_stairs": {
-    "criteria": {
-      "has_planks": "2025-12-23 22:58:53 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/jacaranda_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-12-23 22:58:53 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/jacaranda_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-12-23 22:58:53 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/jacaranda_door": {
-    "criteria": {
-      "has_planks": "2025-12-23 22:58:53 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2025-12-25 16:42:41 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/jacaranda_shelf": {
-    "criteria": {
-      "has_stripped_jacaranda_log": "2025-12-25 16:50:01 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/jacaranda_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2025-12-25 16:50:01 -0600"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/stripped_jacaranda_wood": {
-    "criteria": {
-      "has_log": "2025-12-25 16:50:01 -0600"
     },
     "done": true
   },
@@ -2330,6 +2137,60 @@
   "minecraft:recipes/building_blocks/cherry_wood": {
     "criteria": {
       "has_log": "2025-12-25 21:07:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_slab": {
+    "criteria": {
+      "has_planks": "2025-12-26 12:02:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_fence": {
+    "criteria": {
+      "has_planks": "2025-12-26 12:02:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_stairs": {
+    "criteria": {
+      "has_planks": "2025-12-26 12:02:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-12-26 12:02:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_button": {
+    "criteria": {
+      "has_planks": "2025-12-26 12:02:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-12-26 12:02:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_sign": {
+    "criteria": {
+      "has_planks": "2025-12-26 12:02:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-12-26 12:02:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_door": {
+    "criteria": {
+      "has_planks": "2025-12-26 12:02:35 -0600"
     },
     "done": true
   },

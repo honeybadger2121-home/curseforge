@@ -1,0 +1,21 @@
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_log replace jacaranda_log
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_leaves replace jacaranda_leaves
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_wood replace jacaranda_wood
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 stripped_cherry_log replace stripped_jacaranda_log
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 stripped_cherry_wood replace stripped_jacaranda_wood
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_sapling replace jacaranda_sapling
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 potted_cherry_sapling replace potted_jacaranda_sapling
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_planks replace jacaranda_planks
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_slab replace jacaranda_slab
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_stairs replace jacaranda_stairs
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_fence replace jacaranda_fence
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_fence_gate replace jacaranda_fence_gate
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_door replace jacaranda_door
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_trapdoor replace jacaranda_trapdoor
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_button replace jacaranda_button
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_pressure_plate replace jacaranda_pressure_plate
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_hanging_sign replace jacaranda_hanging_sign
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_wall_hanging_sign replace jacaranda_wall_hanging_sign
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_sign replace jacaranda_sign
+fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_wall_sign replace jacaranda_wall_sign
+tellraw @s {"text":"✓ Replaced all jacaranda blocks!","color":"green"}

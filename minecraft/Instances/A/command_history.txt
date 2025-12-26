@@ -1,21 +1,3 @@
-/fill -364 36 -221 -351 30 -208 minecraft:brain_coral_block
-/fill -365 37 -196 minecraft:brain_coral_block hollow
-/fill -365 37 -196 -342 36 -217 minecraft:brain_coral_block hollow
-/fill -365 37 -196 -342 36 -217 air
-/fill -365 38 -196 -342 36 -217 air
-/fill -365 39 -196 -342 36 -217 air
-/fill -365 39 -196 -342 33 -217 air
-/fill -365 39 -223 -342 33 -21\7 air
-/fill -365 39 -223 -342 33 -217 air
-/fill -364 33 -222 air
-/fill -364 33 -222 -341 33 -195 agir
-/fill -364 33 -222 -341 41 -196 gir
-/fill -364 33 -222 -341 41 -196 air
-/fill -365 33 -222 -341 41 -196 air
-/fill -366 33 -222 -341 41 -196 air
-/fill -366 33 -222 -350 41 -196 air
-/fill -366 33 -225 -350 41 -196 air
-/fill -366 33 -225 -350 41 -190 air
 /fill -366 33 -225 -350 41 air
 /fill -340 30 -189 -350 38 -190 air
 /fill -340 30 -189 -350 38 -225 air
@@ -48,3 +30,21 @@
 /function jacaranda:test
 /function jacaranda:convert
 /function jacaranda:test
+/function jacaranda:convert
+/fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_planks replace jacaranda_planks
+/fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_planks replace biomesoplenty:jacaranda_planks
+/fill ~-100 ~-100 ~-100 ~100 ~100 ~100 cherry_planks replace biomesoplenty:jacaranda_planks
+/fill ~-10 ~-10 ~-10 ~10 ~10 ~10 cherry_leaves replace biomesoplenty:jacaranda_leaves
+/fill ~-10 ~-10 ~-10 ~100 ~100 ~100 cherry_leaves replace biomesoplenty:jacaranda_leaves
+/fill ~-100 ~-100 ~-100 ~100 ~100 ~100 cherry_planks replace biomesoplenty:jacaranda_planks
+/fill -363 31 -213 ~100 ~100 ~100 cherry_planks replace biomesoplenty:jacaranda_planks
+/fill -363 31 -213 -364 31 -214 cherry_planks replace biomesoplenty:jacaranda_planks
+/fill -365 30 -224 -364 31 -214 cherry_planks replace biomesoplenty:jacaranda_planks
+/fill -365 30 -224 -339 30 -188 cherry_planks replace biomesoplenty:jacaranda_planks
+/fill -365 30 -224 -339 30 -188 minecraft:cherry_stairs replace biomesoplenty:jacaranda_stairs
+/fill -365 30 -224 -339 30 -188 minecraft:cherry_door replace biomesoplenty:jacaranda_door
+/fill -365 30 -224 -339 30 -188 minecraft:cherry_pressure_plate replace biomesoplenty:jacaranda_pressure_plate
+/fill -365 30 -224 -339 30 -188 minecraft:cherry_log replace biomesoplenty:jacaranda_log
+/fill -365 30 -224 -339 40 -188 minecraft:cherry_log replace biomesoplenty:jacaranda_log
+/fill -365 30 -224 -339 40 -188 minecraft:cherry_door replace biomesoplenty:jacaranda_door
+/fill -365 30 -224 -339 40 -188 minecraft:cherry_stairs replace biomesoplenty:jacaranda_stairs

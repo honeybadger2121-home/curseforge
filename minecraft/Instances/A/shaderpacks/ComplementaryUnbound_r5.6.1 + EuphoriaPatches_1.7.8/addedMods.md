@@ -73,7 +73,6 @@ Here we can keep track of what mods have been added and what version a contribut
 | [BiblioCraft](https://www.curseforge.com/minecraft/mc-mods/bibliocraft) | 2.4.6 | Partial Support | # Lots of block entities in this mod
 | [Bigger Reactors](https://www.curseforge.com/minecraft/mc-mods/biggerreactors) | | Fully Added |
 | [Biome Makeover](https://modrinth.com/mod/biome-makeover) | | Fully Added |
-| [Biomes O' Plenty](https://modrinth.com/mod/biomes-o-plenty) | 21.1.0.7 | Fully Added |
 | [Blockcraftery](https://www.curseforge.com/minecraft/mc-mods/blockcraftery) | 1.2.0 | Fully Added | # Another copycat mod. Can't do much but put ID's in no properties
 | [Blockus](https://modrinth.com/mod/blockus) | 2.9.9 | Fully Added |
 | [Blood Magic](https://modrinth.com/mod/blood-magic) | | Partial Support |
@@ -162,7 +161,6 @@ Here we can keep track of what mods have been added and what version a contribut
 | [Dynamic Trees - Arts and Crafts](https://modrinth.com/mod/dynamic-trees-arts-and-crafts) | | Fully Added |
 | [Dynamic Trees - Autumnity](https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-autumnity) | | Foliage Only |
 | [Dynamic Trees - Beachparty](https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-for-beachparty) | | Foliage Only |
-| [Dynamic Trees - Biomes O' Plenty](https://modrinth.com/mod/dynamic-trees-biomes-o-plenty) | | Fully Added |
 | [Dynamic Trees - BloomingNature](https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-for-bloomingnature) | | Foliage Only |
 | [Dynamic Trees - Cobblemon](https://modrinth.com/mod/dynamic-trees-cobblemon) | | Fully Added |
 | [Dynamic Trees - Croptopia](https://modrinth.com/mod/dynamic-trees-croptopia) | | Fully Added |

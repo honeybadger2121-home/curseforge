@@ -1,0 +1,12 @@
+name: Jacaranda Replacer
+filename: jacaranda-replacer-1.0.0.jar
+id: 1234567
+authors:
+  - Auto-Generated
+description: Replace jacaranda blocks with cherry blocks using Shift+Right Click
+version: 1.0.0
+minecraft:
+  versions:
+    - '1.21.11'
+  type: forge
+dependencies: []

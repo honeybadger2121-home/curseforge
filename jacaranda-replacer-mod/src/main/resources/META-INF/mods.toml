@@ -1,0 +1,42 @@
+{
+  "modLoader": "javafxmod",
+  "loaderVersion": "[1,)",
+  "license": "MIT",
+  "properties": {
+    "github": "https://github.com/honeybadger2121-home/curseforge"
+  },
+  "mods": [
+    {
+      "modId": "jacaranda_replacer",
+      "version": "${file.jarVersion}",
+      "displayName": "Jacaranda Replacer",
+      "logoFile": "",
+      "credits": "",
+      "authors": [
+        "Ben"
+      ],
+      "description": "Replaces BiomesOPlenty jacaranda blocks with Minecraft cherry equivalents",
+      "displayURL": "",
+      "updateJSONURL": "",
+      "issueTrackerURL": ""
+    }
+  ],
+  "dependencies": {
+    "jacaranda_replacer": [
+      {
+        "modId": "forge",
+        "type": "REQUIRED",
+        "versionRange": "[52,)",
+        "ordering": "BEFORE",
+        "side": "BOTH"
+      },
+      {
+        "modId": "minecraft",
+        "type": "REQUIRED",
+        "versionRange": "[1.21.1,)",
+        "ordering": "BEFORE",
+        "side": "BOTH"
+      }
+    ]
+  }
+}

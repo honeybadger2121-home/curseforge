@@ -1,4 +1,3 @@
-/fill 603 65 -409 603 73 -372 minecraft:brain_coral_block
 /time set day
 /time set night
 /time set day
@@ -48,3 +47,4 @@
 /reload
 /datapack list
 /function jacaranda:test
+/datapack list

@@ -1,0 +1,1 @@
+tellraw @s {"text":"Jacaranda datapack is working!","color":"green"}

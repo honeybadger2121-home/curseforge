@@ -1,11 +1,3 @@
-/fill 602 65 -410 576 65 -372 minecraft:brain_coral
-/fill 601 72 -365
-/fill 601 72 -365 576 69 -300 sand
-/fill 601 72 -365
-/fill 601 72 -365 576 69 -300 sand
-/fill 603 65 -409
-/fill 603 65 -409 603 71 -409 minecraft:brain_coral_block
-/fill 603 65 -409 603 73 -409 minecraft:brain_coral_block
 /fill 603 65 -409 603 73 -372 minecraft:brain_coral_block
 /time set day
 /time set night
@@ -48,3 +40,11 @@
 /reload
 /function jacaranda:convert
 /function jacaranda with block ~
+/reload
+/function jacaranda:convert
+/datapack list
+/reload
+/datapack list
+/reload
+/datapack list
+/function jacaranda:test

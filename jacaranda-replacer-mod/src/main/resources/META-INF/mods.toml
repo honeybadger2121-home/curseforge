@@ -1,42 +1,26 @@
 {
-  "modLoader": "javafxmod",
-  "loaderVersion": "[1,)",
-  "license": "MIT",
-  "properties": {
-    "github": "https://github.com/honeybadger2121-home/curseforge"
-  },
-  "mods": [
-    {
-      "modId": "jacaranda_replacer",
-      "version": "${file.jarVersion}",
-      "displayName": "Jacaranda Replacer",
-      "logoFile": "",
-      "credits": "",
-      "authors": [
-        "Ben"
-      ],
-      "description": "Replaces BiomesOPlenty jacaranda blocks with Minecraft cherry equivalents",
-      "displayURL": "",
-      "updateJSONURL": "",
-      "issueTrackerURL": ""
-    }
-  ],
-  "dependencies": {
-    "jacaranda_replacer": [
-      {
-        "modId": "forge",
-        "type": "REQUIRED",
-        "versionRange": "[52,)",
-        "ordering": "BEFORE",
-        "side": "BOTH"
-      },
-      {
-        "modId": "minecraft",
-        "type": "REQUIRED",
-        "versionRange": "[1.21.1,)",
-        "ordering": "BEFORE",
-        "side": "BOTH"
-      }
-    ]
-  }
+  modLoader="javafml"
+  loaderVersion="[61,)"
+  license="MIT"
+
+  [[mods]]
+  modId="jacaranda_replacer"
+  version="${file.jarVersion}"
+  displayName="Jacaranda Replacer"
+  authors="Ben"
+  description="Replaces BiomesOPlenty jacaranda blocks with Minecraft cherry equivalents. Shift+Right Click to convert a 20×20×20 area."
+
+  [[dependencies.jacaranda_replacer]]
+  modId="forge"
+  mandatory=true
+  versionRange="[61,)"
+  ordering="NONE"
+  side="BOTH"
+
+  [[dependencies.jacaranda_replacer]]
+  modId="minecraft"
+  mandatory=true
+  versionRange="[1.21.11]"
+  ordering="NONE"
+  side="BOTH"
 }

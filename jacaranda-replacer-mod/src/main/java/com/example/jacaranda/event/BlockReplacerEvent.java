@@ -1,18 +1,14 @@
 package com.example.jacaranda.event;
 
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.Block;
-import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import com.example.jacaranda.JacarandaReplacer;
 
 import java.util.HashMap;
 import java.util.Map;
 
-@EventBusSubscriber(modid = JacarandaReplacer.MODID)
+@Mod.EventBusSubscriber(modid = JacarandaReplacer.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class BlockReplacerEvent {
     
     private static final Map<String, String> BLOCK_REPLACEMENTS = new HashMap<>();
@@ -55,8 +51,8 @@ public class BlockReplacerEvent {
             for (int y = centerY - radius; y <= centerY + radius; y++) {
                 for (int z = centerZ - radius; z <= centerZ + radius; z++) {
                     var pos = new net.minecraft.core.BlockPos(x, y, z);
-                    var block = event.getLevel().getBlockState(pos);
-                    String blockName = block.getBlock().builtInRegistryHolder().key().location().toString();
+                    var blockState = event.getLevel().getBlockState(pos);
+                    String blockName = blockState.getBlock().builtInRegistryHolder().key().location().toString();
                     
                     if (BLOCK_REPLACEMENTS.containsKey(blockName)) {
                         var replacementBlock = net.minecraft.core.registries.BuiltInRegistries.BLOCK.get(

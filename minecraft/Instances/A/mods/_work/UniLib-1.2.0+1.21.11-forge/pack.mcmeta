@@ -9,6 +9,10 @@
       75,
       0
     ],
-    "pack_format": 65
+    "pack_format": 65,
+    "supported_formats": [
+      65,
+      75
+    ]
   }
 }

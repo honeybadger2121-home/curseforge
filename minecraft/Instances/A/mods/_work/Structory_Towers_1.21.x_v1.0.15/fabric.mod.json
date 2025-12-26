@@ -1,0 +1,41 @@
+{
+    "schemaVersion": 1,
+    "id": "structory_towers",
+    "version": "1.0.15",
+    "name": "Structory: Towers",
+    "description": "An add-on for Structory that adds immersive, biome-themed towers to the world.",
+    "authors": [
+        "Botany",
+        "Starmute",
+        "catter1"
+    ],
+    "contact": {
+        "homepage": "https://www.stardustlabs.net/",
+        "sources": "https://github.com/Stardust-Labs-MC/Structory-Towers",
+        "issues": "https://github.com/Stardust-Labs-MC/Structory-Towers/issues",
+        "discord": "https://discord.gg/stardustlabs"
+    },
+    "license": "Stardust Labs License",
+    "icon": "pack.png",
+    "environment": "*",
+    "entrypoints": {},
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.12.7",
+        "fabric-api-base": "*",
+        "minecraft": ">=1.21"
+    },
+    "custom": {
+        "modmenu": {
+            "links": {
+                "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/structory-towers",
+                "modmenu.discord": "https://discord.gg/stardustlabs",
+                "modmenu.modrinth": "https://www.modrinth.com/datapack/structory-towers",
+                "modmenu.patreon": "https://www.patreon.com/botanydev",
+                "modmenu.twitter": "https://twitter.com/StardustLabs",
+                "modmenu.wiki": "https://stardustlabs.miraheze.org/",
+                "modmenu.youtube": "https://www.youtube.com/@stardustlabs"
+            }
+        }
+    }
+}

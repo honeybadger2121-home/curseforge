@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: furnacerecycle
+Specification-Vendor: Serilum
+Specification-Version: 1.0
+Implementation-Title: Forge
+Implementation-Version: 1.0
+Implementation-Vendor: Serilum
+Built-On-Minecraft: 1.21.11
+MixinConfigs: furnacerecycle_forge.mixins.json
+

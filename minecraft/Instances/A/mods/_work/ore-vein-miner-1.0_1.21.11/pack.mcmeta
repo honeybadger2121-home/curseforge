@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "pack_format": 71,
+    "description": "It automatically mines connected ore blocks when you break one with a pickaxe while crouching.",
+    "min_format": [
+      71,
+      0
+    ],
+    "max_format": [
+      81,
+      0
+    ],
+    "supported_formats": [
+      71,
+      81
+    ]
+  }
+}

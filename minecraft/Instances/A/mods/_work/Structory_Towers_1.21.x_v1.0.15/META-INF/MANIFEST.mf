@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: structory_towers
+Specification-Vendor: Stardust Labs
+Specification-Version: 1.0.15
+Implementation-Title: structory_towers
+Implementation-Version: 1.0.15
+Implementation-Vendor: Stardust Labs
+Implementation-Timestamp: 2025-12-024T18:46:01+0200

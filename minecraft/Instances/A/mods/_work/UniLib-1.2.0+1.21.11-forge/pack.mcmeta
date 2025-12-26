@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "UniLib Resources",
+    "min_format": [
+      65,
+      0
+    ],
+    "max_format": [
+      75,
+      0
+    ]
+  }
+}

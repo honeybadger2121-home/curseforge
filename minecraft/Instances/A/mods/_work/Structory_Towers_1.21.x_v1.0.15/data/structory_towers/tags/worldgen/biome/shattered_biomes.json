@@ -1,0 +1,28 @@
+{
+    "values": [
+        "minecraft:windswept_hills",
+        "minecraft:windswept_forest",
+        "minecraft:windswept_savanna",
+        "minecraft:windswept_gravelly_hills",
+        {
+            "id": "terralith:fractured_savanna",
+            "required": false
+        },
+        {
+            "id": "terralith:cloud_forest",
+            "required": false
+        },
+        {
+            "id": "terralith:jungle_mountains",
+            "required": false
+        },
+        {
+            "id": "#c:is_hill",
+            "required": false
+        },
+        {
+            "id": "#c:is_windswept",
+            "required": false
+        }
+    ]
+}

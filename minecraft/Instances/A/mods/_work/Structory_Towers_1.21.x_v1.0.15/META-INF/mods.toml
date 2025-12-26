@@ -1,0 +1,27 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="Stardust Labs License"
+issueTrackerURL="https://github.com/Stardust-Labs-MC/Structory-Towers/issues"
+
+[[mods]]
+    modId="structory_towers"
+    version="1.0.15"
+    displayName="Structory: Towers"
+    displayURL="https://www.stardustlabs.net/"
+    logoFile="pack.png"
+    authors="Stardust Labs"
+    credits="Botany: Owner. Starmute: Developer. catter1: Maintainer."
+    description="An add-on for Structory that adds immersive, biome-themed towers to the world."
+
+[[dependencies.structory_towers]]
+    modId="forge"
+    mandatory=false
+    versionRange="[51,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.structory_towers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21,1.22)"
+    ordering="NONE"
+    side="BOTH"

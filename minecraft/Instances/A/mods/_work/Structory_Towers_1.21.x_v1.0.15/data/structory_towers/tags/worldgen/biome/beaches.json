@@ -1,0 +1,9 @@
+{
+    "values": [
+        "minecraft:beach",
+        {
+            "id": "#c:is_beach",
+            "required": false
+        }
+    ]
+}

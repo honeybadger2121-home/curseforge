@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "description": "Formations's resources",
+    "pack_format": 80,
+    "min_format": [
+      80,
+      0
+    ],
+    "max_format": [
+      94,
+      1
+    ],
+    "supported_formats": [
+      80,
+      81
+    ]
+  }
+}

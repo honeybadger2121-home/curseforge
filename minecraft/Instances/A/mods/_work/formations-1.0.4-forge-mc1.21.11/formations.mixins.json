@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.supermartijn642.formations.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "formations.mixins.refmap.json",
+  "plugin": "com.supermartijn642.formations.mixin.FormationsMixinPlugin",
+  "mixins": [
+    "dev.BaseSpawnerMixin",
+    "dev.LevelMixin",
+    "dev.MinecraftServerMixin",
+    "dev.RandomizableContainerBlockEntityMixin",
+    "dev.RespawnAnchorBlockMixin",
+    "dev.ServerLevelMixin",
+    "dev.StructureVoidBlockMixin",
+    "dev.TntBlockMixin",
+    "StructureTemplateMixin"
+  ],
+  "client": [
+    "dev.MinecraftMixin",
+    "dev.MultiPlayerGameModeMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

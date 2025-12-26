@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: UniLib
+Specification-Vendor: CDAGaming
+Specification-Version: 1
+Implementation-Title: UniLib
+Implementation-Version: 1.2.0+1.21.11
+Implementation-Vendor: CDAGaming
+FMLAT: accesstransformer.cfg
+

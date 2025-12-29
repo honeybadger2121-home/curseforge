@@ -1116,7 +1116,8 @@
       "minecraft:witch": "2025-12-25 17:49:25 -0600",
       "minecraft:spider": "2025-12-23 22:45:33 -0600",
       "minecraft:zombie": "2025-12-25 18:50:07 -0600",
-      "minecraft:creeper": "2025-12-26 15:47:22 -0600"
+      "minecraft:creeper": "2025-12-26 15:47:22 -0600",
+      "minecraft:drowned": "2025-12-29 16:25:56 -0600"
     },
     "done": false
   },
@@ -3061,6 +3062,90 @@
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_helmet": "2025-12-27 13:13:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2025-12-29 16:15:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-12-29 16:06:14 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2025-12-29 16:15:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-12-29 16:15:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-12-29 16:30:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-12-29 16:15:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-12-29 16:06:14 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-12-29 16:30:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2025-12-29 16:15:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2025-12-29 16:15:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2025-12-29 16:15:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-12-29 16:15:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-12-29 16:06:14 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2025-12-29 16:15:41 -0600"
     },
     "done": true
   },

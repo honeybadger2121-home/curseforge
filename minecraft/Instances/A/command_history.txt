@@ -3,3 +3,4 @@
 /fill -340 30 -225 -365 40 -240
 /fill -340 30 -225 -365 40 -240 air
 /fill -340 30 -225 -365 40 -240 stone outline
+/time set day

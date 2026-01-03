@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "X": "endervillages:end_hay_block"
+  },
+  "pattern": [
+    "X"
+  ],
+  "result": {
+    "count": 9,
+    "id": "endervillages:ender_wheat"
+  }
+}

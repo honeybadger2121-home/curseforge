@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "endervillages:block/end_toolsmith_table_bottom",
+    "east": "endervillages:block/end_toolsmith_table_side",
+    "north": "endervillages:block/end_toolsmith_table_front",
+    "particle": "endervillages:block/end_toolsmith_table_front",
+    "south": "endervillages:block/end_toolsmith_table_front",
+    "up": "endervillages:block/end_toolsmith_table_top",
+    "west": "endervillages:block/end_toolsmith_table_side"
+  }
+}

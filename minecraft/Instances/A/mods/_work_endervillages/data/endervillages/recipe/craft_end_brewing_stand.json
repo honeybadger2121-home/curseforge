@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "X": "endervillages:lily_of_the_end",
+    "F": "minecraft:cobblestone"
+  },
+  "pattern": [
+    " X ",
+    " F "
+  ],
+  "result": {
+    "count": 1,
+    "id": "endervillages:end_brewing_stand"
+  }
+}

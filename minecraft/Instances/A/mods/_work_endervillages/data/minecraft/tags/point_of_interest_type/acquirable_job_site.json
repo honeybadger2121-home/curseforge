@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "endervillages:enchanter_poi",
+    "endervillages:end_farmer_poi",
+    "endervillages:brewing_poi",
+    "endervillages:armorer_poi",
+    "endervillages:end_toolsmith_poi"
+
+  ]
+}
+

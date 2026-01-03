@@ -1,0 +1,19 @@
+{
+
+  "structures": [
+    {
+      "structure": "endervillages:village_end",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1642,
+
+    "spacing": 34,
+
+    "separation": 8,
+
+
+    "type": "minecraft:random_spread"
+  }
+}

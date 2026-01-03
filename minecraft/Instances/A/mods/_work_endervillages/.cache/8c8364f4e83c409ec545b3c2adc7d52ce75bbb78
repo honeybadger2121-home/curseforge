@@ -1,0 +1,15 @@
+// 1.21.11	2025-12-30T17:50:41.1476427	Tags for minecraft:item mod id vanilla
+f775a6d472cc1c2f538cfb63d5b16527b9395639 data/minecraft/tags/item/axes.json
+d9704e782f1a5941eecc9419b5aa93c25aa28dfc data/minecraft/tags/item/chest_armor.json
+d9704e782f1a5941eecc9419b5aa93c25aa28dfc data/minecraft/tags/item/enchantable/chest_armor.json
+ab2d0f0a7ed1b6bb1bc5feee6e19925546bc7358 data/minecraft/tags/item/enchantable/foot_armor.json
+5e596180826d501f5c5516f45c0578b8fd3cee4d data/minecraft/tags/item/enchantable/head_armor.json
+337ad7d41e15a4f2eda5db99664907099ed67fa6 data/minecraft/tags/item/enchantable/leg_armor.json
+ab2d0f0a7ed1b6bb1bc5feee6e19925546bc7358 data/minecraft/tags/item/foot_armor.json
+5e596180826d501f5c5516f45c0578b8fd3cee4d data/minecraft/tags/item/head_armor.json
+bbb0999edaede50f24067a181e9d09509c314312 data/minecraft/tags/item/hoes.json
+337ad7d41e15a4f2eda5db99664907099ed67fa6 data/minecraft/tags/item/leg_armor.json
+000d6ea0f46b0a351e69f3e6eddf8c6f0a4f189a data/minecraft/tags/item/pickaxes.json
+fd8d7db861d52a7df5aca4e61ae35ace55eec8cc data/minecraft/tags/item/shovels.json
+611cb5a08916772b123d08105239693f3afa8f75 data/minecraft/tags/item/swords.json
+c8a3705cd71f33aeb023a5769ac481325fe45b82 data/minecraft/tags/item/trimmable_armor.json

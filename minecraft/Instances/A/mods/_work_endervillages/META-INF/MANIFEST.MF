@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: endervillages
+Specification-Vendor: BaffledBanana87
+Specification-Version: 1
+Implementation-Title: TheEnderVillages-3.0.0-1.21.11(Forge)
+Implementation-Version: 3.0.0-1.21.11
+Implementation-Vendor: BaffledBanana87
+

@@ -1,0 +1,103 @@
+{
+  "item.endervillages.ender_carrot" : "Ender Carrot",
+  "item.endervillages.ender_potato" : "Ender Potato",
+  "item.endervillages.dragon_fruit" : "Dragon Fruit",
+  "item.endervillages.ender_poisonous_potato" : "Poisonous End Potato",
+  "item.endervillages.end_apple" : "End Apple",
+  "item.endervillages.end_pie" : "End Pie",
+  "item.endervillages.ender_wheat" : "Ender Wheat",
+  "item.endervillages.ender_wheat_seeds" : "Ender Wheat Seeds",
+  "item.endervillages.end_bread" : "End Bread",
+
+  "item.endervillages.end_axe" : "End Axe",
+  "item.endervillages.end_sword" : "End Sword",
+  "item.endervillages.end_pickaxe" : "End Pickaxe",
+  "item.endervillages.end_hoe" : "End Hoe",
+  "item.endervillages.end_shovel" : "End Shovel",
+
+
+
+  "item.endervillages.end_boots" : "Pearl Boots",
+  "item.endervillages.end_chestplate" : "Pearl Chestplate",
+  "item.endervillages.end_leggings" : "Pearl Leggings",
+  "item.endervillages.end_helmet" : "Pearl Helmet",
+
+  "creativetab.endervillages.ender_items": "Ender Items",
+  "creativetab.endervillages.ender_blocks": "Ender Blocks",
+
+  "item.endervillages.warp_block" : "Warp Block",
+  "item.endervillages.warp_enchanting_table" : "Warped Table",
+  "item.endervillages.end_hay_block" : "Ender Hay Block",
+  "item.endervillages.end_path" : "End Path",
+  "item.endervillages.end_composter" : "Ender Composter",
+  "item.endervillages.end_brewing_stand" : "End Brewing Stand",
+  "item.endervillages.end_toolsmith_table" : "ToolSmith Table",
+  "item.endervillages.end_armor_table" : "Armorer Table",
+
+
+  "enchantment.endervillages.heavey_enchantment": "Heavy Feet",
+  "enchantment.endervillages.pumpkin_enchantment": "Pumpkin Eyes",
+  "enchantment.endervillages.oby_breaker_enchantment": "Obsidian Breaker",
+
+
+  "entity.minecraft.villager.endervillages.enchanter": "Enchanter",
+  "entity.minecraft.villager.endervillages.ender_farmer": "End Farmer",
+  "entity.endervillages.ender_villager": "End Villager",
+  "entity.endervillages.ender_villager.endervillages.ender_farmer": "End Farmer",
+  "entity.endervillages.ender_villager.endervillages.end_nitwit": "End NitWit",
+  "entity.endervillages.ender_villager.endervillages.brewing": "Brewing",
+  "entity.endervillages.ender_villager.endervillages.end_toolsmith": "Ender ToolSmith",
+  "entity.endervillages.ender_villager.endervillages.armorer": "Ender Armorer",
+
+  "entity.endervillages.ender_villager.endervillages.enchanter": "Enchanter",
+  "entity.endervillages.ender_villager.armorer": "Armorer",
+  "entity.endervillages.ender_villager.butcher": "Butcher",
+  "entity.endervillages.ender_villager.cartographer": "Cartographer",
+  "entity.endervillages.ender_villager.cleric": "Cleric",
+  "entity.endervillages.ender_villager.farmer": "Farmer",
+  "entity.endervillages.ender_villager.fisherman": "Fisherman",
+  "entity.endervillages.ender_villager.fletcher": "Fletcher",
+  "entity.endervillages.ender_villager.leatherworker": "Leatherworker",
+  "entity.endervillages.ender_villager.librarian": "Librarian",
+  "entity.endervillages.ender_villager.mason": "Mason",
+  "entity.endervillages.ender_villager.shepherd": "Shepherd",
+  "entity.endervillages.ender_villager.toolsmith": "Toolsmith",
+  "entity.endervillages.ender_villager.weaponsmith": "Weaponsmith",
+
+
+  "entity.endervillages.ender_cat": "End Cat",
+  "entity.endervillages.ender_golem": "Ender Golem",
+
+
+
+  "item.endervillages.ender_villager_spawn_egg": "Ender Villager Spawn Egg",
+  "item.endervillages.end_cat_spawn_egg": "End Cat Spawn Egg",
+  "item.endervillages.ender_golem_spawn_egg": "Ender Golem Spawn Egg",
+  "item.endervillages.lily_of_the_end" : "Lily of The End",
+
+  "item.minecraft.potion.effect.teleport_potion": "Teleport Potion",
+  "item.minecraft.splash_potion.effect.teleport_potion": "Teleport Splash Potion",
+  "item.minecraft.lingering_potion.effect.teleport_potion": "Teleport Lingering Potion",
+  "item.minecraft.tipped_arrow.effect.teleport_potion": "Arrow of Teleporting",
+
+
+
+  "item.minecraft.potion.effect.endify_potion": "Endify Potion",
+  "item.minecraft.splash_potion.effect.endify_potion": "Endify Splash Potion",
+  "item.minecraft.lingering_potion.effect.endify_potion": "Endify Lingering Potion",
+  "item.minecraft.tipped_arrow.effect.endify_potion": "Arrow Of Endify",
+
+
+  "item.minecraft.potion.effect.freeze_potion": "Freeze Potion",
+  "item.minecraft.splash_potion.effect.freeze_potion": "Freeze Splash Potion",
+  "item.minecraft.lingering_potion.effect.freeze_potion": "Freeze Lingering Potion",
+  "item.minecraft.tipped_arrow.effect.freeze_potion": "Arrow of Freeze",
+
+
+  "effect.endervillages.teleport": "Teleport",
+  "effect.endervillages.endify": "Endify",
+  "effect.endervillages.freeze": "Freeze"
+
+
+
+}

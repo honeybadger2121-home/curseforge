@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "endervillages:end"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "endervillages:end"
+      }
+    ]
+  }
+}

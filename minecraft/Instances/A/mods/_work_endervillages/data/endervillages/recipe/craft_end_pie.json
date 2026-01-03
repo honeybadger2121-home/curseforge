@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "#": "minecraft:sugar",
+    "F": "minecraft:egg",
+    "X": "endervillages:end_apple"
+  },
+  "pattern": [
+    "X#F"
+  ],
+  "result": {
+    "id": "endervillages:end_pie"
+  }
+}

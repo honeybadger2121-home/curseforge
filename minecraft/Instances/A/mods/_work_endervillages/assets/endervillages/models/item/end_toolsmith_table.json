@@ -1,0 +1,7 @@
+
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "endervillages:block/end_toolsmith_table"
+  }
+}

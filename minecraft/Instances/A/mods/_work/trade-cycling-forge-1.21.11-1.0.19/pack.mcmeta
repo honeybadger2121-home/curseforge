@@ -1,6 +1,10 @@
 {
   "pack": {
     "description": "trade_cycling resources",
+    "supported_formats": [
+      65,
+      81
+    ],
     "pack_format": 65,
     "min_format": [
       65,

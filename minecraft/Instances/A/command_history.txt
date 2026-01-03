@@ -4,3 +4,23 @@
 /fill -340 30 -225 -365 40 -240 air
 /fill -340 30 -225 -365 40 -240 stone outline
 /time set day
+/fill -368 29 -224 stone outline
+/fill -368 29 -224 -368 10 -24 sstone outline
+/fill -368 29 -224 -368 10 -24 stone hollow
+/fill -368 29 -224 -375 10 -24 stone hollow
+/fill -368 29 -224 -375 10 -24 stone outline
+/fill -368 29 -224 -375 10 -224 stone outline
+/fill -368 29 -224 -375 10 -240 stone outline
+/fill -368 29 -224 -375 10 -240 air
+/fill -368 29 -224 -375 10 -240 water
+/fill -364 31 -241 -375 10 -240
+/fill -364 31 -241 -341 30 -262 dirt outline
+/fill -364 37 -241 -341 30 -262 dirt outline
+/fill -364 37 -241 -341 30 -262 dirt hollow
+/fill -267 66 -1526
+/time set day
+/clone 99 74 -11
+/clone 99 74 -11 131 78 16
+/clone 99 74 -11 131 78 16 -340 43 -200
+/clone 99 74 -11 131 78 16 -340 43 -200 replace force
+/time set day

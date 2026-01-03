@@ -1,6 +1,10 @@
 {
   "pack": {
     "description": "sound_physics_remastered resources",
+    "supported_formats": [
+      65,
+      81
+    ],
     "pack_format": 65,
     "min_format": [
       65,

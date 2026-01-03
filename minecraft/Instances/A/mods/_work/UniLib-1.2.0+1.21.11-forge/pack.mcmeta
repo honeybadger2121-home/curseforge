@@ -1,6 +1,10 @@
 {
   "pack": {
     "description": "UniLib Resources",
+    "supported_formats": [
+      65,
+      81
+    ],
     "min_format": [
       65,
       0

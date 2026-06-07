@@ -6,3 +6,4 @@
 /teleport HoneyBadger75315 335 300 556
 /teleport HoneyBadger75315 335 200 556
 /teleport HoneyBadger75315 335 200 440
+/time set day

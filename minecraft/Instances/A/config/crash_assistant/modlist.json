@@ -18,6 +18,13 @@
     "curseForgeHash": 2044817159,
     "modrinthHash": "f5374c6f88fedf00c418b60e4f9b72ede4054222"
   },
+  "balm-forge-1.21.11-21.11.6.jar": {
+    "jarName": "balm-forge-1.21.11-21.11.6.jar",
+    "modId": "balm",
+    "version": "21.11.6",
+    "curseForgeHash": 422582427,
+    "modrinthHash": "3c7cf5101f72a705a27565738b6f5fd9738ac566"
+  },
   "breadvariants-forge-1.21.6-1.0.4b.jar": {
     "jarName": "breadvariants-forge-1.21.6-1.0.4b.jar",
     "modId": "breadvariants",
